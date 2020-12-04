@@ -56,6 +56,7 @@
 				<Item Name="Computer Info.vi" Type="VI" URL="../shared/Computer Info.vi"/>
 				<Item Name="GetLocalComputerName.vi" Type="VI" URL="../shared/GetLocalComputerName.vi"/>
 				<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
+				<Item Name="Log to PGSQL subVI.vi" Type="VI" URL="../shared/Log to PGSQL subVI.vi"/>
 			</Item>
 			<Item Name="TC" Type="Folder">
 				<Item Name="1. Sources" Type="Folder">
@@ -575,6 +576,10 @@
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ProgressBar_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_WireFlow.lvclass"/>
@@ -1552,10 +1557,6 @@
 			<Item Name="LVOOP Get Default Object__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LVOOP Get Default Object__ogtk.vi"/>
 			<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/File Info Record__ogtk.ctl"/>
 			<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Strip Path Extension - String__ogtk.vi"/>
-			<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Sort 1D Array (DBL)__ogtk.vi"/>
-			<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Sort 1D Array (U32)__ogtk.vi"/>
-			<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Sort 2D Array (DBL)__ogtk.vi"/>
-			<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TC Application" Type="EXE">
@@ -1575,7 +1576,7 @@
 				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">59</Property>
-				<Property Name="Bld_version.patch" Type="Int">15</Property>
+				<Property Name="Bld_version.patch" Type="Int">16</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1592,7 +1593,7 @@
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F1EA52A1-F2C5-454E-9372-70C2A65D58EB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{69C3D5EC-4AD8-45B0-AB1E-25DA8712D505}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/TC/1. Sources/TC.vi</Property>
@@ -1707,7 +1708,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">TC Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.59.15</Property>
+				<Property Name="INST_productVersion" Type="Str">4.59.16</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>

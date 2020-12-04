@@ -23,10 +23,6 @@
 					<Item Name="Lib" Type="Folder">
 						<Item Name="AppendData.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/AppendData.vi"/>
 						<Item Name="AppendData1.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/AppendData1.vi"/>
-						<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Array of VData to VArray__ogtk.vi"/>
-						<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Array of VData to VCluster__ogtk.vi"/>
-						<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Array Size(s)__ogtk.vi"/>
-						<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Array to Array of VData__ogtk.vi"/>
 						<Item Name="BP Get ID.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Get ID.vi"/>
 						<Item Name="BP Initialize.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Initialize.vi"/>
 						<Item Name="BP Query Adc.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query Adc.vi"/>
@@ -53,19 +49,12 @@
 						<Item Name="BP settings.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP settings.vi"/>
 						<Item Name="BP togglekey.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP togglekey.vi"/>
 						<Item Name="BP Write &amp; Read Ack.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Write &amp; Read Ack.vi"/>
-						<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Build Error Cluster__ogtk.vi"/>
-						<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Build Path - Traditional__ogtk.vi"/>
 						<Item Name="Busy PopUp.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/Busy PopUp.lvlib"/>
 						<Item Name="Clear error (conditional).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Clear error (conditional).vi"/>
-						<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Cluster to Array of VData__ogtk.vi"/>
 						<Item Name="Combine Data 4 logging.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Combine Data 4 logging.vi"/>
 						<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Create Custom Error Handler.vi"/>
-						<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Create Dir if Non-Existant__ogtk.vi"/>
 						<Item Name="Current VI&apos;s Path__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Current VI&apos;s Path__ogtk.vi"/>
-						<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Current VIs Parent Directory__ogtk.vi"/>
-						<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Current VIs Parents Ref__ogtk.vi"/>
 						<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Current VIs Reference__ogtk.vi"/>
-						<Item Name="Delete Elements from 1D Array (String)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Delete Elements from 1D Array (String)__ogtk.vi"/>
 						<Item Name="Disable on error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Disable on error.vi"/>
 						<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Empty 2D Array (String)__ogtk.vi"/>
 						<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Encode Section and Key Names__ogtk.vi"/>
@@ -88,22 +77,13 @@
 						<Item Name="FP-Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP-Scan ports.vi"/>
 						<Item Name="GeneratePaths.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/GeneratePaths.vi"/>
 						<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Array Element Default Data__ogtk.vi"/>
-						<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Array Element TD__ogtk.vi"/>
 						<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Array Element TDEnum__ogtk.vi"/>
-						<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Data Name from TD__ogtk.vi"/>
-						<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Data Name__ogtk.vi"/>
 						<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Default Data from TD__ogtk.vi"/>
-						<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Element TD from Array TD__ogtk.vi"/>
 						<Item Name="Get GHS version and type.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get GHS version and type.vi"/>
-						<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Header from TD__ogtk.vi"/>
-						<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Last PString__ogtk.vi"/>
-						<Item Name="Get PString__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get PString__ogtk.vi"/>
 						<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
 						<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
 						<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Strings from Enum TD__ogtk.vi"/>
 						<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Strings from Enum__ogtk.vi"/>
-						<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get TDEnum from Data__ogtk.vi"/>
-						<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Variant Attributes__ogtk.vi"/>
 						<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 						<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 						<Item Name="MView.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/MView.lvlib"/>
@@ -122,7 +102,6 @@
 						<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
 						<Item Name="MGI Wait (U32).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MGI Wait (U32).vi"/>
 						<Item Name="MultiRPlot_Select1.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MultiRPlot_Select1.vi"/>
-						<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Parse String with TDs__ogtk.vi"/>
 						<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Periodic Trigger__ogtk.vi"/>
 						<Item Name="PT Parse Response.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Parse Response.vi"/>
 						<Item Name="PT Read Status.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Read Status.vi"/>
@@ -131,31 +110,19 @@
 						<Item Name="PT-Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT-Scan ports.vi"/>
 						<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Read Key (Variant)__ogtk.vi"/>
 						<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Read Section Cluster__ogtk.vi"/>
-						<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
-						<Item Name="Reorder 1D Array2 (String)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Reorder 1D Array2 (String)__ogtk.vi"/>
-						<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Reshape 1D Array__ogtk.vi"/>
-						<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Reshape Array to 1D VArray__ogtk.vi"/>
 						<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Resolve Timestamp Format__ogtk.vi"/>
 						<Item Name="Running average.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Running average.vi"/>
 						<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
-						<Item Name="Search 1D Array (String)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Search 1D Array (String)__ogtk.vi"/>
-						<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Set Data Name__ogtk.vi"/>
 						<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Set Enum String Value__ogtk.vi"/>
 						<Item Name="SMDP.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/SMDP.lvlib"/>
 						<Item Name="SMDP_SVR_REENTRANT.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/SMDP_SVR_REENTRANT.vi"/>
 						<Item Name="SMDP_SVR_WRAP.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/SMDP_SVR_WRAP.vi"/>
-						<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Sort 1D Array (I32)__ogtk.vi"/>
-						<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Split Cluster TD__ogtk.vi"/>
-						<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Strip Path - Traditional__ogtk.vi"/>
 						<Item Name="Strip Units__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Strip Units__ogtk.vi"/>
 						<Item Name="Time Elapsed time.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Time Elapsed time.vi"/>
 						<Item Name="Time Elapsed.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Time Elapsed.vi"/>
-						<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Trim Whitespace (String)__ogtk.vi"/>
 						<Item Name="UnpackIEC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/UnpackIEC.vi"/>
-						<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Variant to Header Info__ogtk.vi"/>
 						<Item Name="VISA Check port.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/VISA Check port.vi"/>
 						<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
-						<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Wait (ms)__ogtk.vi"/>
 						<Item Name="Write Key (Variant)__ogtk (class as special case).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write Key (Variant)__ogtk (class as special case).vi"/>
 						<Item Name="Write Section Cluster__ogtk (class as special case).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write Section Cluster__ogtk (class as special case).vi"/>
 						<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
@@ -200,19 +167,16 @@
 				</Item>
 				<Item Name="TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/TC to PGSQL.vi"/>
 			</Item>
+			<Item Name="Log to PGSQL subVI.vi" Type="VI" URL="../shared/Log to PGSQL subVI.vi"/>
 			<Item Name="Computer Info.vi" Type="VI" URL="../shared/Computer Info.vi"/>
 			<Item Name="GetLocalComputerName.vi" Type="VI" URL="../shared/GetLocalComputerName.vi"/>
 			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
-				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
-				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
-				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path - File Names Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names Array__ogtk.vi"/>
 				<Item Name="Build Path - File Names and Paths Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays__ogtk.vi"/>
 				<Item Name="Build Path - Traditional - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional - path__ogtk.vi"/>
@@ -220,10 +184,8 @@
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
 				<Item Name="Data.PGSQL.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/postgreSQL-timescaleDB/Data.PG/Data.PGSQL.lvclass"/>
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
-				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Search Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search Array__ogtk.vi"/>
 				<Item Name="Search 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (SGL)__ogtk.vi"/>
 				<Item Name="Search 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (DBL)__ogtk.vi"/>
@@ -238,7 +200,6 @@
 				<Item Name="Search 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U16)__ogtk.vi"/>
 				<Item Name="Search 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U32)__ogtk.vi"/>
 				<Item Name="Search 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Boolean)__ogtk.vi"/>
-				<Item Name="Search 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (String)__ogtk.vi"/>
 				<Item Name="Search 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Path)__ogtk.vi"/>
 				<Item Name="Search 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Variant)__ogtk.vi"/>
 				<Item Name="Search 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U64)__ogtk.vi"/>
@@ -272,7 +233,6 @@
 				<Item Name="Reorder 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CSG)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (EXT)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I16)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I32)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I8)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (SGL)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U16)__ogtk.vi"/>
@@ -309,7 +269,6 @@
 				<Item Name="Reorder 1D Array2 (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U32)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array2 (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U8)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array2 (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Boolean)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (String)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array2 (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Path)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array2 (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Variant)__ogtk.vi"/>
 				<Item Name="Reorder 2D Array2 (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Boolean)__ogtk.vi"/>
@@ -344,7 +303,6 @@
 				<Item Name="Delete Elements from 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I32)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Path)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Delete Elements from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (String)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U8)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U16)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U32)__ogtk.vi"/>
@@ -375,20 +333,12 @@
 				<Item Name="MGI Approximately Equal.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Comparison/MGI Approximately Equal.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
-				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
-				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
 				<Item Name="Data.TDMS.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV to ITX/Data.TDMS/Data.TDMS.lvclass"/>
 				<Item Name="Number to String.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Number to String.vi"/>
 				<Item Name="Conversion.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV to ITX/Macros/Conversion.lvclass"/>
-				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Dictionary Create__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Create__ogtk.vi"/>
 				<Item Name="Dictionary Data__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Data__ogtk.ctl"/>
 				<Item Name="Dictionary Object RefNum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Object RefNum__ogtk.ctl"/>
@@ -407,16 +357,9 @@
 				<Item Name="Dictionary Set Modified Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Set Modified Data__ogtk.vi"/>
 				<Item Name="Dictionary Get Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Value__ogtk.vi"/>
 				<Item Name="Dictionary Get Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Data__ogtk.vi"/>
-				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
-				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
-				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
-				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
-				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 				<Item Name="Dictionary Destroy__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Destroy__ogtk.vi"/>
 				<Item Name="Dictionary Delete__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Delete__ogtk.vi"/>
 				<Item Name="Dictionary Close Object Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Close Object Reference__ogtk.vi"/>
-				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
-				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="Dictionary Get Keys__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/dictionary/dictionary.llb/Dictionary Get Keys__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Path)__ogtk.vi"/>
@@ -429,7 +372,6 @@
 				<Item Name="Remove Duplicates from 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I32)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I8)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (SGL)__ogtk.vi"/>
-				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U16)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U32)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U8)__ogtk.vi"/>
@@ -482,17 +424,47 @@
 				<Item Name="ZLIB Close Zip Archive__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzip.llb/ZLIB Close Zip Archive__ogtk.vi"/>
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
 				<Item Name="Is String Number.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Support/Is String Number.vi"/>
-				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
-				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
-				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
-				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
-				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 				<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Build Support/PostBuildSupport/PostBuildSupport.lvclass"/>
 				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
 				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
+				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
+				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
+				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
+				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
+				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
+				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (String)__ogtk.vi"/>
+				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
+				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (String)__ogtk.vi"/>
+				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
+				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
+				<Item Name="Search 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (String)__ogtk.vi"/>
+				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -1411,10 +1383,6 @@
 			<Item Name="CDK_Utility_GetSetFileAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetSetFileAttributes.vi"/>
 			<Item Name="IB_SRdB_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Write.vi"/>
 			<Item Name="IB_SRdB_Unlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Unlock.vi"/>
-			<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Sort 1D Array (DBL)__ogtk.vi"/>
-			<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Sort 1D Array (U32)__ogtk.vi"/>
-			<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Sort 2D Array (DBL)__ogtk.vi"/>
-			<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FrontPanel Application" Type="EXE">
@@ -1434,7 +1402,7 @@
 				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">50</Property>
-				<Property Name="Bld_version.patch" Type="Int">8</Property>
+				<Property Name="Bld_version.patch" Type="Int">9</Property>
 				<Property Name="Destination[0].destName" Type="Str">FrontPanel.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/FrontPanel Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1443,7 +1411,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/FP/1. Sources/FP.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3FF29C51-22D0-48ED-8D74-1D78A2522233}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{64A9084C-D222-4F2B-9CEE-CD48F23858A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FP/1. Sources/FrontPanel.vi</Property>
@@ -1538,7 +1506,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">FrontPanel Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="INST_productName" Type="Str">FrontPanel</Property>
-				<Property Name="INST_productVersion" Type="Str">4.50.8</Property>
+				<Property Name="INST_productVersion" Type="Str">4.50.9</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
