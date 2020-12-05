@@ -1399,10 +1399,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17B63870-595A-47C5-99D0-CDE5513E2F9A}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">50</Property>
-				<Property Name="Bld_version.patch" Type="Int">9</Property>
+				<Property Name="Bld_version.patch" Type="Int">11</Property>
 				<Property Name="Destination[0].destName" Type="Str">FrontPanel.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/FrontPanel Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1411,7 +1411,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/FP/1. Sources/FP.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{64A9084C-D222-4F2B-9CEE-CD48F23858A8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FBDD69BC-556B-4146-874F-F05A2073CE6E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FP/1. Sources/FrontPanel.vi</Property>
@@ -1506,7 +1506,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">FrontPanel Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="INST_productName" Type="Str">FrontPanel</Property>
-				<Property Name="INST_productVersion" Type="Str">4.50.9</Property>
+				<Property Name="INST_productVersion" Type="Str">4.50.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>

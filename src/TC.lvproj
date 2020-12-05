@@ -1573,10 +1573,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6A2C695-7CBA-4576-99B6-D9E6B8888B88}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">59</Property>
-				<Property Name="Bld_version.patch" Type="Int">16</Property>
+				<Property Name="Bld_version.patch" Type="Int">19</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1588,12 +1588,14 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Calibrations</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/Application/Calibrations</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Destination[4].destName" Type="Str">VI</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/Application/VI</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/src/TC/1. Sources/TC.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{69C3D5EC-4AD8-45B0-AB1E-25DA8712D505}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DD71BA29-4DAE-4B4B-806E-8B912FE49A24}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/TC/1. Sources/TC.vi</Property>
@@ -1617,13 +1619,18 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/src/TC/1. Sources/Data</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/src/TC/1. Sources/Calibrations</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/src/TC/1. Sources/OnTempStabilized Ext VI.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TC Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">TC Application</Property>
@@ -1641,7 +1648,11 @@
 				<Property Name="Destination[1].parent" Type="Str">{35D93E98-0676-4823-9B7F-C727672A9ECD}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].name" Type="Str">c:\LC Data</Property>
+				<Property Name="Destination[2].path" Type="Path">/c/LC Data</Property>
+				<Property Name="Destination[2].tag" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Destination[2].type" Type="Str">absFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{84A14A37-121A-4BAF-B2D5-4A807910A22F}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2016</Property>
@@ -1708,7 +1719,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">TC Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.59.16</Property>
+				<Property Name="INST_productVersion" Type="Str">4.59.19</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
@@ -1725,7 +1736,7 @@
 				<Property Name="Source[0].File[0].name" Type="Str">TC.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">TC</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Leiden Cryogenics</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">TC</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{ADAD6F79-ADCC-42F0-9325-9AFB678E107D}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
