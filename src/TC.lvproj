@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{6B678E79-118C-4941-A321-B2A112548F37}" Type="Ref">/My Computer/src/TC/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(Out)</Property>
 	<Property Name="varPersistentID:{74FA2AB7-A5AA-4361-B09C-CB968841D323}" Type="Ref">/My Computer/src/TC/1. Sources/Lib/Lib/DR TempControl.lvlib/Temperatures</Property>
 	<Property Name="varPersistentID:{8F14DDC8-5B9C-4578-9176-64FB88D2AB66}" Type="Ref">/My Computer/src/TC/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(In)</Property>
@@ -67,7 +69,7 @@
 						<Item Name="No Calibration.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/No Calibration.vi"/>
 						<Item Name="PT 1000.cal" Type="Document" URL="../TC/1. Sources/Calibrations/PT 1000.cal"/>
 						<Item Name="PT100.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT100.vi"/>
-						<Item Name="PT1000.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT1000.vi"/>
+						<Item Name="PT1000.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/PT1000.vi"/>
 						<Item Name="RuO2 10k.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/RuO2 10k.vi"/>
 						<Item Name="RuO2 1k5.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/RuO2 1k5.vi"/>
 						<Item Name="RuO2 2k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 2k.vi"/>

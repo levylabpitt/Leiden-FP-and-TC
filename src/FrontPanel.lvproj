@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{5983349F-F41F-4053-A6A7-518562B4D95D}" Type="Ref">/My Computer/FP/1. Sources/DR FrontPanel.lvlib/Pressures-FP</Property>
 	<Property Name="varPersistentID:{EB7B1EA3-AC19-4B23-A1A7-A1BCCC191798}" Type="Ref">/My Computer/FP/1. Sources/DR FrontPanel.lvlib/Pressures-MG</Property>
 	<Item Name="My Computer" Type="My Computer">
