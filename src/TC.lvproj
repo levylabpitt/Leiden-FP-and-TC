@@ -2,10 +2,10 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{6B678E79-118C-4941-A321-B2A112548F37}" Type="Ref">/My Computer/src/TC/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(Out)</Property>
-	<Property Name="varPersistentID:{74FA2AB7-A5AA-4361-B09C-CB968841D323}" Type="Ref">/My Computer/src/TC/1. Sources/Lib/Lib/DR TempControl.lvlib/Temperatures</Property>
-	<Property Name="varPersistentID:{8F14DDC8-5B9C-4578-9176-64FB88D2AB66}" Type="Ref">/My Computer/src/TC/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(In)</Property>
-	<Property Name="varPersistentID:{E3C1D99E-F293-42B7-9222-4A7302426063}" Type="Ref">/My Computer/src/TC/1. Sources/Lib/Lib/DR TempControl.lvlib/Resistances</Property>
+	<Property Name="varPersistentID:{6FFC53BA-AD0E-4CA1-972F-29041C7637B2}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Resistances</Property>
+	<Property Name="varPersistentID:{A402B7E3-99BB-40E8-AA28-5A80E3C21127}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Temperatures</Property>
+	<Property Name="varPersistentID:{A490902D-7F41-403C-BF7B-CB4B6B7C4355}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(In)</Property>
+	<Property Name="varPersistentID:{C159FB94-7D11-4ED5-AA84-D9CE0B55C5CE}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(Out)</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -21,272 +21,269 @@
 			<Item Name="FP Post Build.vi" Type="VI" URL="../../build support/FP Post Build.vi"/>
 			<Item Name="TC Post Build.vi" Type="VI" URL="../../build support/TC Post Build.vi"/>
 		</Item>
-		<Item Name="src" Type="Folder">
-			<Item Name="shared" Type="Folder">
-				<Item Name="FP to PGSQL" Type="Folder">
-					<Item Name="overrides" Type="Folder">
-						<Item Name="CF_FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/overrides/CF_FP to PGSQL.vi"/>
-						<Item Name="MNK_FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/overrides/MNK_FP to PGSQL.vi"/>
-					</Item>
-					<Item Name="subVIs" Type="Folder">
-						<Item Name="FPParseLeidenComputerNames.vi" Type="VI" URL="../shared/FP to PGSQL/subVIs/FPParseLeidenComputerNames.vi"/>
-						<Item Name="parse_FP_mode.vi" Type="VI" URL="../shared/FP to PGSQL/subVIs/parse_FP_mode.vi"/>
-					</Item>
-					<Item Name="Typedefs" Type="Folder">
-						<Item Name="FP-cluster.ctl" Type="VI" URL="../shared/FP to PGSQL/Typedefs/FP-cluster.ctl"/>
-						<Item Name="FPType-enum.ctl" Type="VI" URL="../shared/FP to PGSQL/Typedefs/FPType-enum.ctl"/>
-					</Item>
-					<Item Name="FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/FP to PGSQL.vi"/>
+		<Item Name="shared" Type="Folder">
+			<Item Name="FP to PGSQL" Type="Folder">
+				<Item Name="overrides" Type="Folder">
+					<Item Name="CF_FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/overrides/CF_FP to PGSQL.vi"/>
+					<Item Name="MNK_FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/overrides/MNK_FP to PGSQL.vi"/>
 				</Item>
-				<Item Name="TC to PGSQL" Type="Folder">
-					<Item Name="overrides" Type="Folder">
-						<Item Name="CF_TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/CF_TC to PGSQL.vi"/>
-						<Item Name="CF_Z_Bridge to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/CF_Z_Bridge to PGSQL.vi"/>
-						<Item Name="MNK_TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/MNK_TC to PGSQL.vi"/>
-						<Item Name="MNK_Z_Bridge to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/MNK_Z_Bridge to PGSQL.vi"/>
-					</Item>
-					<Item Name="private" Type="Folder">
-						<Item Name="CMN Cal.vi" Type="VI" URL="../shared/TC to PGSQL/private/CMN Cal.vi"/>
-						<Item Name="TC Parse Computer Name.vi" Type="VI" URL="../shared/TC to PGSQL/private/TC Parse Computer Name.vi"/>
-					</Item>
-					<Item Name="Typedefs" Type="Folder">
-						<Item Name="AVSType-enum.ctl" Type="VI" URL="../shared/TC to PGSQL/Typedefs/AVSType-enum.ctl"/>
-						<Item Name="TC-cluster.ctl" Type="VI" URL="../shared/TC to PGSQL/Typedefs/TC-cluster.ctl"/>
-					</Item>
-					<Item Name="TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/TC to PGSQL.vi"/>
+				<Item Name="subVIs" Type="Folder">
+					<Item Name="FPParseLeidenComputerNames.vi" Type="VI" URL="../shared/FP to PGSQL/subVIs/FPParseLeidenComputerNames.vi"/>
+					<Item Name="parse_FP_mode.vi" Type="VI" URL="../shared/FP to PGSQL/subVIs/parse_FP_mode.vi"/>
 				</Item>
-				<Item Name="Computer Info.vi" Type="VI" URL="../shared/Computer Info.vi"/>
-				<Item Name="GetLocalComputerName.vi" Type="VI" URL="../shared/GetLocalComputerName.vi"/>
-				<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
-				<Item Name="Log to PGSQL subVI.vi" Type="VI" URL="../shared/Log to PGSQL subVI.vi"/>
+				<Item Name="Typedefs" Type="Folder">
+					<Item Name="FP-cluster.ctl" Type="VI" URL="../shared/FP to PGSQL/Typedefs/FP-cluster.ctl"/>
+					<Item Name="FPType-enum.ctl" Type="VI" URL="../shared/FP to PGSQL/Typedefs/FPType-enum.ctl"/>
+				</Item>
+				<Item Name="FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/FP to PGSQL.vi"/>
 			</Item>
-			<Item Name="TC" Type="Folder">
-				<Item Name="1. Sources" Type="Folder">
-					<Item Name="Calibrations" Type="Folder">
-						<Item Name="CMN-187.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/CMN-187.cal2"/>
-						<Item Name="Emulation R.cal" Type="Document" URL="../TC/1. Sources/Calibrations/Emulation R.cal"/>
-						<Item Name="magnet.vi" Type="VI" URL="../TC/1. Sources/Calibrations/magnet.vi"/>
-						<Item Name="No Calibration.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/No Calibration.vi"/>
-						<Item Name="PT 1000.cal" Type="Document" URL="../TC/1. Sources/Calibrations/PT 1000.cal"/>
-						<Item Name="PT100.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT100.vi"/>
-						<Item Name="PT1000.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/PT1000.vi"/>
-						<Item Name="RuO2 10k.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/RuO2 10k.vi"/>
-						<Item Name="RuO2 1k5.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Leiden Cryogenics/TC/Calibrations/RuO2 1k5.vi"/>
-						<Item Name="RuO2 2k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 2k.vi"/>
-						<Item Name="RuO2-10K-NEW.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K-NEW.cal"/>
-						<Item Name="RuO2-10K.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K.cal"/>
-						<Item Name="RuO2-1k5.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-1k5.cal"/>
-						<Item Name="switch.vi" Type="VI" URL="../TC/1. Sources/Calibrations/switch.vi"/>
-						<Item Name="testCMN.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/testCMN.cal2"/>
-						<Item Name="TT-1338.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1338.cal"/>
-						<Item Name="TT-1340.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1340.cal"/>
-						<Item Name="TT-1342.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1342.cal"/>
-						<Item Name="TT-1346.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1346.cal"/>
-						<Item Name="TT-1349.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1349.cal"/>
-						<Item Name="TT-1392.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1392.cal"/>
-					</Item>
-					<Item Name="Data" Type="Folder">
-						<Item Name="config.ini" Type="Document" URL="../TC/1. Sources/Data/config.ini"/>
-						<Item Name="VI Server.ini" Type="Document" URL="../TC/1. Sources/Data/VI Server.ini"/>
-					</Item>
-					<Item Name="Lib" Type="Folder">
-						<Item Name="CS" Type="Folder"/>
-						<Item Name="CS Emulation" Type="Folder"/>
-						<Item Name="Lib" Type="Folder">
-							<Item Name="Action.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Action.ctl"/>
-							<Item Name="Append Points to Data Array - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - AVS.vi"/>
-							<Item Name="Append Points to Data Array - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - zBridge.vi"/>
-							<Item Name="Average.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Average.vi"/>
-							<Item Name="AVS Emulate.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS Emulate.vi"/>
-							<Item Name="AVS range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS range.ctl"/>
-							<Item Name="AVS47-IB Utility Clean Up Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47-IB Utility Clean Up Initialize.vi"/>
-							<Item Name="AVS47_range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47_range.ctl"/>
-							<Item Name="AVS47B.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47B.vi"/>
-							<Item Name="Avs47Cfg_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Avs47Cfg_b.vi"/>
-							<Item Name="AVS47IB Configure 47IB.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure 47IB.vi"/>
-							<Item Name="AVS47IB Configure Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Channel Parameters.vi"/>
-							<Item Name="AVS47IB Configure Scan Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Scan Parameters.vi"/>
-							<Item Name="AVS47IB Go Remote.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Go Remote.vi"/>
-							<Item Name="AVS47IB Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Initialize.vi"/>
-							<Item Name="AVS47IB Poll STB Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Poll STB Status.vi"/>
-							<Item Name="AVS47IB Read Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Channel Parameters.vi"/>
-							<Item Name="AVS47IB Read Scan Results with Wait.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Scan Results with Wait.vi"/>
-							<Item Name="AVS47IB Reset.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Reset.vi"/>
-							<Item Name="AVS47IB Start Single Scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Start Single Scan.vi"/>
-							<Item Name="AVS47IB Stop.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Stop.vi"/>
-							<Item Name="AVS47IB Utility Default Instrument Setup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Utility Default Instrument Setup.vi"/>
-							<Item Name="AVS47IB Wait for OPC-MAV-TMO.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Wait for OPC-MAV-TMO.vi"/>
-							<Item Name="AVS47IB_do_single_scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB_do_single_scan.vi"/>
-							<Item Name="AVS48 Template.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS48 Template.vi"/>
-							<Item Name="AVS_configure_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_configure_all.vi"/>
-							<Item Name="AVS_exc_n_ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_exc_n_ranges.ctl"/>
-							<Item Name="AVS_excitation.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_excitation.ctl"/>
-							<Item Name="AVS_read_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_read_all.vi"/>
-							<Item Name="Build ranges list.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Build ranges list.vi"/>
-							<Item Name="Byte Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Byte Params.ctl"/>
-							<Item Name="QCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/QCS.lvclass"/>
-							<Item Name="Calibrations.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Calibrations.ctl"/>
-							<Item Name="CallExtVI.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CallExtVI.vi"/>
-							<Item Name="Ch descriptions.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Ch descriptions.ctl"/>
-							<Item Name="Open Registry Key.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/Open Registry Key.lvlib"/>
-							<Item Name="Combine Excitation&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Combine Excitation&amp;Range.vi"/>
-							<Item Name="Configure Hardware.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Hardware.vi"/>
-							<Item Name="Configure Sensor Wiring of CHs.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Sensor Wiring of CHs.vi"/>
-							<Item Name="Control 4.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 4.ctl"/>
-							<Item Name="Control 6.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 6.ctl"/>
-							<Item Name="Control 8.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 8.ctl"/>
-							<Item Name="Convert R-T - CMN.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - CMN.vi"/>
-							<Item Name="Convert R-T - Resistance.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - Resistance.vi"/>
-							<Item Name="CS Data Converter.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data Converter.vi"/>
-							<Item Name="CS Data.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data.ctl"/>
-							<Item Name="CS Emulation.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS Emulation.lvclass"/>
-							<Item Name="CS mode.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS mode.ctl"/>
-							<Item Name="CS OnOff &amp; Gated and Current &amp; Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS OnOff &amp; Gated and Current &amp; Range.vi"/>
-							<Item Name="CS Select I Source.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Select I Source.vi"/>
-							<Item Name="CS Type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Type.ctl"/>
-							<Item Name="CS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS.lvclass"/>
-							<Item Name="CS_set_channels.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS_set_channels.vi"/>
-							<Item Name="Current Time(double).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Current Time(double).vi"/>
-							<Item Name="Currents-Temp list  - add new range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - add new range.vi"/>
-							<Item Name="Currents-Temp list  - range valid-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - range valid-.vi"/>
-							<Item Name="Currents-Temp list  - T in range-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - T in range-.vi"/>
-							<Item Name="Currents-Temp list - check ranges.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - check ranges.vi"/>
-							<Item Name="Currents-Temp list - delete range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - delete range.vi"/>
-							<Item Name="Currents-Temp list - insert range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - insert range.vi"/>
-							<Item Name="Cursor Controls.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Cursor Controls.ctl"/>
-							<Item Name="DataArray.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataArray.ctl"/>
-							<Item Name="DataReady.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataReady.vi"/>
-							<Item Name="decimate data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decimate data.vi"/>
-							<Item Name="decodeconfig_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodeconfig_b.vi"/>
-							<Item Name="decodereading_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodereading_b.vi"/>
-							<Item Name="Derivatives Pt by Pt.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Derivatives Pt by Pt.vi"/>
-							<Item Name="DR TempControl.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/DR TempControl.lvlib"/>
-							<Item Name="Edit Calibration Coefficients.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Edit Calibration Coefficients.vi"/>
-							<Item Name="Enum Variables.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Enum Variables.vi"/>
-							<Item Name="Exc_n_Ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Exc_n_Ranges.ctl"/>
-							<Item Name="Find Calibration Files by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Find Calibration Files by Name.vi"/>
-							<Item Name="First Call Resetable.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/First Call Resetable.vi"/>
-							<Item Name="Format log file header Z.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Format log file header Z.vi"/>
-							<Item Name="Generate config file path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate config file path.vi"/>
-							<Item Name="Generate New Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate New Name.vi"/>
-							<Item Name="GeneratePaths.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GeneratePaths.vi"/>
-							<Item Name="Get Calibration Files List No Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Calibration Files List No Ext.vi"/>
-							<Item Name="Get Clicked Array Index.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Clicked Array Index.vi"/>
-							<Item Name="GetAL_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetAL_b.vi"/>
-							<Item Name="GetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetByteParam.vi"/>
-							<Item Name="GetDI_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetDI_b.vi"/>
-							<Item Name="GetExtVIStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetExtVIStatus.vi"/>
-							<Item Name="MView.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/MView.lvlib"/>
-							<Item Name="GetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetRealParam.vi"/>
-							<Item Name="Graph popup - align legend.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup - align legend.vi"/>
-							<Item Name="Graph popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup.vi"/>
-							<Item Name="If First Iteration.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/If First Iteration.vi"/>
-							<Item Name="Improved Threshold Detector.71.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Improved Threshold Detector.71.vi"/>
-							<Item Name="InitPort_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/InitPort_b.vi"/>
-							<Item Name="intersection type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/intersection type.ctl"/>
-							<Item Name="IsDisabled.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/IsDisabled.vi"/>
-							<Item Name="LCR Channel parameters.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LCR Channel parameters.ctl"/>
-							<Item Name="Load Calibration Coefficients from file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Load Calibration Coefficients from file.vi"/>
-							<Item Name="LoadParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LoadParameters.vi"/>
-							<Item Name="LV Unicode to ASCII.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LV Unicode to ASCII.vi"/>
-							<Item Name="Manage Data Arrays - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - AVS.vi"/>
-							<Item Name="Manage Data Arrays - uPlots.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - uPlots.vi"/>
-							<Item Name="Manage Data Arrays - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - zBridge.vi"/>
-							<Item Name="Maximize-restore.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Maximize-restore.ctl"/>
-							<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Append String to Error Source.vi"/>
-							<Item Name="MGI Average (DBL[]).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Average (DBL[]).vi"/>
-							<Item Name="MGI Change Detector (T).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Change Detector (T).vi"/>
-							<Item Name="MGI Clear Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Clear Error.vi"/>
-							<Item Name="MGI Decimate Array with Offset (DBL[]) with MinMax.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Decimate Array with Offset (DBL[]) with MinMax.vi"/>
-							<Item Name="MGI Get Text Rect with Pad.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Get Text Rect with Pad.vi"/>
-							<Item Name="MGI Insert Reserved Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Insert Reserved Error.vi"/>
-							<Item Name="MGI Make String Filesafe.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Make String Filesafe.vi"/>
-							<Item Name="MGI Threshold 1D Array Extended.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Threshold 1D Array Extended.vi"/>
-							<Item Name="OnTempStabilizedRef.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/OnTempStabilizedRef.vi"/>
-							<Item Name="ParamMenu.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ParamMenu.vi"/>
-							<Item Name="Parse USB Hardware ID .vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Parse USB Hardware ID .vi"/>
-							<Item Name="PbDelay_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbDelay_b.vi"/>
-							<Item Name="PbStrobe_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbStrobe_b.vi"/>
-							<Item Name="PCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/PCS.lvclass"/>
-							<Item Name="PID control incremental.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID control incremental.vi"/>
-							<Item Name="PID Settings.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID Settings.ctl"/>
-							<Item Name="Plot Channel.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Channel.ctl"/>
-							<Item Name="Plot Legend.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Legend.ctl"/>
-							<Item Name="Print Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Print Channel Parameters.vi"/>
-							<Item Name="QCS - Check Registry.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Check Registry.vi"/>
-							<Item Name="QCS - Locate Registry Patcher.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Locate Registry Patcher.vi"/>
-							<Item Name="QCS DBitIn.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DBitIn.VI"/>
-							<Item Name="QCS DCFGBIT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGBIT.VI"/>
-							<Item Name="QCS DCFGPORT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGPORT.VI"/>
-							<Item Name="QCS GetBoard.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS GetBoard.VI"/>
-							<Item Name="R.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/R.ctl"/>
-							<Item Name="Read Data from Single Channel.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Read Data from Single Channel.vi"/>
-							<Item Name="Real Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Real Params.ctl"/>
-							<Item Name="ReloadCalibrations.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ReloadCalibrations.vi"/>
-							<Item Name="Reset First Call.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Reset First Call.vi"/>
-							<Item Name="Resistance to Temp no Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Resistance to Temp no Ext.vi"/>
-							<Item Name="RS232 Port N to VISA.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RS232 Port N to VISA.vi"/>
-							<Item Name="Run Reference DLG.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Run Reference DLG.vi"/>
-							<Item Name="RWpbData_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RWpbData_b.vi"/>
-							<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
-							<Item Name="Scan Parameters Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scan Parameters Window.vi"/>
-							<Item Name="Scanner.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scanner.vi"/>
-							<Item Name="ScanParameters FGV.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanParameters FGV.vi"/>
-							<Item Name="ScanStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanStatus.vi"/>
-							<Item Name="Select Data Array.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Select Data Array.vi"/>
-							<Item Name="SelectSensor-txt no ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SelectSensor-txt no ext.vi"/>
-							<Item Name="SendPbAddr_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SendPbAddr_b.vi"/>
-							<Item Name="SetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetByteParam.vi"/>
-							<Item Name="SetCP_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetCP_b.vi"/>
-							<Item Name="SetDC_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDC_b.vi"/>
-							<Item Name="SetDevice.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDevice.vi"/>
-							<Item Name="SetParFilePath.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetParFilePath.vi"/>
-							<Item Name="SetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetRealParam.vi"/>
-							<Item Name="Show Info Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Show Info Window.vi"/>
-							<Item Name="Split Exc&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Split Exc&amp;Range.vi"/>
-							<Item Name="stabil.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/stabil.vi"/>
-							<Item Name="StartScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StartScan.vi"/>
-							<Item Name="StopScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StopScan.vi"/>
-							<Item Name="T.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/T.ctl"/>
-							<Item Name="TCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/TCS.lvclass"/>
-							<Item Name="TCS indicator.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS indicator.ctl"/>
-							<Item Name="TCS manual control.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS manual control.ctl"/>
-							<Item Name="TCS2CS Data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS2CS Data.vi"/>
-							<Item Name="Template.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Template.ctl"/>
-							<Item Name="Text Popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Text Popup.vi"/>
-							<Item Name="Time Elapsed dbl.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed dbl.vi"/>
-							<Item Name="Time Elapsed time.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed time.vi"/>
-							<Item Name="Time Units.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Units.ctl"/>
-							<Item Name="tool_Unicode_Convert Unicode to ASCII (Scalar).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/tool_Unicode_Convert Unicode to ASCII (Scalar).vi"/>
-							<Item Name="TransferData.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferData.vi"/>
-							<Item Name="TransferParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferParameters.vi"/>
-							<Item Name="U16 Array to LV Unicode  String.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/U16 Array to LV Unicode  String.vi"/>
-							<Item Name="Unit.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Unit.ctl"/>
-							<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
-							<Item Name="Write to cal log file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write to cal log file.vi"/>
-							<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
-							<Item Name="zBridge Format Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridge Format Status.vi"/>
-							<Item Name="zBridgeSettings_1page.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridgeSettings_1page.vi"/>
-						</Item>
-						<Item Name="MView" Type="Folder"/>
-						<Item Name="PCS" Type="Folder"/>
-						<Item Name="QCS" Type="Folder"/>
-						<Item Name="support" Type="Folder">
-							<Item Name="Class ID ENUM.ctl" Type="VI" URL="../TC/1. Sources/Lib/support/Class ID ENUM.ctl"/>
-						</Item>
-						<Item Name="support0" Type="Folder">
-							<Item Name="Find FPO by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/support0/Find FPO by Name.vi"/>
-						</Item>
-						<Item Name="support1" Type="Folder">
-							<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../TC/1. Sources/Lib/support1/Create Custom Error Handler.vi"/>
-						</Item>
-						<Item Name="TCS" Type="Folder"/>
-					</Item>
-					<Item Name="OnTempStabilized Ext VI.vi" Type="VI" URL="../TC/1. Sources/OnTempStabilized Ext VI.vi"/>
-					<Item Name="TC.ico" Type="Document" URL="../TC/1. Sources/TC.ico"/>
-					<Item Name="TC.vi" Type="VI" URL="../TC/1. Sources/TC.vi"/>
+			<Item Name="TC to PGSQL" Type="Folder">
+				<Item Name="overrides" Type="Folder">
+					<Item Name="CF_TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/CF_TC to PGSQL.vi"/>
+					<Item Name="CF_Z_Bridge to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/CF_Z_Bridge to PGSQL.vi"/>
+					<Item Name="MNK_TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/MNK_TC to PGSQL.vi"/>
+					<Item Name="MNK_Z_Bridge to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/MNK_Z_Bridge to PGSQL.vi"/>
 				</Item>
+				<Item Name="private" Type="Folder">
+					<Item Name="CMN Cal.vi" Type="VI" URL="../shared/TC to PGSQL/private/CMN Cal.vi"/>
+					<Item Name="TC Parse Computer Name.vi" Type="VI" URL="../shared/TC to PGSQL/private/TC Parse Computer Name.vi"/>
+				</Item>
+				<Item Name="Typedefs" Type="Folder">
+					<Item Name="AVSType-enum.ctl" Type="VI" URL="../shared/TC to PGSQL/Typedefs/AVSType-enum.ctl"/>
+					<Item Name="TC-cluster.ctl" Type="VI" URL="../shared/TC to PGSQL/Typedefs/TC-cluster.ctl"/>
+				</Item>
+				<Item Name="TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/TC to PGSQL.vi"/>
 			</Item>
+			<Item Name="Computer Info.vi" Type="VI" URL="../shared/Computer Info.vi"/>
+			<Item Name="GetLocalComputerName.vi" Type="VI" URL="../shared/GetLocalComputerName.vi"/>
+			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
+			<Item Name="Log to PGSQL subVI.vi" Type="VI" URL="../shared/Log to PGSQL subVI.vi"/>
+		</Item>
+		<Item Name="1. Sources" Type="Folder">
+			<Item Name="Calibrations" Type="Folder">
+				<Item Name="CMN-187.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/CMN-187.cal2"/>
+				<Item Name="Emulation R.cal" Type="Document" URL="../TC/1. Sources/Calibrations/Emulation R.cal"/>
+				<Item Name="magnet.vi" Type="VI" URL="../TC/1. Sources/Calibrations/magnet.vi"/>
+				<Item Name="No Calibration.vi" Type="VI" URL="../TC/1. Sources/Calibrations/No Calibration.vi"/>
+				<Item Name="PT 1000.cal" Type="Document" URL="../TC/1. Sources/Calibrations/PT 1000.cal"/>
+				<Item Name="PT100.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT100.vi"/>
+				<Item Name="PT1000.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT1000.vi"/>
+				<Item Name="RuO2 10k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 10k.vi"/>
+				<Item Name="RuO2 1k5.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 1k5.vi"/>
+				<Item Name="RuO2 2k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 2k.vi"/>
+				<Item Name="RuO2-10K-NEW.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K-NEW.cal"/>
+				<Item Name="RuO2-10K.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K.cal"/>
+				<Item Name="RuO2-1k5.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-1k5.cal"/>
+				<Item Name="switch.vi" Type="VI" URL="../TC/1. Sources/Calibrations/switch.vi"/>
+				<Item Name="testCMN.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/testCMN.cal2"/>
+				<Item Name="TT-1338.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1338.cal"/>
+				<Item Name="TT-1340.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1340.cal"/>
+				<Item Name="TT-1342.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1342.cal"/>
+				<Item Name="TT-1346.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1346.cal"/>
+				<Item Name="TT-1349.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1349.cal"/>
+				<Item Name="TT-1392.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1392.cal"/>
+			</Item>
+			<Item Name="Data" Type="Folder">
+				<Item Name="config.ini" Type="Document" URL="../TC/1. Sources/Data/config.ini"/>
+				<Item Name="VI Server.ini" Type="Document" URL="../TC/1. Sources/Data/VI Server.ini"/>
+			</Item>
+			<Item Name="Lib" Type="Folder">
+				<Item Name="CS" Type="Folder"/>
+				<Item Name="CS Emulation" Type="Folder"/>
+				<Item Name="Lib" Type="Folder">
+					<Item Name="Action.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Action.ctl"/>
+					<Item Name="Append Points to Data Array - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - AVS.vi"/>
+					<Item Name="Append Points to Data Array - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - zBridge.vi"/>
+					<Item Name="Average.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Average.vi"/>
+					<Item Name="AVS Emulate.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS Emulate.vi"/>
+					<Item Name="AVS range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS range.ctl"/>
+					<Item Name="AVS47-IB Utility Clean Up Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47-IB Utility Clean Up Initialize.vi"/>
+					<Item Name="AVS47_range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47_range.ctl"/>
+					<Item Name="AVS47B.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47B.vi"/>
+					<Item Name="Avs47Cfg_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Avs47Cfg_b.vi"/>
+					<Item Name="AVS47IB Configure 47IB.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure 47IB.vi"/>
+					<Item Name="AVS47IB Configure Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Channel Parameters.vi"/>
+					<Item Name="AVS47IB Configure Scan Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Scan Parameters.vi"/>
+					<Item Name="AVS47IB Go Remote.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Go Remote.vi"/>
+					<Item Name="AVS47IB Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Initialize.vi"/>
+					<Item Name="AVS47IB Poll STB Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Poll STB Status.vi"/>
+					<Item Name="AVS47IB Read Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Channel Parameters.vi"/>
+					<Item Name="AVS47IB Read Scan Results with Wait.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Scan Results with Wait.vi"/>
+					<Item Name="AVS47IB Reset.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Reset.vi"/>
+					<Item Name="AVS47IB Start Single Scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Start Single Scan.vi"/>
+					<Item Name="AVS47IB Stop.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Stop.vi"/>
+					<Item Name="AVS47IB Utility Default Instrument Setup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Utility Default Instrument Setup.vi"/>
+					<Item Name="AVS47IB Wait for OPC-MAV-TMO.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Wait for OPC-MAV-TMO.vi"/>
+					<Item Name="AVS47IB_do_single_scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB_do_single_scan.vi"/>
+					<Item Name="AVS48 Template.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS48 Template.vi"/>
+					<Item Name="AVS_configure_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_configure_all.vi"/>
+					<Item Name="AVS_exc_n_ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_exc_n_ranges.ctl"/>
+					<Item Name="AVS_excitation.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_excitation.ctl"/>
+					<Item Name="AVS_read_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_read_all.vi"/>
+					<Item Name="Build ranges list.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Build ranges list.vi"/>
+					<Item Name="Byte Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Byte Params.ctl"/>
+					<Item Name="QCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/QCS.lvclass"/>
+					<Item Name="Calibrations.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Calibrations.ctl"/>
+					<Item Name="CallExtVI.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CallExtVI.vi"/>
+					<Item Name="Ch descriptions.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Ch descriptions.ctl"/>
+					<Item Name="Open Registry Key.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/Open Registry Key.lvlib"/>
+					<Item Name="Combine Excitation&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Combine Excitation&amp;Range.vi"/>
+					<Item Name="Configure Hardware.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Hardware.vi"/>
+					<Item Name="Configure Sensor Wiring of CHs.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Sensor Wiring of CHs.vi"/>
+					<Item Name="Control 4.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 4.ctl"/>
+					<Item Name="Control 6.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 6.ctl"/>
+					<Item Name="Control 8.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 8.ctl"/>
+					<Item Name="Convert R-T - CMN.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - CMN.vi"/>
+					<Item Name="Convert R-T - Resistance.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - Resistance.vi"/>
+					<Item Name="CS Data Converter.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data Converter.vi"/>
+					<Item Name="CS Data.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data.ctl"/>
+					<Item Name="CS Emulation.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS Emulation.lvclass"/>
+					<Item Name="CS mode.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS mode.ctl"/>
+					<Item Name="CS OnOff &amp; Gated and Current &amp; Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS OnOff &amp; Gated and Current &amp; Range.vi"/>
+					<Item Name="CS Select I Source.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Select I Source.vi"/>
+					<Item Name="CS Type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Type.ctl"/>
+					<Item Name="CS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS.lvclass"/>
+					<Item Name="CS_set_channels.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS_set_channels.vi"/>
+					<Item Name="Current Time(double).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Current Time(double).vi"/>
+					<Item Name="Currents-Temp list  - add new range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - add new range.vi"/>
+					<Item Name="Currents-Temp list  - range valid-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - range valid-.vi"/>
+					<Item Name="Currents-Temp list  - T in range-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - T in range-.vi"/>
+					<Item Name="Currents-Temp list - check ranges.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - check ranges.vi"/>
+					<Item Name="Currents-Temp list - delete range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - delete range.vi"/>
+					<Item Name="Currents-Temp list - insert range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - insert range.vi"/>
+					<Item Name="Cursor Controls.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Cursor Controls.ctl"/>
+					<Item Name="DataArray.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataArray.ctl"/>
+					<Item Name="DataReady.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataReady.vi"/>
+					<Item Name="decimate data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decimate data.vi"/>
+					<Item Name="decodeconfig_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodeconfig_b.vi"/>
+					<Item Name="decodereading_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodereading_b.vi"/>
+					<Item Name="Derivatives Pt by Pt.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Derivatives Pt by Pt.vi"/>
+					<Item Name="DR TempControl.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/DR TempControl.lvlib"/>
+					<Item Name="Edit Calibration Coefficients.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Edit Calibration Coefficients.vi"/>
+					<Item Name="Enum Variables.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Enum Variables.vi"/>
+					<Item Name="Exc_n_Ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Exc_n_Ranges.ctl"/>
+					<Item Name="Find Calibration Files by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Find Calibration Files by Name.vi"/>
+					<Item Name="First Call Resetable.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/First Call Resetable.vi"/>
+					<Item Name="Format log file header Z.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Format log file header Z.vi"/>
+					<Item Name="Generate config file path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate config file path.vi"/>
+					<Item Name="Generate New Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate New Name.vi"/>
+					<Item Name="GeneratePaths.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GeneratePaths.vi"/>
+					<Item Name="Get Calibration Files List No Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Calibration Files List No Ext.vi"/>
+					<Item Name="Get Clicked Array Index.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Clicked Array Index.vi"/>
+					<Item Name="GetAL_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetAL_b.vi"/>
+					<Item Name="GetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetByteParam.vi"/>
+					<Item Name="GetDI_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetDI_b.vi"/>
+					<Item Name="GetExtVIStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetExtVIStatus.vi"/>
+					<Item Name="MView.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/MView.lvlib"/>
+					<Item Name="GetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetRealParam.vi"/>
+					<Item Name="Graph popup - align legend.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup - align legend.vi"/>
+					<Item Name="Graph popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup.vi"/>
+					<Item Name="If First Iteration.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/If First Iteration.vi"/>
+					<Item Name="Improved Threshold Detector.71.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Improved Threshold Detector.71.vi"/>
+					<Item Name="InitPort_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/InitPort_b.vi"/>
+					<Item Name="intersection type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/intersection type.ctl"/>
+					<Item Name="IsDisabled.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/IsDisabled.vi"/>
+					<Item Name="LCR Channel parameters.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LCR Channel parameters.ctl"/>
+					<Item Name="Load Calibration Coefficients from file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Load Calibration Coefficients from file.vi"/>
+					<Item Name="LoadParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LoadParameters.vi"/>
+					<Item Name="LV Unicode to ASCII.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LV Unicode to ASCII.vi"/>
+					<Item Name="Manage Data Arrays - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - AVS.vi"/>
+					<Item Name="Manage Data Arrays - uPlots.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - uPlots.vi"/>
+					<Item Name="Manage Data Arrays - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - zBridge.vi"/>
+					<Item Name="Maximize-restore.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Maximize-restore.ctl"/>
+					<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Append String to Error Source.vi"/>
+					<Item Name="MGI Average (DBL[]).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Average (DBL[]).vi"/>
+					<Item Name="MGI Change Detector (T).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Change Detector (T).vi"/>
+					<Item Name="MGI Clear Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Clear Error.vi"/>
+					<Item Name="MGI Decimate Array with Offset (DBL[]) with MinMax.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Decimate Array with Offset (DBL[]) with MinMax.vi"/>
+					<Item Name="MGI Get Text Rect with Pad.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Get Text Rect with Pad.vi"/>
+					<Item Name="MGI Insert Reserved Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Insert Reserved Error.vi"/>
+					<Item Name="MGI Make String Filesafe.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Make String Filesafe.vi"/>
+					<Item Name="OnTempStabilizedRef.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/OnTempStabilizedRef.vi"/>
+					<Item Name="ParamMenu.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ParamMenu.vi"/>
+					<Item Name="Parse USB Hardware ID .vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Parse USB Hardware ID .vi"/>
+					<Item Name="PbDelay_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbDelay_b.vi"/>
+					<Item Name="PbStrobe_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbStrobe_b.vi"/>
+					<Item Name="PCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/PCS.lvclass"/>
+					<Item Name="PID control incremental.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID control incremental.vi"/>
+					<Item Name="PID Settings.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID Settings.ctl"/>
+					<Item Name="Plot Channel.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Channel.ctl"/>
+					<Item Name="Plot Legend.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Legend.ctl"/>
+					<Item Name="Print Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Print Channel Parameters.vi"/>
+					<Item Name="QCS - Check Registry.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Check Registry.vi"/>
+					<Item Name="QCS - Locate Registry Patcher.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Locate Registry Patcher.vi"/>
+					<Item Name="QCS DBitIn.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DBitIn.VI"/>
+					<Item Name="QCS DCFGBIT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGBIT.VI"/>
+					<Item Name="QCS DCFGPORT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGPORT.VI"/>
+					<Item Name="QCS GetBoard.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS GetBoard.VI"/>
+					<Item Name="R.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/R.ctl"/>
+					<Item Name="Read Data from Single Channel.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Read Data from Single Channel.vi"/>
+					<Item Name="Real Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Real Params.ctl"/>
+					<Item Name="ReloadCalibrations.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ReloadCalibrations.vi"/>
+					<Item Name="Reset First Call.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Reset First Call.vi"/>
+					<Item Name="Resistance to Temp no Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Resistance to Temp no Ext.vi"/>
+					<Item Name="RS232 Port N to VISA.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RS232 Port N to VISA.vi"/>
+					<Item Name="Run Reference DLG.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Run Reference DLG.vi"/>
+					<Item Name="RWpbData_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RWpbData_b.vi"/>
+					<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
+					<Item Name="Scan Parameters Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scan Parameters Window.vi"/>
+					<Item Name="Scanner.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scanner.vi"/>
+					<Item Name="ScanParameters FGV.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanParameters FGV.vi"/>
+					<Item Name="ScanStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanStatus.vi"/>
+					<Item Name="Select Data Array.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Select Data Array.vi"/>
+					<Item Name="SelectSensor-txt no ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SelectSensor-txt no ext.vi"/>
+					<Item Name="SendPbAddr_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SendPbAddr_b.vi"/>
+					<Item Name="SetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetByteParam.vi"/>
+					<Item Name="SetCP_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetCP_b.vi"/>
+					<Item Name="SetDC_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDC_b.vi"/>
+					<Item Name="SetDevice.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDevice.vi"/>
+					<Item Name="SetParFilePath.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetParFilePath.vi"/>
+					<Item Name="SetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetRealParam.vi"/>
+					<Item Name="Show Info Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Show Info Window.vi"/>
+					<Item Name="Split Exc&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Split Exc&amp;Range.vi"/>
+					<Item Name="stabil.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/stabil.vi"/>
+					<Item Name="StartScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StartScan.vi"/>
+					<Item Name="StopScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StopScan.vi"/>
+					<Item Name="T.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/T.ctl"/>
+					<Item Name="TCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/TCS.lvclass"/>
+					<Item Name="TCS indicator.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS indicator.ctl"/>
+					<Item Name="TCS manual control.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS manual control.ctl"/>
+					<Item Name="TCS2CS Data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS2CS Data.vi"/>
+					<Item Name="Template.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Template.ctl"/>
+					<Item Name="Text Popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Text Popup.vi"/>
+					<Item Name="Time Elapsed dbl.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed dbl.vi"/>
+					<Item Name="Time Elapsed time.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed time.vi"/>
+					<Item Name="Time Units.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Units.ctl"/>
+					<Item Name="tool_Unicode_Convert Unicode to ASCII (Scalar).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/tool_Unicode_Convert Unicode to ASCII (Scalar).vi"/>
+					<Item Name="TransferData.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferData.vi"/>
+					<Item Name="TransferParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferParameters.vi"/>
+					<Item Name="U16 Array to LV Unicode  String.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/U16 Array to LV Unicode  String.vi"/>
+					<Item Name="Unit.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Unit.ctl"/>
+					<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
+					<Item Name="Write Key (Variant)__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Key (Variant)__ogtk (class as special case).vi"/>
+					<Item Name="Write Section Cluster__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Section Cluster__ogtk (class as special case).vi"/>
+					<Item Name="Write to cal log file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write to cal log file.vi"/>
+					<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
+					<Item Name="zBridge Format Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridge Format Status.vi"/>
+					<Item Name="zBridgeSettings_1page.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridgeSettings_1page.vi"/>
+				</Item>
+				<Item Name="MView" Type="Folder"/>
+				<Item Name="PCS" Type="Folder"/>
+				<Item Name="QCS" Type="Folder"/>
+				<Item Name="support" Type="Folder">
+					<Item Name="Class ID ENUM.ctl" Type="VI" URL="../TC/1. Sources/Lib/support/Class ID ENUM.ctl"/>
+				</Item>
+				<Item Name="support0" Type="Folder">
+					<Item Name="Find FPO by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/support0/Find FPO by Name.vi"/>
+				</Item>
+				<Item Name="support1" Type="Folder">
+					<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../TC/1. Sources/Lib/support1/Create Custom Error Handler.vi"/>
+				</Item>
+				<Item Name="TCS" Type="Folder"/>
+			</Item>
+			<Item Name="OnTempStabilized Ext VI.vi" Type="VI" URL="../TC/1. Sources/OnTempStabilized Ext VI.vi"/>
+			<Item Name="TC.ico" Type="Document" URL="../TC/1. Sources/TC.ico"/>
+			<Item Name="TC.vi" Type="VI" URL="../TC/1. Sources/TC.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -570,15 +567,52 @@
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
-				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
 				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
 				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
-				<Item Name="Post Build Script (manual build).vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Build Support/PostBuildSupport/API/Post Build Script (manual build).vi"/>
+				<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Build Support/PostBuildSupport/PostBuildSupport.lvclass"/>
+				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
+				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
+				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
+				<Item Name="MGI Interpolate 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Interpolate 1D Array Extended.vi"/>
+				<Item Name="Application Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Application Directory__ogtk.vi"/>
+				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
+				<Item Name="MGI Threshold 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Threshold 1D Array Extended.vi"/>
+				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
+				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
+				<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info Record__ogtk.ctl"/>
+				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
+				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
+				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
+				<Item Name="LVOOP Get Default Object__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/LVOOP Get Default Object__ogtk.vi"/>
+				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
+				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
+				<Item Name="Index 1D Array Elements (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (DBL)__ogtk.vi"/>
+				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
+				<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element Default Data__ogtk.vi"/>
+				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
+				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
+				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
+				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
+				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+				<Item Name="LVOOP Return Class Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/LVOOP Return Class Name__ogtk.vi"/>
+				<Item Name="File Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info__ogtk.vi"/>
+				<Item Name="Slice String 1__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Slice String 1__ogtk.vi"/>
+				<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (String)__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
+				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
+				<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Directory__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -799,10 +833,444 @@
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Get VI Library List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get VI Library List.vi"/>
+				<Item Name="ProgressBar_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_WireFlow.lvclass"/>
+				<Item Name="ProgressBar_Win_WireFlow.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/WireFlow/_WF_ProgressBar.llb/ProgressBar_Win_WireFlow.lvclass"/>
+				<Item Name="NI_AB_API_EXE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/EXE/NI_AB_API_EXE.lvclass"/>
+				<Item Name="AB_EXE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass"/>
+				<Item Name="AB_EXE.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/AB_EXE.ctl"/>
+				<Item Name="AB_EXE_SharedVar_Deploy.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/AB_EXE_SharedVar_Deploy.ctl"/>
+				<Item Name="AB_EXE_SharedVar_LibInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/AB_EXE_SharedVar_LibInfo.ctl"/>
+				<Item Name="AB_Source_Inclusion.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Inclusion.ctl"/>
+				<Item Name="AB_EXE.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/EXE/common/AB_EXE.lvlib"/>
+				<Item Name="DynPos_Vertically Move Row.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/dynamicPosition.llb/DynPos_Vertically Move Row.vi"/>
+				<Item Name="AB_Application.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Application/AB_Application.lvclass"/>
+				<Item Name="AB_Application.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Application/AB_Application.ctl"/>
+				<Item Name="AB_Embedded_Server_Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Application/AB_Embedded_Server_Configuration.ctl"/>
+				<Item Name="AB_Build.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Build/AB_Build.lvclass"/>
+				<Item Name="AB_Destination.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Destination/AB_Destination.lvclass"/>
+				<Item Name="AB_Destination.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Destination/AB_Destination.ctl"/>
+				<Item Name="AB_Long_Path_Error.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Long_Path_Error.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
+				<Item Name="AB_Dest_LLB.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Destination/Dest_LLB/AB_Dest_LLB.lvclass"/>
+				<Item Name="New VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/New VI Library.vi"/>
+				<Item Name="AB_Dest_App.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Destination/Dest_Application/AB_Dest_App.lvclass"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="AB_Dest_LegacyApp.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Destination/Dest_LegacyApplication/AB_Dest_LegacyApp.lvclass"/>
+				<Item Name="AB_Log_Enable_Logging.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Enable_Logging.vi"/>
+				<Item Name="AB_Log_Save_Action.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Save_Action.ctl"/>
+				<Item Name="AB_RW_Project_Destinations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Destinations.vi"/>
+				<Item Name="AB_RW_Project_Destination_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Destination_Data.ctl"/>
+				<Item Name="AB_900_1000_Convert_Path_Tags.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/Compatibility/AB_900_1000_Convert_Path_Tags.vi"/>
+				<Item Name="AB_900_1000_Change_Path_from_Label.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/Compatibility/AB_900_1000_Change_Path_from_Label.vi"/>
+				<Item Name="AB_820_850_Convert_Path_to_Relative.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/Compatibility/AB_820_850_Convert_Path_to_Relative.vi"/>
+				<Item Name="AB_820_850_Relative_Path_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/Compatibility/AB_820_850_Relative_Path_Type.ctl"/>
+				<Item Name="AB_Source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/AB_Source.lvclass"/>
+				<Item Name="AB_Source_Property_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Property_Type.ctl"/>
+				<Item Name="AB_Source_Properties.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Properties.ctl"/>
+				<Item Name="AB_Source.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/AB_Source.ctl"/>
+				<Item Name="AB_Parent_Applies.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Parent_Applies.ctl"/>
+				<Item Name="ABAPI Dist Boolean to (0,2).vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Boolean to (0,2).vi"/>
+				<Item Name="AB_Source_Get_Property.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Get_Property.vi"/>
+				<Item Name="AB_Source_Set_Property.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Set_Property.vi"/>
+				<Item Name="AB_Source_Delete_Save_Settings.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Delete_Save_Settings.vi"/>
+				<Item Name="AB_Source_Delete_Property.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Delete_Property.vi"/>
+				<Item Name="AB_Engine_New_File_Info.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_New_File_Info.ctl"/>
+				<Item Name="AB_Engine_New_File_Flags.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_New_File_Flags.ctl"/>
+				<Item Name="AB_Source_Referenced_Libray_Files.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Referenced_Libray_Files.ctl"/>
+				<Item Name="AB_User_Log_Source_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_User_Log_Source_Item.vi"/>
+				<Item Name="AB_Log_File_Action.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_File_Action.ctl"/>
+				<Item Name="AB_User_Log_FileIO.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_User_Log_FileIO.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="AB_User_Log_Start_Time.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_User_Log_Start_Time.vi"/>
+				<Item Name="AB_Engine_Create_Preserve_Hierarchy_Destination.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Create_Preserve_Hierarchy_Destination.vi"/>
+				<Item Name="AB_Dest_SubDir.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Destination/Dest_SubDirectory/AB_Dest_SubDir.lvclass"/>
+				<Item Name="AB_SubDirectory.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Destination/Dest_SubDirectory/AB_SubDirectory.ctl"/>
+				<Item Name="AB_RW_Project_Source.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source.vi"/>
+				<Item Name="AB_RW_Project_Source_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_Data.ctl"/>
+				<Item Name="AB_Source_Property_WindowBehavior.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Property_WindowBehavior.ctl"/>
+				<Item Name="AB_Source_Property_WindowRunTimePosition.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Property_WindowRunTimePosition.ctl"/>
+				<Item Name="AB_Source_Property_CCodeGen.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Property_CCodeGen.ctl"/>
+				<Item Name="AB_Source_Property_CCodeGen_Inline.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Property_CCodeGen_Inline.ctl"/>
+				<Item Name="AB_RW_Source_Encpwd.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Source_Encpwd.vi"/>
+				<Item Name="AB_RW_Source_Decpwd.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Source_Decpwd.vi"/>
+				<Item Name="AB_Engine_Consolidated_Save_Item_Info.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Consolidated_Save_Item_Info.ctl"/>
+				<Item Name="AB_Engine_Should_Assume_Refee_Links.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Should_Assume_Refee_Links.vi"/>
+				<Item Name="AB_Engine_Is_Private_Data_Control.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Is_Private_Data_Control.vi"/>
+				<Item Name="AB_Engine_Is_Instance_VI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Is_Instance_VI.vi"/>
+				<Item Name="AB_Get Current VI Settings.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get Current VI Settings.vi"/>
+				<Item Name="AB_Source_Container.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/Container/AB_Source_Container.lvclass"/>
+				<Item Name="AB_Source_Container.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/Container/AB_Source_Container.ctl"/>
+				<Item Name="AB_Source_Get_SaveLevel.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Source_Get_SaveLevel.vi"/>
+				<Item Name="AB_RW_Project_Source_Container.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_Container.vi"/>
+				<Item Name="AB_RW_Project_Source_Container_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_Container_Data.ctl"/>
+				<Item Name="AB_Source_PackedItem.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/PackedItem/AB_Source_PackedItem.lvclass"/>
+				<Item Name="AB_Source_PackedItem.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/PackedItem/AB_Source_PackedItem.ctl"/>
+				<Item Name="AB_Source_VI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/VI/AB_Source_VI.lvclass"/>
+				<Item Name="AB_Source_VI.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/VI/AB_Source_VI.ctl"/>
+				<Item Name="AB_Get_VI_Checksum.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_VI_Checksum.vi"/>
+				<Item Name="AB_Engine_Disconnect_Typedefs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Disconnect_Typedefs.vi"/>
+				<Item Name="AB_Source_Library.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/Library/AB_Source_Library.lvclass"/>
+				<Item Name="AB_Source_Library.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/Library/AB_Source_Library.ctl"/>
+				<Item Name="AB_Engine_Find_Unreferenced_Library_Members.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Find_Unreferenced_Library_Members.vi"/>
+				<Item Name="AB_RW_Project_Source_Library.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_Library.vi"/>
+				<Item Name="AB_RW_Project_Source_Library_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_Library_Data.ctl"/>
+				<Item Name="AB_Get_Skip_Icon_Token.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Skip_Icon_Token.vi"/>
+				<Item Name="AB_Detect_Additional_Dependencies.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Detect_Additional_Dependencies.vi"/>
+				<Item Name="AB_Get_VI_Scope.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_VI_Scope.vi"/>
+				<Item Name="AB_RW_Project_Source_VI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_VI.vi"/>
+				<Item Name="AB_RW_Project_Source_VI_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_VI_Data.ctl"/>
+				<Item Name="AB_Source_ExportedVI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/ExportedVI/AB_Source_ExportedVI.lvclass"/>
+				<Item Name="ABAPI Dist VI Proto Info New.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist VI Proto Info New.ctl"/>
+				<Item Name="AB_ExportedVI_Define_VI_Prototype New.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/ExportedVI/AB_ExportedVI_Define_VI_Prototype New.vi"/>
+				<Item Name="AB_RW_Project_Source_ExportedVI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_ExportedVI.vi"/>
+				<Item Name="AB_RW_Project_Source_ExportedVI_Data_New.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_ExportedVI_Data_New.ctl"/>
+				<Item Name="AB_Source_RESTfulVI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/RESTfulVI/AB_Source_RESTfulVI.lvclass"/>
+				<Item Name="AB_RESTful_VIType.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/RESTfulVI/Configure_RESTfulVI/AB_RESTful_VIType.ctl"/>
+				<Item Name="AB_RESTful_OutputType.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/RESTfulVI/Configure_RESTfulVI/AB_RESTful_OutputType.ctl"/>
+				<Item Name="AB_RESTful_OutputFormat.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/RESTfulVI/Configure_RESTfulVI/AB_RESTful_OutputFormat.ctl"/>
+				<Item Name="AB_RESTful_Configuration.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/RESTfulVI/Configure_RESTfulVI/AB_RESTful_Configuration.ctl"/>
+				<Item Name="AB_RESTfulVI_Configuration_Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/RESTfulVI/Configure_RESTfulVI/AB_RESTfulVI_Configuration_Dialog.vi"/>
+				<Item Name="AB_RW_Project_Source_RESTfulVI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_RESTfulVI.vi"/>
+				<Item Name="AB_RW_Project_Source_RESTfulVI_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Source_RESTfulVI_Data.ctl"/>
+				<Item Name="AB_Exclusion_Option.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Exclusion_Option.ctl"/>
+				<Item Name="AB_Source_Processed_Info.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Source/AB_Source_Processed_Info.ctl"/>
+				<Item Name="AB_CopyFiles_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_CopyFiles_Data.ctl"/>
+				<Item Name="PreviewCache.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/PreviewCache/PreviewCache.lvclass"/>
+				<Item Name="build preview data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/PreviewCache/build preview data.ctl"/>
+				<Item Name="PreviewCache.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/PreviewCache/PreviewCache.ctl"/>
+				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
+				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
+				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
+				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
+				<Item Name="AB_Dependency.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Dependency.ctl"/>
+				<Item Name="AB_RW_Project_Cache_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Cache_Info.vi"/>
+				<Item Name="AB_RW_Project_Cache_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_Cache_Data.ctl"/>
+				<Item Name="AB_Log_FileIO.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_FileIO.vi"/>
+				<Item Name="AB_Log_Alloc_Memory.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Alloc_Memory.vi"/>
+				<Item Name="AB_Engine_Lock_or_Unlock_Instantiations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Lock_or_Unlock_Instantiations.vi"/>
+				<Item Name="AB_User_Log_Open.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_User_Log_Open.vi"/>
+				<Item Name="AB_Engine_Check_For_Stress_Chars.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Check_For_Stress_Chars.vi"/>
+				<Item Name="AB_Log_Error_Usage_Data_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Error_Usage_Data_Type.ctl"/>
+				<Item Name="AB_Log_Error_Usage_Data.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Log_Error_Usage_Data.vi"/>
+				<Item Name="niceiplib.lvlib" Type="Library" URL="/&lt;vilib&gt;/UDC/niceiplib.lvlib"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="AB_ProgressBar_Fire_New_Job.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_ProgressBar_Fire_New_Job.vi"/>
+				<Item Name="AB_ProgressBar_Fire_New_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_ProgressBar_Fire_New_Item.vi"/>
+				<Item Name="AB_Version_Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Version_Path.vi"/>
+				<Item Name="AB_User_Log_Errors.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_User_Log_Errors.vi"/>
+				<Item Name="AB_User_Log_Output_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_User_Log_Output_Item.vi"/>
+				<Item Name="Set VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Set VI Library File Info.vi"/>
+				<Item Name="AB_Set_LLB_Caching.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_LLB_Caching.vi"/>
+				<Item Name="AB_Log_Write_Linker.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Write_Linker.vi"/>
+				<Item Name="AB_Engine_Write_Linker_Wrapper.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Write_Linker_Wrapper.vi"/>
+				<Item Name="AB_Engine_Update_CustCtl_Paths.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_CustCtl_Paths.vi"/>
+				<Item Name="AB_Log_Copy_File_VI_State.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Copy_File_VI_State.vi"/>
+				<Item Name="AB_Log_Copy_Source_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Copy_Source_Item.vi"/>
+				<Item Name="ABAPI Dist Get All VIs in Memory.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Get All VIs in Memory.vi"/>
+				<Item Name="AB_Engine_Call_MathScript.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Call_MathScript.vi"/>
+				<Item Name="AB_Log_Destinations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Destinations.vi"/>
+				<Item Name="AB_Set_Destination_Path_CORE.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Destination_Path_CORE.vi"/>
+				<Item Name="AB_Get_Default_LVLang.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Default_LVLang.vi"/>
+				<Item Name="AB_Log_Build_Preview.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Build_Preview.vi"/>
+				<Item Name="AB_Engine_Reassign_Destinations_For_Preserve_Hierarchy.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Reassign_Destinations_For_Preserve_Hierarchy.vi"/>
+				<Item Name="AB_Engine_PPL_Source_Index.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_PPL_Source_Index.ctl"/>
+				<Item Name="AB_Convert_To_Relative_Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Convert_To_Relative_Path.vi"/>
+				<Item Name="AB_Engine_Construct_PPL_Table.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Construct_PPL_Table.vi"/>
+				<Item Name="AB_Log_SaveClose_Source_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_SaveClose_Source_Item.vi"/>
+				<Item Name="AB_CheckApplicationDestinations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_CheckApplicationDestinations.vi"/>
+				<Item Name="AB_Version_Info.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Version_Info.ctl"/>
+				<Item Name="AB_Build.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Build/AB_Build.ctl"/>
+				<Item Name="AB_Engine_Detect_Additional_Dependencies.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Detect_Additional_Dependencies.vi"/>
+				<Item Name="AB_Engine_Update_Source_from_Linker.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_Source_from_Linker.vi"/>
+				<Item Name="AB_Engine_Linker_Inclusion.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Linker_Inclusion.ctl"/>
+				<Item Name="AB_Log_Linker_Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Linker_Item.vi"/>
+				<Item Name="AB_Engine_Check_For_Dep_FileTypes.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Check_For_Dep_FileTypes.vi"/>
+				<Item Name="AB_Path_To_String.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Path_To_String.vi"/>
+				<Item Name="AB_Log_Linker_Item_No_Class.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Linker_Item_No_Class.vi"/>
+				<Item Name="AB_Engine_HandleLinkErrors.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_HandleLinkErrors.vi"/>
+				<Item Name="AB_Engine_HandleLinkerErrorsVerbose.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_HandleLinkerErrorsVerbose.vi"/>
+				<Item Name="AB_Engine_PathNode.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_PathNode.ctl"/>
+				<Item Name="AB_Engine_CreateMissingVIsTree.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_CreateMissingVIsTree.vi"/>
+				<Item Name="AB_Engine_AddVisitedVI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_AddVisitedVI.vi"/>
+				<Item Name="AB_Engine_FindVisitedVI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_FindVisitedVI.vi"/>
+				<Item Name="AB_Engine_LinkerErrorVerboseShouldAnalyze.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_LinkerErrorVerboseShouldAnalyze.vi"/>
+				<Item Name="AB_Engine_CreateVisitedVIsStructures.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_CreateVisitedVIsStructures.vi"/>
+				<Item Name="AB_Engine_Check_for_nonVI_Link.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Check_for_nonVI_Link.vi"/>
+				<Item Name="AB_Engine_Compute_PackedLib_Implied_Links.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Compute_PackedLib_Implied_Links.vi"/>
+				<Item Name="AB_Engine_Compute_Toplevel_Implied_Links.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Compute_Toplevel_Implied_Links.vi"/>
+				<Item Name="AB_Engine_Check_Excluded_Dep_FileTypes.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Check_Excluded_Dep_FileTypes.vi"/>
+				<Item Name="AB_Engine_Check_Excluded_Directories.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Check_Excluded_Directories.vi"/>
+				<Item Name="AB_Paths_To_Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Paths_To_Strings.vi"/>
+				<Item Name="AB_Log_LinkerInfo.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_LinkerInfo.vi"/>
+				<Item Name="AB_Engine_Get_UD_Refnum_Files.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_UD_Refnum_Files.vi"/>
+				<Item Name="AB_Load_Class.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/AB_Load_Class.vi"/>
+				<Item Name="AB_RW_Cache_Project_Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Cache_Project_Path.vi"/>
+				<Item Name="AB_RW_Non_Persistent_Tags.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Non_Persistent_Tags.vi"/>
+				<Item Name="AB_RW_Non_Persistent_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Non_Persistent_Data.ctl"/>
+				<Item Name="PreBuildVIRef.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Build/PreBuildVIRef.ctl"/>
+				<Item Name="AB_Engine_Get_User_Build_Data.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_User_Build_Data.vi"/>
+				<Item Name="AB_Log_ClassData.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_ClassData.vi"/>
+				<Item Name="PostBuildVIRef.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Build/PostBuildVIRef.ctl"/>
+				<Item Name="AB_Targetfile.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/TargetFile/AB_Targetfile.lvclass"/>
+				<Item Name="AB_Targetfile.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/TargetFile/AB_Targetfile.ctl"/>
+				<Item Name="AB_Update_Version_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Update_Version_Info.vi"/>
+				<Item Name="AB_Set_TargetFile_Name.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_TargetFile_Name.vi"/>
+				<Item Name="AB_IsItemOwnedByXctl.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_IsItemOwnedByXctl.vi"/>
+				<Item Name="AB_Engine_Close_LEIF_Cookie.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Close_LEIF_Cookie.vi"/>
+				<Item Name="AB_Engine_Delete_Internal_Files.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Delete_Internal_Files.vi"/>
+				<Item Name="AB_RW_Project_TargetFile_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_TargetFile_Info.vi"/>
+				<Item Name="AB_RW_Project_TargetFile_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_TargetFile_Data.ctl"/>
+				<Item Name="AB_Get_Detailed_BrokenVI_Message.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Get_Detailed_BrokenVI_Message.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="AB_TargetFileType.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_TargetFileType.ctl"/>
+				<Item Name="AB_ChangeTargetFileName.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_ChangeTargetFileName.vi"/>
+				<Item Name="AB_ChangeSharedLibExtension.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_ChangeSharedLibExtension.vi"/>
+				<Item Name="AB_Consolidated_Save.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Consolidated_Save.vi"/>
+				<Item Name="AB_Engine_Update_Palette_Files.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_Palette_Files.vi"/>
+				<Item Name="AB_Engine_Update_Paths_In_Palette_File.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_Paths_In_Palette_File.vi"/>
+				<Item Name="Palette Menu.lvlib" Type="Library" URL="/&lt;vilib&gt;/Palette API/Palette Menu/Palette Menu.lvlib"/>
+				<Item Name="Write Palette.vi" Type="VI" URL="/&lt;vilib&gt;/Palette API/Write Palette.vi"/>
+				<Item Name="AB_Engine_Update_Paths_In_Palette_Data.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_Paths_In_Palette_Data.vi"/>
+				<Item Name="AB_Engine_Update_Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_Path.vi"/>
+				<Item Name="Read Palette.vi" Type="VI" URL="/&lt;vilib&gt;/Palette API/Read Palette.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="CodeSignAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/AppBuilder/CodeSignAPI/CodeSignAPI.lvlib"/>
+				<Item Name="AB_Engine_Copy_Error_Files.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Copy_Error_Files.vi"/>
+				<Item Name="AB_Engine_Get_LVRTE_Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_LVRTE_Path.vi"/>
+				<Item Name="AB_Create_Default_App_Destinations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Create_Default_App_Destinations.vi"/>
+				<Item Name="ABAPI Dist Delete Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Delete Directory Recursive.vi"/>
+				<Item Name="ABAPI Dist Generate Error Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Generate Error Cluster.vi"/>
+				<Item Name="ABAPI Dist Does File Exist.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Does File Exist.vi"/>
+				<Item Name="AB_Engine_Update_INI_Header.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_INI_Header.vi"/>
+				<Item Name="AB_Prepare_URL_String.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Prepare_URL_String.vi"/>
+				<Item Name="AB_RW_Project_App_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_App_Info.vi"/>
+				<Item Name="AB_RW_Project_App_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_App_Data.ctl"/>
+				<Item Name="AB_RW_Project_App_EmbeddedServerConfiguration_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_App_EmbeddedServerConfiguration_Data.ctl"/>
+				<Item Name="AB_RW_Project_App_Data_for_Previous.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_App_Data_for_Previous.ctl"/>
+				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
+				<Item Name="Enum Registry Values Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Values Simple.vi"/>
+				<Item Name="Enum Registry Values.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Values.vi"/>
+				<Item Name="Get LV Language.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/CodeSignAPI/Get LV Language.vi"/>
+				<Item Name="sTypeDef_Languages.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/CodeSignAPI/sTypeDef_Languages.ctl"/>
+				<Item Name="AB_Web_Service_Overrides.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Classes/Application/AB_Web_Service_Overrides.ctl"/>
+				<Item Name="AB_Build_Web_Services.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Build_Web_Services.vi"/>
+				<Item Name="ABAPI Dist Create ActiveX Server Name.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Create ActiveX Server Name.vi"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="ABAPI Dist Recursive Delete Temp.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Recursive Delete Temp.vi"/>
+				<Item Name="AB_Engine_WriteVersionInfoMac.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_WriteVersionInfoMac.vi"/>
+				<Item Name="AB_Engine_Update_Exe_Timestamp.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Update_Exe_Timestamp.vi"/>
+				<Item Name="ABAPI Dist Delay with Error.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Delay with Error.vi"/>
+				<Item Name="AB_Engine_Get_LV_IconNameMac.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_LV_IconNameMac.vi"/>
+				<Item Name="AB_Engine_EXE_Call_Write_Icons.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_EXE_Call_Write_Icons.vi"/>
+				<Item Name="AB_RW_Project_EXE_ActiveX_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_EXE_ActiveX_Info.vi"/>
+				<Item Name="AB_RW_Project_EXE_ActiveX_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_EXE_ActiveX_Data.ctl"/>
+				<Item Name="AB_Engine_Build_Method_Wrapper.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Build_Method_Wrapper.vi"/>
+				<Item Name="AB_Engine_RTDEP_LibDeploymentInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_RTDEP_LibDeploymentInfo.ctl"/>
+				<Item Name="AB_Engine_RTDEP_Dep_Lib_Info.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_RTDEP_Dep_Lib_Info.ctl"/>
+				<Item Name="AB_Engine_Make_App_Flags.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Make_App_Flags.vi"/>
+				<Item Name="AB_Engine_Get_AppShell.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Get_AppShell.vi"/>
+				<Item Name="AB_Engine_Package_App.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Package_App.vi"/>
+				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="AB_Engine_Add_File_to_Zip.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Add_File_to_Zip.vi"/>
+				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
+				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
+				<Item Name="AB_Engine_RTDEP_FindDependentLibraries.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_RTDEP_FindDependentLibraries.vi"/>
+				<Item Name="AB_Engine_Variable_Deployment_IncludedFiles.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Variable_Deployment_IncludedFiles.vi"/>
+				<Item Name="AB_Engine_Copy_CustomIOServer_Files.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Copy_CustomIOServer_Files.vi"/>
+				<Item Name="AB_GetNextLabel.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_GetNextLabel.vi"/>
+				<Item Name="AB_LabelType.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_LabelType.ctl"/>
+				<Item Name="AB_RW_Project_EXE_Info.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_EXE_Info.vi"/>
+				<Item Name="AB_RW_Project_EXE_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_EXE_Data.ctl"/>
+				<Item Name="AB_RW_Project_EXE_SharedVar_Deploy.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_EXE_SharedVar_Deploy.ctl"/>
+				<Item Name="AB_RW_Project_EXE_SharedVar_LibInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/RW_Project/AB_RW_Project_EXE_SharedVar_LibInfo.ctl"/>
+				<Item Name="AB_Engine_RTDEP_ProjURL_To_NetworkURL.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_RTDEP_ProjURL_To_NetworkURL.vi"/>
+				<Item Name="NI_Variable.lvlib" Type="Library" URL="/&lt;vilib&gt;/variable/NI_Variable.lvlib"/>
+				<Item Name="NI_AB_API_Build.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/Build/NI_AB_API_Build.lvclass"/>
+				<Item Name="AB_API Destination Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Destination Type.ctl"/>
+				<Item Name="AB_API Add Destination.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Add Destination.vi"/>
+				<Item Name="AB_Destination_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Destination_Type.ctl"/>
+				<Item Name="AB_Set_Preserve_Hierarchy.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Preserve_Hierarchy.vi"/>
+				<Item Name="AB_Set_Destination_Type.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Destination_Type.vi"/>
+				<Item Name="AB_Add_Destination_CORE.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Add_Destination_CORE.vi"/>
+				<Item Name="AB_API Generate Error Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Generate Error Cluster.vi"/>
+				<Item Name="AB_Is_Destination_Present.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Is_Destination_Present.vi"/>
+				<Item Name="AB_API Build.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Build.vi"/>
+				<Item Name="AB_API Do Two Step Build.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Do Two Step Build.vi"/>
+				<Item Name="AB_Log_Close.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Close.vi"/>
+				<Item Name="AB_API Prepare Two Step Build.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Prepare Two Step Build.vi"/>
+				<Item Name="AB_Log_NewBuild.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_NewBuild.vi"/>
+				<Item Name="AB_Log_Open.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/logging/AB_Log_Open.vi"/>
+				<Item Name="AB_API Create Library For Destination.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Create Library For Destination.vi"/>
+				<Item Name="AB_Set_Library_Name_For_Destination.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Library_Name_For_Destination.vi"/>
+				<Item Name="AB_API Build Object Selector.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Build Object Selector.ctl"/>
+				<Item Name="AB_API Create Build Object.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Create Build Object.vi"/>
+				<Item Name="AB_API Build Object Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Build Object Type.ctl"/>
+				<Item Name="AB_API Resolve References.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Resolve References.vi"/>
+				<Item Name="AB_API Factory.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Factory.vi"/>
+				<Item Name="AB_API ProgressBar_Events.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API ProgressBar_Events.ctl"/>
+				<Item Name="AB_API ProgressBar_BuildError.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API ProgressBar_BuildError.ctl"/>
+				<Item Name="AB_API Create ProgressBar Events.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Create ProgressBar Events.vi"/>
+				<Item Name="AB_API Enable VI Checksums.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Enable VI Checksums.vi"/>
+				<Item Name="AB_API Destination Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Destination Data.ctl"/>
+				<Item Name="AB_API Get Destinations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Get Destinations.vi"/>
+				<Item Name="AB_API Default Destinations.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Default Destinations.ctl"/>
+				<Item Name="AB_API Get Destination Name.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Get Destination Name.vi"/>
+				<Item Name="AB_API Primary Exclusions.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Primary Exclusions.ctl"/>
+				<Item Name="AB_API Get Primary Destination Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Get Primary Destination Path.vi"/>
+				<Item Name="AB_API Version Number.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Version Number.ctl"/>
+				<Item Name="AB_API Get Build Object.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Get Build Object.vi"/>
+				<Item Name="AB_API Rename Source.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Rename Source.vi"/>
+				<Item Name="AB_API Apply Setting Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Apply Setting Type.ctl"/>
+				<Item Name="AB_API Apply Setting.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Apply Setting.vi"/>
+				<Item Name="AB_Rename_Source_CORE.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Rename_Source_CORE.vi"/>
+				<Item Name="AB_API Add Source Item To Array.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Add Source Item To Array.vi"/>
+				<Item Name="AB_API Is Source Item Present.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Is Source Item Present.vi"/>
+				<Item Name="AB_API Set Check For Broken VIs.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Check For Broken VIs.vi"/>
+				<Item Name="AB_API Set Destination Path.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Destination Path.vi"/>
+				<Item Name="AB Update Dest Dir.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB Update Dest Dir.vi"/>
+				<Item Name="AB_API Set Destination Preserve Hierarchy.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Destination Preserve Hierarchy.vi"/>
+				<Item Name="AB_API Set Destination.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Destination.vi"/>
+				<Item Name="AB_Set_Destination_CORE.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Destination_CORE.vi"/>
+				<Item Name="AB_API Path Exclusions.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Path Exclusions.ctl"/>
+				<Item Name="AB_Set_Path_Exclusions.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Path_Exclusions.vi"/>
+				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
+				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
+				<Item Name="VIAnUtil Has Panel.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Panel.vi"/>
+				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="VIAnUtil Has Diagram.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Diagram.vi"/>
+				<Item Name="VIAnUtil Clear Specific Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Clear Specific Error.vi"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/Numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
+				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="NewVIObject_LVRelativePositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/New VI Object TypeDefs/NewVIObject_LVRelativePositionTypeDef.ctl"/>
+				<Item Name="NewVIObject_LVRelativeDirectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/New VI Object TypeDefs/NewVIObject_LVRelativeDirectionTypeDef.ctl"/>
+				<Item Name="Get Current LV Bitness.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Get Current LV Bitness.vi"/>
+				<Item Name="AB_Set_Exclusions.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Exclusions.vi"/>
+				<Item Name="AB_API Set Password.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Password.vi"/>
+				<Item Name="AB_Password_Setting.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Password_Setting.ctl"/>
+				<Item Name="AB_Set_Password_CORE.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Password_CORE.vi"/>
+				<Item Name="AB_API Build Action Type.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Build Action Type.ctl"/>
+				<Item Name="AB_API Add Pre or Post Build Action VI.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Add Pre or Post Build Action VI.vi"/>
+				<Item Name="AB_API Set Save Settings.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Save Settings.vi"/>
+				<Item Name="AB_Set_Source_Property.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_Set_Source_Property.vi"/>
+				<Item Name="AB_API Set Verbose Linker Errors.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Verbose Linker Errors.vi"/>
+				<Item Name="AB_API Set Inclusion.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Set Inclusion.vi"/>
+				<Item Name="AB_API Can Add.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Can Add.vi"/>
+				<Item Name="AB_API Add Source Item.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Add Source Item.vi"/>
+				<Item Name="NI_AB_API_Application.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/Application/NI_AB_API_Application.lvclass"/>
+				<Item Name="NI_AB_API_Targetfile.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/AB_API/Targetfile/NI_AB_API_Targetfile.lvclass"/>
+				<Item Name="AB_API Version Information.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/AB_API/common/AB_API Version Information.ctl"/>
+				<Item Name="IB_Destination.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/IB_Destination.lvclass"/>
+				<Item Name="IB_Destination.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/IB_Destination.ctl"/>
+				<Item Name="IB_RW_Project_Destination_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Destination_Data.ctl"/>
+				<Item Name="IB_RW_Project_Destinations.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Destinations.vi"/>
+				<Item Name="absFolder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/absFolder/absFolder.lvclass"/>
+				<Item Name="IB_RW_Project_Destination_Absolute.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Destination_Absolute.vi"/>
+				<Item Name="userFolder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/userFolder/userFolder.lvclass"/>
+				<Item Name="IB_Settings_Item.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Settings_Item/IB_Settings_Item.lvclass"/>
+				<Item Name="IB_Settings_Item.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Settings_Item/IB_Settings_Item.ctl"/>
+				<Item Name="IB_Source_File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/File/IB_Source_File.lvclass"/>
+				<Item Name="IB_Source_File.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/File/IB_Source_File.ctl"/>
+				<Item Name="IB_Shortcut.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Shortcut/IB_Shortcut.lvclass"/>
+				<Item Name="IB_Shortcut.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Shortcut/IB_Shortcut.ctl"/>
+				<Item Name="IB_RW_Project_Shortcut_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Shortcut_Data.ctl"/>
+				<Item Name="IB_RW_Project_Shortcut.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Shortcut.vi"/>
+				<Item Name="CDK_sTypeDef_2009_data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/Compatibility/CDK_sTypeDef_2009_data.ctl"/>
+				<Item Name="IB_Source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/IB_Source.lvclass"/>
+				<Item Name="IB_Source.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/IB_Source.ctl"/>
+				<Item Name="IB_Post_Install_Step.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Post_Install_Step/IB_Post_Install_Step.lvclass"/>
+				<Item Name="IB_Post_Install_Step.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Post_Install_Step/IB_Post_Install_Step.ctl"/>
+				<Item Name="IB_RW_Project_Source.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Source.vi"/>
+				<Item Name="IB_RW_Project_Source_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Source_Data.ctl"/>
+				<Item Name="IB_Tree_Item_Proj.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj/IB_Tree_Item_Proj.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj/IB_Tree_Item_Proj.ctl"/>
+				<Item Name="IB_Tree_Item.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item/IB_Tree_Item.lvclass"/>
+				<Item Name="IB_Tree_Item.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item/IB_Tree_Item.ctl"/>
+				<Item Name="IB_Tree.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree/IB_Tree.lvclass"/>
+				<Item Name="Tree_Get All Child Tags.vi" Type="VI" URL="/&lt;vilib&gt;/tree/Tree_Get All Child Tags.vi"/>
+				<Item Name="Tree_ShowScrollBar.vi" Type="VI" URL="/&lt;vilib&gt;/tree/Tree_ShowScrollBar.vi"/>
+				<Item Name="IB_Source_Folder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Folder/IB_Source_Folder.lvclass"/>
+				<Item Name="IB_Source_Container.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/IB_Source_Container.lvclass"/>
+				<Item Name="IB_Source_Container.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/IB_Source_Container.ctl"/>
+				<Item Name="IB_CtrFile.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/File/CtrFile/IB_CtrFile.lvclass"/>
+				<Item Name="IB_CtrFile.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/File/IB_CtrFile.ctl"/>
+				<Item Name="IB_Tree_Item_Source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source/IB_Tree_Item_Source.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_Contained_File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_Contained_File/IB_Tree_Item_Source_Contained_File.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_Contained_File.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_Contained_File/IB_Tree_Item_Source_Contained_File.ctl"/>
+				<Item Name="IB_Tree_Item_Virtual_Folder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Virtual_Folder/IB_Tree_Item_Virtual_Folder.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_File/IB_Tree_Item_Source_File.lvclass"/>
+				<Item Name="Tree_Item_Source_File.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_File/Tree_Item_Source_File.ctl"/>
+				<Item Name="IB_Tree_Item_Proj_Contained_File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_Contained_File/IB_Tree_Item_Proj_Contained_File.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_Contained_File.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_Contained_File/IB_Tree_Item_Proj_Contained_File.ctl"/>
+				<Item Name="IB_Tree_Item_Proj_File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_File/IB_Tree_Item_Proj_File.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_Container.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_Container/IB_Tree_Item_Proj_Container.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_Container.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_Container/IB_Tree_Item_Proj_Container.ctl"/>
+				<Item Name="ABAPI Dist Cmp Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/ABAPI Dist Cmp Two Paths.vi"/>
+				<Item Name="IB_Tree_Item_Source_Folder_Sync.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_Folder_Sync/IB_Tree_Item_Source_Folder_Sync.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_Folder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_Folder/IB_Tree_Item_Source_Folder.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_Container.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_Container/IB_Tree_Item_Source_Container.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_Container.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_Container/IB_Tree_Item_Source_Container.ctl"/>
+				<Item Name="IB_SDIST.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/SDIST/IB_SDIST.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_SDISTlvclass.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_SDIST/IB_Tree_Item_Source_SDISTlvclass.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_Build.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_Build/IB_Tree_Item_Source_Build.lvclass"/>
+				<Item Name="IB_Source_Build.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/IB_Source_Build.lvclass"/>
+				<Item Name="AB_Engine_Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Engine/AB_Engine_Operation.ctl"/>
+				<Item Name="IB_Tree_Item_Proj_Build.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_Build/IB_Tree_Item_Proj_Build.lvclass"/>
+				<Item Name="IB_Tree_Source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Source/IB_Tree_Source.lvclass"/>
+				<Item Name="IB_Tree_Source.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Source/IB_Tree_Source.ctl"/>
+				<Item Name="IB_Tree_Item_Proj_MyComputer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_MyComputer/IB_Tree_Item_Proj_MyComputer.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_Folder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_Folder/IB_Tree_Item_Proj_Folder.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_Folder_Sync.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_Folder_Sync/IB_Tree_Item_Proj_Folder_Sync.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_BuildSpecs.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_BuildSpecs/IB_Tree_Item_Proj_BuildSpecs.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_EXE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_EXE/IB_Tree_Item_Proj_EXE.lvclass"/>
+				<Item Name="IB_EXE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/EXE/IB_EXE.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_EXE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_EXE/IB_Tree_Item_Source_EXE.lvclass"/>
+				<Item Name="Installer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Installer/Installer.lvclass"/>
+				<Item Name="IB_Installer.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Installer/IB_Installer.ctl"/>
+				<Item Name="Dest_NI_NIPath.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Dest_NI_NIPath/Dest_NI_NIPath.lvclass"/>
+				<Item Name="niLabel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/niLabel/niLabel.lvclass"/>
+				<Item Name="IB_Dest_niLabel.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/niLabel/IB_Dest_niLabel.ctl"/>
+				<Item Name="IB_Source_File_Web_Service.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/File_Web_Service/IB_Source_File_Web_Service.lvclass"/>
+				<Item Name="IB_RW_Project_Clear_Source.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Clear_Source.vi"/>
+				<Item Name="IB_RW_Project_Source_File.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Source_File.vi"/>
+				<Item Name="IB_RW_Project_Source_File_Data.ctl" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_RW_Project/IB_RW_Project_Source_File_Data.ctl"/>
+				<Item Name="IB_Load_Class.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/IB_Load_Class.vi"/>
+				<Item Name="IB_Tree_Item_Proj_DLL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_DLL/IB_Tree_Item_Proj_DLL.lvclass"/>
+				<Item Name="IB_DLL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/DLL/IB_DLL.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_DLL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_DLL/IB_Tree_Item_Source_DLL.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_SDIST.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_SDIST/IB_Tree_Item_Proj_SDIST.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_RestfulWS.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_RestfulWS/IB_Tree_Item_Proj_RestfulWS.lvclass"/>
+				<Item Name="IB_RestfulWS.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/RestfulWS/IB_RestfulWS.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_RestfulWS.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_RestfulWS/IB_Tree_Item_Source_RestfulWS.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_NET.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_NET/IB_Tree_Item_Proj_NET.lvclass"/>
+				<Item Name="IB_DotNET.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/NET/IB_DotNET.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_DotNET.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_NET/IB_Tree_Item_Source_DotNET.lvclass"/>
+				<Item Name="IB_Tree_Item_Proj_PackedLib.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Proj_PackedLib/IB_Tree_Item_Proj_PackedLib.lvclass"/>
+				<Item Name="IB_PackedLib.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/PackedLib/IB_PackedLib.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_PackedLib.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_PackedLib/IB_Tree_Item_Source_PackedLib.lvclass"/>
+				<Item Name="IB_CGen.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Source/Container/Build/CGen/IB_CGen.lvclass"/>
+				<Item Name="IB_Tree_Item_Source_CGen.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Tree_Item_Source_CGen/IB_Tree_Item_Source_CGen.lvclass"/>
+				<Item Name="IB_Settings_Item_File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Settings_Item_File/IB_Settings_Item_File.lvclass"/>
+				<Item Name="IB_Settings_Item_Destination.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Settings_Item_Destination/IB_Settings_Item_Destination.lvclass"/>
+				<Item Name="Dest_User_NIPath.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Dest_User_NIPath/Dest_User_NIPath.lvclass"/>
+				<Item Name="userLabel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/userLabel/userLabel.lvclass"/>
+				<Item Name="Dest_User_MSIPath.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Dest_User_MSIPath/Dest_User_MSIPath.lvclass"/>
+				<Item Name="LMH-Toolbox.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/Toolbox/LMH-Toolbox.lvlib"/>
+				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
 				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="Get VI Library List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get VI Library List.vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
@@ -823,7 +1291,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Save State As Default.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Public/VI Tools/Save State As Default.vi"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvSetIntProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetIntProperty.vi"/>
@@ -867,46 +1334,228 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Index 1D Array Elements (DBL)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Index 1D Array Elements (DBL)__ogtk.vi"/>
-			<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Refnum Subtype Enum__ogtk.ctl"/>
-			<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Waveform Subtype Enum__ogtk.ctl"/>
-			<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
-			<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
-			<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Array Element TDEnum__ogtk.vi"/>
-			<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Array Element Default Data__ogtk.vi"/>
-			<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Current VIs Reference__ogtk.vi"/>
+			<Item Name="AB_UI_Page_Source_Files_supportedFunctions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Source_Files_supportedFunctions.ctl"/>
+			<Item Name="AB_UI_Page_Advanced_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Advanced_References.ctl"/>
+			<Item Name="BUIP_CalcHWConfig.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/BUIP_CalcHWConfig.vi"/>
+			<Item Name="provcom_ItemBehaviors.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ItemBehaviors.vi"/>
+			<Item Name="provcom_IsDesktopTargetBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_IsDesktopTargetBehavior.vi"/>
+			<Item Name="provcom_IsTargetBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_IsTargetBehavior.vi"/>
+			<Item Name="provcom_CanHaveChildrenBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CanHaveChildrenBehavior.vi"/>
+			<Item Name="provcom_OrderedAtTopBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_OrderedAtTopBehavior.vi"/>
+			<Item Name="provcom_DerivesFromLibraryBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_DerivesFromLibraryBehavior.vi"/>
+			<Item Name="provcom_IsStdVIBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_IsStdVIBehavior.vi"/>
+			<Item Name="provcom_CanGetVIRefBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CanGetVIRefBehavior.vi"/>
+			<Item Name="provcom_PrintsLikeVIBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_PrintsLikeVIBehavior.vi"/>
+			<Item Name="provcom_CreatesLinkRefBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CreatesLinkRefBehavior.vi"/>
+			<Item Name="provcom_BindsAfterCreationBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_BindsAfterCreationBehavior.vi"/>
+			<Item Name="provcom_CanExistUnderProjectRootBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CanExistUnderProjectRootBehavior.vi"/>
+			<Item Name="provcom_SupportsAppHWConfigBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_SupportsAppHWConfigBehavior.vi"/>
+			<Item Name="provcom_HideInBuildSpecBehavior.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_HideInBuildSpecBehavior.vi"/>
+			<Item Name="AB_UI_Page_Destination_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Destination_References.ctl"/>
+			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
+			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
+			<Item Name="AB_UI_Page_Source_Files_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Source_Files_References.ctl"/>
+			<Item Name="AB_UI_Page_Source_Settings_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Source_Settings_References.ctl"/>
+			<Item Name="AB_UI_Page_Source_Settings_supportedFunctions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Source_Settings_supportedFunctions.ctl"/>
+			<Item Name="AB_SRdB_Source_ReadALL.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/Source/AB_SRdB_Source_ReadALL.vi"/>
+			<Item Name="AB_SRdB_Action.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/AB_SRdB_Action.ctl"/>
+			<Item Name="AB_SRdB_Source.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/Source/AB_SRdB_Source.vi"/>
+			<Item Name="AB_SRdB_Error.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/AB_SRdB_Error.vi"/>
+			<Item Name="AB_UI_Page_Source_Add_Container.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Source_Add_Container.vi"/>
+			<Item Name="AB_SRdB_Source_pgSource_Remove.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/Source/AB_SRdB_Source_pgSource_Remove.vi"/>
+			<Item Name="AB_UI_Page_Source_Remove_Container.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Source_Remove_Container.vi"/>
+			<Item Name="AB_UI_VI_Settings_Customized.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_VI_Settings_Customized.vi"/>
+			<Item Name="provcom_ProgressBar_FireErrorEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_FireErrorEvent.vi"/>
+			<Item Name="mxLvBuildError.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvBuildError.ctl"/>
+			<Item Name="AB_SRdB_Build_Read.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/Build/AB_SRdB_Build_Read.vi"/>
+			<Item Name="AB_SRdB_Build.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/Build/AB_SRdB_Build.vi"/>
+			<Item Name="mxLvSetBinaryProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetBinaryProperty.vi"/>
+			<Item Name="mxLvGetBinaryProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetBinaryProperty.vi"/>
+			<Item Name="provcom_ProgressBar_Events.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_Events.ctl"/>
+			<Item Name="GetSymbols.vi" Type="VI" URL="/&lt;resource&gt;/plugins/Utility/IfDef.llb/GetSymbols.vi"/>
+			<Item Name="AB_UI_Page_Exclusions_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Exclusions_References.ctl"/>
+			<Item Name="AB_Is_Linux_ARM_Target.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Is_Linux_ARM_Target.vi"/>
+			<Item Name="AB_Get_Target_OS_CPU.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Get_Target_OS_CPU.vi"/>
+			<Item Name="AB_UI_Page_Info_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Info_References.ctl"/>
+			<Item Name="AB_SRdB_Destination_Update_with_BasePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/Destination/AB_SRdB_Destination_Update_with_BasePath.vi"/>
+			<Item Name="AB_UI_Change_Relative_Paths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Change_Relative_Paths.vi"/>
+			<Item Name="AB_SRdB_Destination_Update_with_Label.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/SRdB/Destination/AB_SRdB_Destination_Update_with_Label.vi"/>
+			<Item Name="AB_UI_Page_Source_Files_ResizeTrees.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Source_Files_ResizeTrees.vi"/>
+			<Item Name="provcom_MassEnableDisableControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_MassEnableDisableControls.vi"/>
+			<Item Name="provcom_EnableDisableControl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_EnableDisableControl.vi"/>
+			<Item Name="provcom_DrawSourceAndDependencies.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_DrawSourceAndDependencies.vi"/>
+			<Item Name="provcom_DrawProjectItems.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_DrawProjectItems.vi"/>
+			<Item Name="provcom_DrawTreeItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_DrawTreeItem.vi"/>
+			<Item Name="provcom_CallbackKeyedArray.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_CallbackKeyedArray.ctl"/>
+			<Item Name="provcom_GetAllChildrenOfItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetAllChildrenOfItem.vi"/>
+			<Item Name="BUIP_Callback_Files_Filter.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/BUIP_Callback_Files_Filter.vi"/>
+			<Item Name="AB_UI_Page_Version_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Version_References.ctl"/>
+			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
+			<Item Name="mxLvGenerateGuid.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGenerateGuid.vi"/>
+			<Item Name="provcom_ProgressBar_Dialog_Text.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_Dialog_Text.ctl"/>
+			<Item Name="BuildMonitor_BuildItems_Close.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/BuildMonitor/BuildMonitor_BuildItems_Close.vi"/>
+			<Item Name="mxLvBuildNewJob.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvBuildNewJob.ctl"/>
+			<Item Name="mxLvBuildNewItem.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvBuildNewItem.ctl"/>
+			<Item Name="mxLvBuildCancel.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvBuildCancel.ctl"/>
+			<Item Name="provcom_ProgressBar_FireNewJobEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_FireNewJobEvent.vi"/>
+			<Item Name="provcom_ProgressBar_GetErrorFromErrorWindow.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_GetErrorFromErrorWindow.vi"/>
+			<Item Name="AB_Create_Build_AppInstance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Build_AppInstance.vi"/>
+			<Item Name="AB_Update_Target_Syntax.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Update_Target_Syntax.vi"/>
+			<Item Name="BuildMonitor_BuildItems_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/BuildMonitor/BuildMonitor_BuildItems_Init.vi"/>
+			<Item Name="provcom_ProgressBar_InvokeProgressBar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_InvokeProgressBar.vi"/>
+			<Item Name="provcom_ProgressBar_InvokeErrorWindow.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_InvokeErrorWindow.vi"/>
+			<Item Name="provcom_ProgressBar_InitializeProgressBarEvents.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_InitializeProgressBarEvents.vi"/>
+			<Item Name="provcom_ProgressBar_InitializeCancelEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_InitializeCancelEvent.vi"/>
+			<Item Name="provcom_ProgressBar_InitializeErrorEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_InitializeErrorEvent.vi"/>
+			<Item Name="provcom_ProgressBar_InitializeErrorOpenEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_InitializeErrorOpenEvent.vi"/>
+			<Item Name="provcom_ProgressBar_InitializeErrorCloseEvent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ProgressBar_InitializeErrorCloseEvent.vi"/>
+			<Item Name="mxLvDeleteAllProperties.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDeleteAllProperties.vi"/>
+			<Item Name="AB_UI_Page_Windows_Security_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Windows_Security_References.ctl"/>
+			<Item Name="provcom_BrowseProjectFile.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_BrowseProjectFile.ctl"/>
+			<Item Name="provcom_GetProvidersDir.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetProvidersDir.vi"/>
+			<Item Name="AB_UI_Page_Service_Config_WS_CfgPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Service_Config_WS_CfgPath.vi"/>
+			<Item Name="AB_Create_Web_Service_Config_File.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Create_Web_Service_Config_File.vi"/>
+			<Item Name="AB_Is_Desktop_Target.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Is_Desktop_Target.vi"/>
+			<Item Name="EBUIP_CheckForValidExtension.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/EXE/EBUIP_CheckForValidExtension.vi"/>
+			<Item Name="EBUIP_Icon_Reset_Application_Icon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/EXE/EBUIP_Icon_Reset_Application_Icon.vi"/>
+			<Item Name="BUIP_Icon_Get_Symbol_Images.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/BUIP_Icon_Get_Symbol_Images.vi"/>
+			<Item Name="BUIP_Icon_Type.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/BUIP_Icon_Type.ctl"/>
+			<Item Name="AB_UI_Page_Icon_Get_Icons.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Icon_Get_Icons.vi"/>
+			<Item Name="AB_UI_Page_Icon_CallGetIcons.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_UI_Page_Icon_CallGetIcons.vi"/>
+			<Item Name="mxLvHasProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvHasProperty.vi"/>
+			<Item Name="ApplyManifestResource.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/ApplyManifest/ApplyManifestResource.vi"/>
+			<Item Name="UpdateVersionResource.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/UpdateVersionResource.vi"/>
+			<Item Name="res_FlattenVS_VERSIONINFO.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_FlattenVS_VERSIONINFO.vi"/>
+			<Item Name="res_PadData32.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_PadData32.vi"/>
+			<Item Name="res_FlattenData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_FlattenData.vi"/>
+			<Item Name="win32_MBCSToUnicode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/win32_MBCSToUnicode.vi"/>
+			<Item Name="res_FlattenStringFileInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_FlattenStringFileInfo.vi"/>
+			<Item Name="res_FlattenStringTable.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_FlattenStringTable.vi"/>
+			<Item Name="res_FlattenStringTableChildren.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_FlattenStringTableChildren.vi"/>
+			<Item Name="res_FlattenVarFileInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_FlattenVarFileInfo.vi"/>
+			<Item Name="res_FlattenVar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/res_FlattenVar.vi"/>
+			<Item Name="UpdateVersionInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/UpdateVersionInfo.vi"/>
+			<Item Name="VersionNumToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Common/SetLVAppVersion/VersionNumToString.vi"/>
+			<Item Name="provcom_GetObjectItemFromProjectItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetObjectItemFromProjectItem.vi"/>
+			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
+			<Item Name="_ChannelScriptingSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/_ChannelScriptingSupport.lvlib"/>
+			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
+			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
+			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/applibs/distkit/MDF/NI_MDF.lvlib"/>
+			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2016/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="CDK_Utility_RemoveFirstBrackets.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_RemoveFirstBrackets.vi"/>
+			<Item Name="CDK_GLOBAL_LABELS.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_GLOBAL_LABELS.vi"/>
+			<Item Name="CDK_Editor_VersionLabels.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Editor_VersionLabels.vi"/>
+			<Item Name="CDK_Utility_GetAppVersionString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetAppVersionString.vi"/>
+			<Item Name="CDK_Utility_RemoveBrackets.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_RemoveBrackets.vi"/>
+			<Item Name="CDK_Utility_BuildTag.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_BuildTag.vi"/>
+			<Item Name="CDK_Utility_StripTag.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_StripTag.vi"/>
+			<Item Name="CDK_Utility_GetPathForTargetType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetPathForTargetType.vi"/>
+			<Item Name="provcom_ComputeAndCheckRelativePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_ComputeAndCheckRelativePath.vi"/>
+			<Item Name="IB_Tree_DefaultSymbols.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/controls/IB_Tree_DefaultSymbols.ctl"/>
+			<Item Name="CDK_Tree_GetDefaultSymbolIndex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Tree_GetDefaultSymbolIndex.vi"/>
+			<Item Name="CDK_sTypeDef_DirInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_DirInfo.ctl"/>
+			<Item Name="CDK_GLOBAL_STRINGS.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_GLOBAL_STRINGS.vi"/>
+			<Item Name="CDK_Utility_Get_Relative_Path.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Get_Relative_Path.vi"/>
+			<Item Name="CDK_Utility_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GenerateGUID.vi"/>
+			<Item Name="CDK_sTypeDef_DISTSETTINGS.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_DISTSETTINGS.ctl"/>
+			<Item Name="CDK_sTypeDef_HWImportOption.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_HWImportOption.ctl"/>
+			<Item Name="CDK_sTypeDef_BuildInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_BuildInfo.ctl"/>
+			<Item Name="CDK_sTypeDef_FileInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_FileInfo.ctl"/>
+			<Item Name="CDK_sTypeDef_BuildTypes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_BuildTypes.ctl"/>
+			<Item Name="CDK_sTypeDef_ShortcutInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_ShortcutInfo.ctl"/>
+			<Item Name="CDK_sTypeDef_RegData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_RegData.ctl"/>
+			<Item Name="CDK_sTypeDef_DistParts.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_DistParts.ctl"/>
+			<Item Name="CDK_sTypeDef_SoftDep.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_SoftDep.ctl"/>
+			<Item Name="CDK_sTypeDef_ShortcutAddress.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_ShortcutAddress.ctl"/>
+			<Item Name="provcom_GetInfoFromItemID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetInfoFromItemID.vi"/>
+			<Item Name="mxLvGetPropertyType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetPropertyType.vi"/>
+			<Item Name="mxLvPropertyType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvPropertyType.ctl"/>
+			<Item Name="SRdB_Proj_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Proj/SRdB_Proj_Write.vi"/>
+			<Item Name="SRdB_Proj_Action.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Proj/SRdB_Proj_Action.ctl"/>
+			<Item Name="SRdB_Proj_Unlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Proj/SRdB_Proj_Unlock.vi"/>
+			<Item Name="SRdB_Proj.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Proj/SRdB_Proj.vi"/>
+			<Item Name="SRdB_Icon_action.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Icon/SRdB_Icon_action.ctl"/>
+			<Item Name="SRdB_Icon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Icon/SRdB_Icon.vi"/>
+			<Item Name="SRdB_Icon.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Icon/SRdB_Icon.ctl"/>
+			<Item Name="CDK_Tree_ShowScrollBar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Tree_ShowScrollBar.vi"/>
+			<Item Name="SRdB_Icon_Fetch.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Icon/SRdB_Icon_Fetch.vi"/>
+			<Item Name="SRdB_Icon_Read.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Icon/SRdB_Icon_Read.vi"/>
+			<Item Name="SRdB_Icon_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Icon/SRdB_Icon_Write.vi"/>
+			<Item Name="SRdB_Proj_Read.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB_Proj/SRdB_Proj_Read.vi"/>
+			<Item Name="CDK_sTypeDef_FileList.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_FileList.ctl"/>
+			<Item Name="CDK_Utility_Recurse_Folder.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Recurse_Folder.vi"/>
+			<Item Name="CDK_Utility_GenerateErrorCluster.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GenerateErrorCluster.vi"/>
+			<Item Name="CDK_Utility_SortSource.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_SortSource.vi"/>
+			<Item Name="CDK_Utility_Is_In_Packed_Library.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Is_In_Packed_Library.vi"/>
+			<Item Name="CDK_Utility_Compare_Install_Paths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Compare_Install_Paths.vi"/>
+			<Item Name="CDK_Utility_SpreadsheetStringToArray.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_SpreadsheetStringToArray.vi"/>
+			<Item Name="CDK_Utility_GetNextCharacter.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetNextCharacter.vi"/>
+			<Item Name="SRdB_Bld_Fetch.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdb_Bld/SRdB_Bld_Fetch.vi"/>
+			<Item Name="SRdB_Bld.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdb_Bld/SRdB_Bld.ctl"/>
+			<Item Name="SRdB_Bld_Read.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdb_Bld/SRdB_Bld_Read.vi"/>
+			<Item Name="SRdB_Bld_action.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdb_Bld/SRdB_Bld_action.ctl"/>
+			<Item Name="SRdB_Bld.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdb_Bld/SRdB_Bld.vi"/>
+			<Item Name="CDK_SourceTree_DoBuildRulePreview.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_SourceTree_DoBuildRulePreview.vi"/>
+			<Item Name="provcom_GeneratePreview.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GeneratePreview.vi"/>
+			<Item Name="AB_Build_Invoke_Preview.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Build_Invoke_Preview.vi"/>
+			<Item Name="provcom_IsPathLLB.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_IsPathLLB.vi"/>
+			<Item Name="CDK_Utility_IsDepPreviewItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_IsDepPreviewItem.vi"/>
+			<Item Name="SRdB_Bld_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdb_Bld/SRdB_Bld_Write.vi"/>
+			<Item Name="CDK_Tree_GetSymbolIndex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Tree_GetSymbolIndex.vi"/>
+			<Item Name="CDK_Tree_SymbolCache.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Tree_SymbolCache.vi"/>
+			<Item Name="CDK_Tree_IsSymbolCached.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Tree_IsSymbolCached.vi"/>
+			<Item Name="CDK_Tree_LoadDefaultSymbols.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Tree_LoadDefaultSymbols.vi"/>
+			<Item Name="CDK_Utility_FindCommonPaths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_FindCommonPaths.vi"/>
+			<Item Name="CDK_Utility_Prune_LLB_Members.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Prune_LLB_Members.vi"/>
+			<Item Name="IB_sTypeDef_BuildTypes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/controls/IB_sTypeDef_BuildTypes.ctl"/>
+			<Item Name="CDK_Utility_GetFileExtension.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetFileExtension.vi"/>
+			<Item Name="CDK_Editor_GetLVRTEProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Editor_GetLVRTEProperty.vi"/>
+			<Item Name="CDK_Utility_GetAppBitness.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetAppBitness.vi"/>
+			<Item Name="CDK_sTypeDef_AppBitness.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_AppBitness.ctl"/>
+			<Item Name="IB_UI_Page_Drivers_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Drivers_References.ctl"/>
+			<Item Name="CDK_Utility_Convert_String_Address.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_Convert_String_Address.vi"/>
+			<Item Name="CDK_Editor_GetInstallProperties.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Editor_GetInstallProperties.vi"/>
+			<Item Name="CDK_Utility_GetUniqueBuildName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetUniqueBuildName.vi"/>
+			<Item Name="CDK_Utility_GetUniqueLabel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetUniqueLabel.vi"/>
+			<Item Name="CDK_Utility_GetLVLanguage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetLVLanguage.vi"/>
+			<Item Name="CDK_sTypeDef_StorageReadWrite.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_StorageReadWrite.ctl"/>
+			<Item Name="CDK_Mutate_GetVersion.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Mutate_GetVersion.vi"/>
+			<Item Name="CDK_Mutate_GetBitness.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Mutate_GetBitness.vi"/>
+			<Item Name="CDK_Utility_SortDestinations.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_SortDestinations.vi"/>
+			<Item Name="IB_UI_Page_Info_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Info_References.ctl"/>
+			<Item Name="IB_UI_Page_Hardware_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Hardware_References.ctl"/>
+			<Item Name="IB_UI_Page_Version_Info_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Version_Info_References.ctl"/>
+			<Item Name="IB_UI_Page_Dialog_Info_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Dialog_Info_References.ctl"/>
+			<Item Name="provcom_BrowseProjectFile2.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_BrowseProjectFile2.ctl"/>
+			<Item Name="IB_UI_Page_Advanced_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Advanced_References.ctl"/>
+			<Item Name="CDK_sTypeDef_SystemRequirements.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_SystemRequirements.ctl"/>
+			<Item Name="IB_UI_Page_Registry_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Registry_References.ctl"/>
+			<Item Name="CDK_sTypeDef_NewFolder.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_NewFolder.ctl"/>
+			<Item Name="CDK_sTypeDef_Remove.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_Remove.ctl"/>
+			<Item Name="CDK_sTypeDef_Add.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_Add.ctl"/>
+			<Item Name="IB_UI_Page_Advanced_Set_Uninstall_EXE.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/IB_UI_Page_Advanced_Set_Uninstall_EXE.vi"/>
+			<Item Name="IB_UI_Page_Advanced_Set_EXE.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/IB_UI_Page_Advanced_Set_EXE.vi"/>
+			<Item Name="IB_UI_Page_Shortcut_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_Shortcut_References.ctl"/>
+			<Item Name="IB_SRdB_Read.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Read.vi"/>
+			<Item Name="IB_SRdB_Action.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Action.ctl"/>
+			<Item Name="IB_SRdB.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB.vi"/>
+			<Item Name="CDK_Tree_GetBuildSymbolIndex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Tree_GetBuildSymbolIndex.vi"/>
+			<Item Name="CDK_Utility_GetSupportedBuildTypes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetSupportedBuildTypes.vi"/>
+			<Item Name="IB_sTypeDef_BuildTypeGUIDs.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/controls/IB_sTypeDef_BuildTypeGUIDs.ctl"/>
+			<Item Name="IB_UI_Page_SrcSettings_References.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/Pages/controls/IB_UI_Page_SrcSettings_References.ctl"/>
+			<Item Name="CDK_sTypeDef_FILEATTRIBUTES.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_sTypeDef_FILEATTRIBUTES.ctl"/>
+			<Item Name="CDK_Utility_GetSetFileAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/CDK_Utility_GetSetFileAttributes.vi"/>
+			<Item Name="IB_SRdB_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Write.vi"/>
+			<Item Name="IB_SRdB_Unlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Unlock.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Read Section Cluster__ogtk.vi"/>
-			<Item Name="Write Section Cluster__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Section Cluster__ogtk (class as special case).vi"/>
-			<Item Name="File Info__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/File Info__ogtk.vi"/>
-			<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Temporary Directory__ogtk.vi"/>
-			<Item Name="Slice String 1__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Slice String 1__ogtk.vi"/>
-			<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Empty 2D Array (String)__ogtk.vi"/>
-			<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Strip Path Extension - Path__ogtk.vi"/>
-			<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/File Exists - Scalar__ogtk.vi"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Application Directory__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Application Directory__ogtk.vi"/>
-			<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
-			<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-			<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Default Data from TD__ogtk.vi"/>
-			<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Read Key (Variant)__ogtk.vi"/>
-			<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Encode Section and Key Names__ogtk.vi"/>
-			<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Set Enum String Value__ogtk.vi"/>
-			<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Strings from Enum__ogtk.vi"/>
-			<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Strings from Enum TD__ogtk.vi"/>
-			<Item Name="Strip Units__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Strip Units__ogtk.vi"/>
-			<Item Name="Write Key (Variant)__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Key (Variant)__ogtk (class as special case).vi"/>
-			<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Format Variant Into String__ogtk.vi"/>
-			<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Resolve Timestamp Format__ogtk.vi"/>
-			<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Format Numeric Array__ogtk.vi"/>
-			<Item Name="LVOOP Return Class Name__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LVOOP Return Class Name__ogtk.vi"/>
-			<Item Name="LVOOP Get Default Object__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LVOOP Get Default Object__ogtk.vi"/>
-			<Item Name="File Info Record__ogtk.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/File Info Record__ogtk.ctl"/>
-			<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Strip Path Extension - String__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TC Application" Type="EXE">
@@ -941,43 +1590,43 @@
 				<Property Name="Destination[4].destName" Type="Str">VI</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/Application/VI</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/src/TC/1. Sources/TC.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{DD71BA29-4DAE-4B4B-806E-8B912FE49A24}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/TC/1. Sources/TC.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/src/shared</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/shared</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/src/TC/1. Sources/Lib</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/src/TC/1. Sources/Data</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/src/TC/1. Sources/Calibrations</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/src/TC/1. Sources/OnTempStabilized Ext VI.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
