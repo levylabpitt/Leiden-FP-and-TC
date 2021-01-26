@@ -16,8 +16,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
-			<Item Name="FP Post Build.vi" Type="VI" URL="../../build support/FP Post Build.vi"/>
-			<Item Name="TC Post Build.vi" Type="VI" URL="../../build support/TC Post Build.vi"/>
+			<Item Name="FP Build.vi" Type="VI" URL="../../build support/FP Build.vi"/>
 		</Item>
 		<Item Name="shared" Type="Folder">
 			<Item Name="FP to PGSQL" Type="Folder">
@@ -1404,10 +1403,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17B63870-595A-47C5-99D0-CDE5513E2F9A}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">50</Property>
-				<Property Name="Bld_version.patch" Type="Int">11</Property>
+				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">FrontPanel.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/FrontPanel Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1415,26 +1414,31 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{FBDD69BC-556B-4146-874F-F05A2073CE6E}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/FP.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{848AD7EA-7DEC-4CBF-9427-5C4D34A93C1B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/shared</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/1. Sources/FrontPanel.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/shared</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/1. Sources/Lib</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/1. Sources/DR FrontPanel.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FrontPanel Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">FrontPanel Application</Property>
@@ -1448,7 +1452,7 @@
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{72ECE862-B528-4741-831A-AA7F999A8CCA}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">FrontPanel</Property>
+				<Property Name="Destination[1].name" Type="Str">FP</Property>
 				<Property Name="Destination[1].parent" Type="Str">{72ECE862-B528-4741-831A-AA7F999A8CCA}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
@@ -1511,7 +1515,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">FrontPanel Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="INST_productName" Type="Str">FrontPanel</Property>
-				<Property Name="INST_productVersion" Type="Str">4.50.11</Property>
+				<Property Name="INST_productVersion" Type="Str">4.50.12</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
@@ -1527,7 +1531,7 @@
 				<Property Name="Source[0].File[0].dest" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">FrontPanel.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">FrontPanel</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">DR FrontPanel</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{E83A550C-BFD3-4B9C-BE18-9D2EBAB68107}</Property>
