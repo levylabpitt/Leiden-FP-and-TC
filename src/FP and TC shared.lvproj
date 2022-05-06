@@ -14,38 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="shared" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="FP to PGSQL" Type="Folder">
-				<Item Name="overrides" Type="Folder">
-					<Item Name="CF_FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/overrides/CF_FP to PGSQL.vi"/>
-					<Item Name="MNK_FP to PGSQL.vi" Type="VI" URL="../shared/FP to PGSQL/overrides/MNK_FP to PGSQL.vi"/>
-				</Item>
-				<Item Name="subVIs" Type="Folder">
-					<Item Name="FPParseLeidenComputerNames.vi" Type="VI" URL="../shared/FP to PGSQL/subVIs/FPParseLeidenComputerNames.vi"/>
-				</Item>
-				<Item Name="Typedefs" Type="Folder">
-					<Item Name="FP-cluster.ctl" Type="VI" URL="../shared/FP to PGSQL/Typedefs/FP-cluster.ctl"/>
-					<Item Name="FPType-enum.ctl" Type="VI" URL="../shared/FP to PGSQL/Typedefs/FPType-enum.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="TC to PGSQL" Type="Folder">
-				<Item Name="overrides" Type="Folder">
-					<Item Name="CF_TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/CF_TC to PGSQL.vi"/>
-					<Item Name="CF_Z_Bridge to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/CF_Z_Bridge to PGSQL.vi"/>
-					<Item Name="MNK_TC to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/MNK_TC to PGSQL.vi"/>
-					<Item Name="MNK_Z_Bridge to PGSQL.vi" Type="VI" URL="../shared/TC to PGSQL/overrides/MNK_Z_Bridge to PGSQL.vi"/>
-				</Item>
-				<Item Name="private" Type="Folder">
-					<Item Name="CMN Cal.vi" Type="VI" URL="../shared/TC to PGSQL/private/CMN Cal.vi"/>
-					<Item Name="TC Parse Computer Name.vi" Type="VI" URL="../shared/TC to PGSQL/private/TC Parse Computer Name.vi"/>
-				</Item>
-				<Item Name="Typedefs" Type="Folder">
-					<Item Name="AVSType-enum.ctl" Type="VI" URL="../shared/TC to PGSQL/Typedefs/AVSType-enum.ctl"/>
-					<Item Name="TC-cluster.ctl" Type="VI" URL="../shared/TC to PGSQL/Typedefs/TC-cluster.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="Computer Info.vi" Type="VI" URL="../shared/Computer Info.vi"/>
-			<Item Name="GetLocalComputerName.vi" Type="VI" URL="../shared/GetLocalComputerName.vi"/>
-			<Item Name="Log to PGSQL subVI.vi" Type="VI" URL="../shared/Log to PGSQL subVI.vi"/>
 			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
 			<Item Name="FP-TC-Shared.lvclass" Type="LVClass" URL="../shared/FP-TC-Shared/FP-TC-Shared.lvclass"/>
 		</Item>
@@ -910,9 +878,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="System.Management" Type="Document" URL="System.Management">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
