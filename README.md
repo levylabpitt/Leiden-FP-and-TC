@@ -24,7 +24,7 @@ See documentation _here_ (TC.pdf?)
 ## Contributing
 
 - [TC Instructions](https://github.com/levylabpitt/Leiden-TC/blob/master/docs/CONTRIBUTING.md) (ca. 3/2021) 
-- [FP Instructions](https://github.com/levylabpitt/Leiden-TC/blob/master/docs/CONTRIBUTING.md) (ca. 3/2021)
+- [FP Instructions](https://github.com/levylabpitt/Leiden-FP/blob/master/docs/CONTRIBUTING.md) (ca. 3/2021)
 
 ## Authors
 - Sasha Usenko (sasha@leidencryogenics.com) is the author of the TC project
