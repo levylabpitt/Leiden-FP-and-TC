@@ -2,10 +2,10 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{27FD7FD6-5EC1-467B-A73C-BB6861085E10}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(In)</Property>
-	<Property Name="varPersistentID:{453C17D1-74DC-4C7B-B95D-9D092797AB85}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(Out)</Property>
-	<Property Name="varPersistentID:{8C0B1025-E93E-4C02-BB97-3F91DFD254B0}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Resistances</Property>
-	<Property Name="varPersistentID:{A43A9C01-027B-4CD3-9600-C7FBB74F08A4}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Temperatures</Property>
+	<Property Name="varPersistentID:{0BD59CD9-A655-45D4-8693-D55F68DB280C}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(Out)</Property>
+	<Property Name="varPersistentID:{4BC18FE3-8148-4C6F-8AB9-D5AEFD138AB9}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Resistances</Property>
+	<Property Name="varPersistentID:{7D2F98EE-42A1-4DFF-8736-5D757BCE3A43}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(In)</Property>
+	<Property Name="varPersistentID:{EBEF4ED3-6506-4BC9-87E4-9A5AE0C9E832}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Temperatures</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -26,9 +26,7 @@
 		</Item>
 		<Item Name="1. Sources" Type="Folder">
 			<Item Name="Calibrations" Type="Folder">
-				<Item Name="CMN-187.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/CMN-187.cal2"/>
 				<Item Name="Emulation R.cal" Type="Document" URL="../TC/1. Sources/Calibrations/Emulation R.cal"/>
-				<Item Name="magnet.vi" Type="VI" URL="../TC/1. Sources/Calibrations/magnet.vi"/>
 				<Item Name="No Calibration.vi" Type="VI" URL="../TC/1. Sources/Calibrations/No Calibration.vi"/>
 				<Item Name="PT 1000.cal" Type="Document" URL="../TC/1. Sources/Calibrations/PT 1000.cal"/>
 				<Item Name="PT100.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT100.vi"/>
@@ -37,10 +35,10 @@
 				<Item Name="RuO2 1k5.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 1k5.vi"/>
 				<Item Name="RuO2 2k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 2k.vi"/>
 				<Item Name="RuO2-10K-NEW.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K-NEW.cal"/>
-				<Item Name="RuO2-10K.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K.cal"/>
-				<Item Name="RuO2-1k5.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-1k5.cal"/>
-				<Item Name="switch.vi" Type="VI" URL="../TC/1. Sources/Calibrations/switch.vi"/>
 				<Item Name="testCMN.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/testCMN.cal2"/>
+				<Item Name="CMN-187.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/CMN-187.cal2"/>
+				<Item Name="RuO2-1k5.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-1k5.cal"/>
+				<Item Name="RuO2-10K.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K.cal"/>
 				<Item Name="TT-1338.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1338.cal"/>
 				<Item Name="TT-1340.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1340.cal"/>
 				<Item Name="TT-1342.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1342.cal"/>
@@ -49,7 +47,9 @@
 				<Item Name="TT-1392.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1392.cal"/>
 			</Item>
 			<Item Name="Data" Type="Folder">
-				<Item Name="config.ini" Type="Document" URL="../TC/1. Sources/Data/config.ini"/>
+				<Item Name="ImpBridgeDll.dll" Type="Document" URL="../TC/1. Sources/Data/ImpBridgeDll.dll"/>
+				<Item Name="lvanlys.dll" Type="Document" URL="../TC/1. Sources/Data/lvanlys.dll"/>
+				<Item Name="SwitchV1.dll" Type="Document" URL="../TC/1. Sources/Data/SwitchV1.dll"/>
 				<Item Name="VI Server.ini" Type="Document" URL="../TC/1. Sources/Data/VI Server.ini"/>
 			</Item>
 			<Item Name="Lib" Type="Folder">
@@ -85,12 +85,12 @@
 					<Item Name="AVS_exc_n_ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_exc_n_ranges.ctl"/>
 					<Item Name="AVS_excitation.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_excitation.ctl"/>
 					<Item Name="AVS_read_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_read_all.vi"/>
-					<Item Name="Build ranges list.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Build ranges list.vi"/>
 					<Item Name="Byte Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Byte Params.ctl"/>
 					<Item Name="QCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/QCS.lvclass"/>
 					<Item Name="Calibrations.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Calibrations.ctl"/>
 					<Item Name="CallExtVI.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CallExtVI.vi"/>
 					<Item Name="Ch descriptions.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Ch descriptions.ctl"/>
+					<Item Name="Channel Data - Build Ranges List.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Channel Data - Build Ranges List.vi"/>
 					<Item Name="Open Registry Key.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/Open Registry Key.lvlib"/>
 					<Item Name="Combine Excitation&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Combine Excitation&amp;Range.vi"/>
 					<Item Name="Configure Hardware.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Hardware.vi"/>
@@ -127,6 +127,8 @@
 					<Item Name="Edit Calibration Coefficients.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Edit Calibration Coefficients.vi"/>
 					<Item Name="Enum Variables.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Enum Variables.vi"/>
 					<Item Name="Exc_n_Ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Exc_n_Ranges.ctl"/>
+					<Item Name="FileDialog2.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/FileDialog2.vi"/>
+					<Item Name="FileDialog4.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/FileDialog4.vi"/>
 					<Item Name="Find Calibration Files by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Find Calibration Files by Name.vi"/>
 					<Item Name="First Call Resetable.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/First Call Resetable.vi"/>
 					<Item Name="Format log file header Z.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Format log file header Z.vi"/>
@@ -243,9 +245,11 @@
 			<Item Name="TC.ico" Type="Document" URL="../TC/1. Sources/TC.ico"/>
 			<Item Name="TC.vi" Type="VI" URL="../TC/1. Sources/TC.vi"/>
 		</Item>
+		<Item Name="backup" Type="Folder">
+			<Item Name="TC-4.59.22-backup.vi" Type="VI" URL="../TC/backup/TC-4.59.22-backup.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
@@ -367,17 +371,10 @@
 				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
-				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
-				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
-				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
 				<Item Name="PostBuildSupport.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Build Support/PostBuildSupport/PostBuildSupport.lvclass"/>
 				<Item Name="MGI Create Directory Chain Behavior Enum.ctl" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain Behavior Enum.ctl"/>
 				<Item Name="MGI Create Directory Chain.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/File/MGI Create Directory Chain.vi"/>
 				<Item Name="MGI Milliseconds Since Last Reset.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Timing/MGI Milliseconds Since Last Reset.vi"/>
-				<Item Name="Application Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Application Directory__ogtk.vi"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="MGI Threshold 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Threshold 1D Array Extended.vi"/>
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -389,36 +386,19 @@
 				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
 				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
-				<Item Name="LVOOP Get Default Object__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/LVOOP Get Default Object__ogtk.vi"/>
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
-				<Item Name="Index 1D Array Elements (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (DBL)__ogtk.vi"/>
 				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
 				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
-				<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element Default Data__ogtk.vi"/>
 				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
 				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
 				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
 				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
 				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="LVOOP Return Class Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/LVOOP Return Class Name__ogtk.vi"/>
-				<Item Name="File Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info__ogtk.vi"/>
-				<Item Name="Slice String 1__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Slice String 1__ogtk.vi"/>
-				<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (String)__ogtk.vi"/>
-				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
 				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
-				<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Directory__ogtk.vi"/>
-				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
-				<Item Name="MGI Clear Error.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Clear Error.vi"/>
-				<Item Name="MGI Make String Filesafe.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Make String Filesafe.vi"/>
-				<Item Name="MGI Change Detector (T).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Change Detector/MGI Change Detector (T).vi"/>
-				<Item Name="MGI Get Text Rect with Pad.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Picture &amp; Image/MGI Get Text Rect with Pad.vi"/>
-				<Item Name="MGI Average (DBL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average/MGI Average (DBL[]).vi"/>
-				<Item Name="MGI Insert Reserved Error.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Insert Reserved Error.vi"/>
 				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/SMOs/Configuration/Configuration.lvclass"/>
 				<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
@@ -606,6 +586,31 @@
 				<Item Name="Delete Elements from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Delete Elements from 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (LVObject)__ogtk.vi"/>
 				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
+				<Item Name="Application Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Application Directory__ogtk.vi"/>
+				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
+				<Item Name="File Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Info__ogtk.vi"/>
+				<Item Name="Slice String 1__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Slice String 1__ogtk.vi"/>
+				<Item Name="Empty 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (String)__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
+				<Item Name="Temporary Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Temporary Directory__ogtk.vi"/>
+				<Item Name="MGI Clear Error.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Clear Error.vi"/>
+				<Item Name="MGI Make String Filesafe.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/String/MGI Make String Filesafe.vi"/>
+				<Item Name="MGI Change Detector (T).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Change Detector/MGI Change Detector (T).vi"/>
+				<Item Name="LVOOP Get Default Object__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/LVOOP Get Default Object__ogtk.vi"/>
+				<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element Default Data__ogtk.vi"/>
+				<Item Name="LVOOP Return Class Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/LVOOP Return Class Name__ogtk.vi"/>
+				<Item Name="MGI Get Text Rect with Pad.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Picture &amp; Image/MGI Get Text Rect with Pad.vi"/>
+				<Item Name="Index 1D Array Elements (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (DBL)__ogtk.vi"/>
+				<Item Name="MGI Insert Reserved Error.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Insert Reserved Error.vi"/>
+				<Item Name="MGI Average (DBL[]).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Average/MGI Average (DBL[]).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1883,6 +1888,10 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Build ranges list.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Build ranges list.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TC Application" Type="EXE">
@@ -1899,10 +1908,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6A2C695-7CBA-4576-99B6-D9E6B8888B88}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
-				<Property Name="Bld_version.minor" Type="Int">59</Property>
-				<Property Name="Bld_version.patch" Type="Int">23</Property>
+				<Property Name="Bld_version.minor" Type="Int">61</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1918,11 +1927,10 @@
 				<Property Name="Destination[4].destName" Type="Str">VI</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/Application/VI</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/TC.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C8596C65-7A03-4E65-8BC5-90F0936DC033}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B70F70CC-A8EC-4E02-843D-D6C034B70E62}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -1934,28 +1942,19 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/1. Sources/TC.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/1. Sources/Data</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/1. Sources/Lib</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/1. Sources/Calibrations</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/1. Sources/Data</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/1. Sources/OnTempStabilized Ext VI.vi</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/1. Sources/Lib</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TC Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">TC Application</Property>
@@ -2024,7 +2023,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.59.23</Property>
+				<Property Name="INST_productVersion" Type="Str">4.61.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
@@ -2050,91 +2049,91 @@
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[1].name" Type="Str">CMN-187.cal2</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/1. Sources/Calibrations/CMN-187.cal2</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[10].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[10].name" Type="Str">RuO2 2k.vi</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 2k.vi</Property>
+				<Property Name="Source[10].tag" Type="Ref"></Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
 				<Property Name="Source[11].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[11].name" Type="Str">RuO2-10K-NEW.cal</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-10K-NEW.cal</Property>
+				<Property Name="Source[11].tag" Type="Ref"></Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
 				<Property Name="Source[12].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[12].name" Type="Str">RuO2-10K.cal</Property>
-				<Property Name="Source[12].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-10K.cal</Property>
+				<Property Name="Source[12].tag" Type="Ref"></Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
 				<Property Name="Source[13].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[13].name" Type="Str">RuO2-1k5.cal</Property>
-				<Property Name="Source[13].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-1k5.cal</Property>
+				<Property Name="Source[13].tag" Type="Ref"></Property>
 				<Property Name="Source[13].type" Type="Str">File</Property>
 				<Property Name="Source[14].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[14].name" Type="Str">switch.vi</Property>
-				<Property Name="Source[14].tag" Type="Ref">/My Computer/1. Sources/Calibrations/switch.vi</Property>
+				<Property Name="Source[14].tag" Type="Ref"></Property>
 				<Property Name="Source[14].type" Type="Str">File</Property>
 				<Property Name="Source[15].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[15].name" Type="Str">testCMN.cal2</Property>
-				<Property Name="Source[15].tag" Type="Ref">/My Computer/1. Sources/Calibrations/testCMN.cal2</Property>
+				<Property Name="Source[15].tag" Type="Ref"></Property>
 				<Property Name="Source[15].type" Type="Str">File</Property>
 				<Property Name="Source[16].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[16].name" Type="Str">TT-1338.cal</Property>
-				<Property Name="Source[16].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1338.cal</Property>
+				<Property Name="Source[16].tag" Type="Ref"></Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
 				<Property Name="Source[17].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[17].name" Type="Str">TT-1340.cal</Property>
-				<Property Name="Source[17].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1340.cal</Property>
+				<Property Name="Source[17].tag" Type="Ref"></Property>
 				<Property Name="Source[17].type" Type="Str">File</Property>
 				<Property Name="Source[18].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[18].name" Type="Str">TT-1342.cal</Property>
-				<Property Name="Source[18].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1342.cal</Property>
+				<Property Name="Source[18].tag" Type="Ref"></Property>
 				<Property Name="Source[18].type" Type="Str">File</Property>
 				<Property Name="Source[19].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[19].name" Type="Str">TT-1346.cal</Property>
-				<Property Name="Source[19].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1346.cal</Property>
+				<Property Name="Source[19].tag" Type="Ref"></Property>
 				<Property Name="Source[19].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[2].name" Type="Str">Emulation R.cal</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/1. Sources/Calibrations/Emulation R.cal</Property>
+				<Property Name="Source[2].tag" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[20].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[20].name" Type="Str">TT-1349.cal</Property>
-				<Property Name="Source[20].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1349.cal</Property>
+				<Property Name="Source[20].tag" Type="Ref"></Property>
 				<Property Name="Source[20].type" Type="Str">File</Property>
 				<Property Name="Source[21].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[21].name" Type="Str">TT-1392.cal</Property>
-				<Property Name="Source[21].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1392.cal</Property>
+				<Property Name="Source[21].tag" Type="Ref"></Property>
 				<Property Name="Source[21].type" Type="Str">File</Property>
 				<Property Name="Source[22].dest" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="Source[22].name" Type="Str">OnTempStabilized Ext VI.vi</Property>
-				<Property Name="Source[22].tag" Type="Ref">/My Computer/1. Sources/OnTempStabilized Ext VI.vi</Property>
+				<Property Name="Source[22].tag" Type="Ref"></Property>
 				<Property Name="Source[22].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[3].name" Type="Str">magnet.vi</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/1. Sources/Calibrations/magnet.vi</Property>
+				<Property Name="Source[3].tag" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[4].name" Type="Str">No Calibration.vi</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/1. Sources/Calibrations/No Calibration.vi</Property>
+				<Property Name="Source[4].tag" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[5].name" Type="Str">PT 1000.cal</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT 1000.cal</Property>
+				<Property Name="Source[5].tag" Type="Ref"></Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[6].name" Type="Str">PT100.vi</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT100.vi</Property>
+				<Property Name="Source[6].tag" Type="Ref"></Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[7].name" Type="Str">PT1000.vi</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT1000.vi</Property>
+				<Property Name="Source[7].tag" Type="Ref"></Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[8].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[8].name" Type="Str">RuO2 10k.vi</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 10k.vi</Property>
+				<Property Name="Source[8].tag" Type="Ref"></Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[9].name" Type="Str">RuO2 1k5.vi</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 1k5.vi</Property>
+				<Property Name="Source[9].tag" Type="Ref"></Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">23</Property>
 			</Item>
