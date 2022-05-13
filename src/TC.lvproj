@@ -2,10 +2,6 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{27FD7FD6-5EC1-467B-A73C-BB6861085E10}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(In)</Property>
-	<Property Name="varPersistentID:{453C17D1-74DC-4C7B-B95D-9D092797AB85}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Currents(Out)</Property>
-	<Property Name="varPersistentID:{8C0B1025-E93E-4C02-BB97-3F91DFD254B0}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Resistances</Property>
-	<Property Name="varPersistentID:{A43A9C01-027B-4CD3-9600-C7FBB74F08A4}" Type="Ref">/My Computer/1. Sources/Lib/Lib/DR TempControl.lvlib/Temperatures</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -24,224 +20,9 @@
 			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
 			<Item Name="FP-TC-Shared.lvclass" Type="LVClass" URL="../shared/FP-TC-Shared/FP-TC-Shared.lvclass"/>
 		</Item>
-		<Item Name="1. Sources" Type="Folder">
-			<Item Name="Calibrations" Type="Folder">
-				<Item Name="CMN-187.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/CMN-187.cal2"/>
-				<Item Name="Emulation R.cal" Type="Document" URL="../TC/1. Sources/Calibrations/Emulation R.cal"/>
-				<Item Name="magnet.vi" Type="VI" URL="../TC/1. Sources/Calibrations/magnet.vi"/>
-				<Item Name="No Calibration.vi" Type="VI" URL="../TC/1. Sources/Calibrations/No Calibration.vi"/>
-				<Item Name="PT 1000.cal" Type="Document" URL="../TC/1. Sources/Calibrations/PT 1000.cal"/>
-				<Item Name="PT100.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT100.vi"/>
-				<Item Name="PT1000.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT1000.vi"/>
-				<Item Name="RuO2 10k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 10k.vi"/>
-				<Item Name="RuO2 1k5.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 1k5.vi"/>
-				<Item Name="RuO2 2k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 2k.vi"/>
-				<Item Name="RuO2-10K-NEW.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K-NEW.cal"/>
-				<Item Name="RuO2-10K.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K.cal"/>
-				<Item Name="RuO2-1k5.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-1k5.cal"/>
-				<Item Name="switch.vi" Type="VI" URL="../TC/1. Sources/Calibrations/switch.vi"/>
-				<Item Name="testCMN.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/testCMN.cal2"/>
-				<Item Name="TT-1338.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1338.cal"/>
-				<Item Name="TT-1340.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1340.cal"/>
-				<Item Name="TT-1342.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1342.cal"/>
-				<Item Name="TT-1346.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1346.cal"/>
-				<Item Name="TT-1349.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1349.cal"/>
-				<Item Name="TT-1392.cal" Type="Document" URL="../TC/1. Sources/Calibrations/TT-1392.cal"/>
-			</Item>
-			<Item Name="Data" Type="Folder">
-				<Item Name="config.ini" Type="Document" URL="../TC/1. Sources/Data/config.ini"/>
-				<Item Name="VI Server.ini" Type="Document" URL="../TC/1. Sources/Data/VI Server.ini"/>
-			</Item>
-			<Item Name="Lib" Type="Folder">
-				<Item Name="CS" Type="Folder"/>
-				<Item Name="CS Emulation" Type="Folder"/>
-				<Item Name="Lib" Type="Folder">
-					<Item Name="Action.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Action.ctl"/>
-					<Item Name="Append Points to Data Array - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - AVS.vi"/>
-					<Item Name="Append Points to Data Array - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - zBridge.vi"/>
-					<Item Name="Average.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Average.vi"/>
-					<Item Name="AVS Emulate.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS Emulate.vi"/>
-					<Item Name="AVS range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS range.ctl"/>
-					<Item Name="AVS47-IB Utility Clean Up Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47-IB Utility Clean Up Initialize.vi"/>
-					<Item Name="AVS47_range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47_range.ctl"/>
-					<Item Name="AVS47B.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47B.vi"/>
-					<Item Name="Avs47Cfg_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Avs47Cfg_b.vi"/>
-					<Item Name="AVS47IB Configure 47IB.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure 47IB.vi"/>
-					<Item Name="AVS47IB Configure Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Channel Parameters.vi"/>
-					<Item Name="AVS47IB Configure Scan Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Scan Parameters.vi"/>
-					<Item Name="AVS47IB Go Remote.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Go Remote.vi"/>
-					<Item Name="AVS47IB Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Initialize.vi"/>
-					<Item Name="AVS47IB Poll STB Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Poll STB Status.vi"/>
-					<Item Name="AVS47IB Read Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Channel Parameters.vi"/>
-					<Item Name="AVS47IB Read Scan Results with Wait.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Scan Results with Wait.vi"/>
-					<Item Name="AVS47IB Reset.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Reset.vi"/>
-					<Item Name="AVS47IB Start Single Scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Start Single Scan.vi"/>
-					<Item Name="AVS47IB Stop.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Stop.vi"/>
-					<Item Name="AVS47IB Utility Default Instrument Setup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Utility Default Instrument Setup.vi"/>
-					<Item Name="AVS47IB Wait for OPC-MAV-TMO.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Wait for OPC-MAV-TMO.vi"/>
-					<Item Name="AVS47IB_do_single_scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB_do_single_scan.vi"/>
-					<Item Name="AVS48 Template.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS48 Template.vi"/>
-					<Item Name="AVS_configure_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_configure_all.vi"/>
-					<Item Name="AVS_exc_n_ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_exc_n_ranges.ctl"/>
-					<Item Name="AVS_excitation.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_excitation.ctl"/>
-					<Item Name="AVS_read_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_read_all.vi"/>
-					<Item Name="Build ranges list.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Build ranges list.vi"/>
-					<Item Name="Byte Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Byte Params.ctl"/>
-					<Item Name="QCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/QCS.lvclass"/>
-					<Item Name="Calibrations.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Calibrations.ctl"/>
-					<Item Name="CallExtVI.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CallExtVI.vi"/>
-					<Item Name="Ch descriptions.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Ch descriptions.ctl"/>
-					<Item Name="Open Registry Key.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/Open Registry Key.lvlib"/>
-					<Item Name="Combine Excitation&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Combine Excitation&amp;Range.vi"/>
-					<Item Name="Configure Hardware.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Hardware.vi"/>
-					<Item Name="Configure Sensor Wiring of CHs.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Sensor Wiring of CHs.vi"/>
-					<Item Name="Control 4.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 4.ctl"/>
-					<Item Name="Control 6.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 6.ctl"/>
-					<Item Name="Control 8.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 8.ctl"/>
-					<Item Name="Convert R-T - CMN.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - CMN.vi"/>
-					<Item Name="Convert R-T - Resistance.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - Resistance.vi"/>
-					<Item Name="CS Data Converter.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data Converter.vi"/>
-					<Item Name="CS Data.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data.ctl"/>
-					<Item Name="CS Emulation.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS Emulation.lvclass"/>
-					<Item Name="CS mode.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS mode.ctl"/>
-					<Item Name="CS OnOff &amp; Gated and Current &amp; Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS OnOff &amp; Gated and Current &amp; Range.vi"/>
-					<Item Name="CS Select I Source.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Select I Source.vi"/>
-					<Item Name="CS Type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Type.ctl"/>
-					<Item Name="CS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS.lvclass"/>
-					<Item Name="CS_set_channels.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS_set_channels.vi"/>
-					<Item Name="Current Time(double).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Current Time(double).vi"/>
-					<Item Name="Currents-Temp list  - add new range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - add new range.vi"/>
-					<Item Name="Currents-Temp list  - range valid-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - range valid-.vi"/>
-					<Item Name="Currents-Temp list  - T in range-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - T in range-.vi"/>
-					<Item Name="Currents-Temp list - check ranges.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - check ranges.vi"/>
-					<Item Name="Currents-Temp list - delete range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - delete range.vi"/>
-					<Item Name="Currents-Temp list - insert range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - insert range.vi"/>
-					<Item Name="Cursor Controls.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Cursor Controls.ctl"/>
-					<Item Name="DataArray.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataArray.ctl"/>
-					<Item Name="DataReady.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataReady.vi"/>
-					<Item Name="decimate data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decimate data.vi"/>
-					<Item Name="decodeconfig_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodeconfig_b.vi"/>
-					<Item Name="decodereading_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodereading_b.vi"/>
-					<Item Name="Derivatives Pt by Pt.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Derivatives Pt by Pt.vi"/>
-					<Item Name="DR TempControl.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/DR TempControl.lvlib"/>
-					<Item Name="Edit Calibration Coefficients.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Edit Calibration Coefficients.vi"/>
-					<Item Name="Enum Variables.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Enum Variables.vi"/>
-					<Item Name="Exc_n_Ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Exc_n_Ranges.ctl"/>
-					<Item Name="Find Calibration Files by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Find Calibration Files by Name.vi"/>
-					<Item Name="First Call Resetable.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/First Call Resetable.vi"/>
-					<Item Name="Format log file header Z.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Format log file header Z.vi"/>
-					<Item Name="Generate config file path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate config file path.vi"/>
-					<Item Name="Generate New Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate New Name.vi"/>
-					<Item Name="GeneratePaths.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GeneratePaths.vi"/>
-					<Item Name="Get Calibration Files List No Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Calibration Files List No Ext.vi"/>
-					<Item Name="Get Clicked Array Index.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Clicked Array Index.vi"/>
-					<Item Name="GetAL_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetAL_b.vi"/>
-					<Item Name="GetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetByteParam.vi"/>
-					<Item Name="GetDI_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetDI_b.vi"/>
-					<Item Name="GetExtVIStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetExtVIStatus.vi"/>
-					<Item Name="MView.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/MView.lvlib"/>
-					<Item Name="GetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetRealParam.vi"/>
-					<Item Name="Graph popup - align legend.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup - align legend.vi"/>
-					<Item Name="Graph popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup.vi"/>
-					<Item Name="If First Iteration.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/If First Iteration.vi"/>
-					<Item Name="Improved Threshold Detector.71.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Improved Threshold Detector.71.vi"/>
-					<Item Name="InitPort_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/InitPort_b.vi"/>
-					<Item Name="intersection type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/intersection type.ctl"/>
-					<Item Name="IsDisabled.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/IsDisabled.vi"/>
-					<Item Name="LCR Channel parameters.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LCR Channel parameters.ctl"/>
-					<Item Name="Load Calibration Coefficients from file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Load Calibration Coefficients from file.vi"/>
-					<Item Name="LoadParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LoadParameters.vi"/>
-					<Item Name="LV Unicode to ASCII.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LV Unicode to ASCII.vi"/>
-					<Item Name="Manage Data Arrays - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - AVS.vi"/>
-					<Item Name="Manage Data Arrays - uPlots.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - uPlots.vi"/>
-					<Item Name="Manage Data Arrays - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - zBridge.vi"/>
-					<Item Name="Maximize-restore.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Maximize-restore.ctl"/>
-					<Item Name="MGI Decimate Array with Offset (DBL[]) with MinMax.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Decimate Array with Offset (DBL[]) with MinMax.vi"/>
-					<Item Name="OnTempStabilizedRef.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/OnTempStabilizedRef.vi"/>
-					<Item Name="ParamMenu.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ParamMenu.vi"/>
-					<Item Name="Parse USB Hardware ID .vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Parse USB Hardware ID .vi"/>
-					<Item Name="PbDelay_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbDelay_b.vi"/>
-					<Item Name="PbStrobe_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbStrobe_b.vi"/>
-					<Item Name="PCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/PCS.lvclass"/>
-					<Item Name="PID control incremental.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID control incremental.vi"/>
-					<Item Name="PID Settings.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID Settings.ctl"/>
-					<Item Name="Plot Channel.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Channel.ctl"/>
-					<Item Name="Plot Legend.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Legend.ctl"/>
-					<Item Name="Print Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Print Channel Parameters.vi"/>
-					<Item Name="QCS - Check Registry.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Check Registry.vi"/>
-					<Item Name="QCS - Locate Registry Patcher.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Locate Registry Patcher.vi"/>
-					<Item Name="QCS DBitIn.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DBitIn.VI"/>
-					<Item Name="QCS DCFGBIT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGBIT.VI"/>
-					<Item Name="QCS DCFGPORT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGPORT.VI"/>
-					<Item Name="QCS GetBoard.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS GetBoard.VI"/>
-					<Item Name="R.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/R.ctl"/>
-					<Item Name="Read Data from Single Channel.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Read Data from Single Channel.vi"/>
-					<Item Name="Real Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Real Params.ctl"/>
-					<Item Name="ReloadCalibrations.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ReloadCalibrations.vi"/>
-					<Item Name="Reset First Call.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Reset First Call.vi"/>
-					<Item Name="Resistance to Temp no Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Resistance to Temp no Ext.vi"/>
-					<Item Name="RS232 Port N to VISA.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RS232 Port N to VISA.vi"/>
-					<Item Name="Run Reference DLG.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Run Reference DLG.vi"/>
-					<Item Name="RWpbData_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RWpbData_b.vi"/>
-					<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
-					<Item Name="Scan Parameters Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scan Parameters Window.vi"/>
-					<Item Name="Scanner.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scanner.vi"/>
-					<Item Name="ScanParameters FGV.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanParameters FGV.vi"/>
-					<Item Name="ScanStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanStatus.vi"/>
-					<Item Name="Select Data Array.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Select Data Array.vi"/>
-					<Item Name="SelectSensor-txt no ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SelectSensor-txt no ext.vi"/>
-					<Item Name="SendPbAddr_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SendPbAddr_b.vi"/>
-					<Item Name="SetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetByteParam.vi"/>
-					<Item Name="SetCP_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetCP_b.vi"/>
-					<Item Name="SetDC_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDC_b.vi"/>
-					<Item Name="SetDevice.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDevice.vi"/>
-					<Item Name="SetParFilePath.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetParFilePath.vi"/>
-					<Item Name="SetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetRealParam.vi"/>
-					<Item Name="Show Info Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Show Info Window.vi"/>
-					<Item Name="Split Exc&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Split Exc&amp;Range.vi"/>
-					<Item Name="stabil.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/stabil.vi"/>
-					<Item Name="StartScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StartScan.vi"/>
-					<Item Name="StopScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StopScan.vi"/>
-					<Item Name="T.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/T.ctl"/>
-					<Item Name="TCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/TCS.lvclass"/>
-					<Item Name="TCS indicator.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS indicator.ctl"/>
-					<Item Name="TCS manual control.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS manual control.ctl"/>
-					<Item Name="TCS2CS Data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS2CS Data.vi"/>
-					<Item Name="Template.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Template.ctl"/>
-					<Item Name="Text Popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Text Popup.vi"/>
-					<Item Name="Time Elapsed dbl.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed dbl.vi"/>
-					<Item Name="Time Elapsed time.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed time.vi"/>
-					<Item Name="Time Units.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Units.ctl"/>
-					<Item Name="tool_Unicode_Convert Unicode to ASCII (Scalar).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/tool_Unicode_Convert Unicode to ASCII (Scalar).vi"/>
-					<Item Name="TransferData.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferData.vi"/>
-					<Item Name="TransferParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferParameters.vi"/>
-					<Item Name="U16 Array to LV Unicode  String.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/U16 Array to LV Unicode  String.vi"/>
-					<Item Name="Unit.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Unit.ctl"/>
-					<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
-					<Item Name="Write Key (Variant)__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Key (Variant)__ogtk (class as special case).vi"/>
-					<Item Name="Write Section Cluster__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Section Cluster__ogtk (class as special case).vi"/>
-					<Item Name="Write to cal log file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write to cal log file.vi"/>
-					<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
-					<Item Name="zBridge Format Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridge Format Status.vi"/>
-					<Item Name="zBridgeSettings_1page.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridgeSettings_1page.vi"/>
-				</Item>
-				<Item Name="MView" Type="Folder"/>
-				<Item Name="PCS" Type="Folder"/>
-				<Item Name="QCS" Type="Folder"/>
-				<Item Name="support" Type="Folder">
-					<Item Name="Class ID ENUM.ctl" Type="VI" URL="../TC/1. Sources/Lib/support/Class ID ENUM.ctl"/>
-				</Item>
-				<Item Name="support0" Type="Folder">
-					<Item Name="Find FPO by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/support0/Find FPO by Name.vi"/>
-				</Item>
-				<Item Name="support1" Type="Folder">
-					<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../TC/1. Sources/Lib/support1/Create Custom Error Handler.vi"/>
-				</Item>
-				<Item Name="TCS" Type="Folder"/>
-			</Item>
-			<Item Name="OnTempStabilized Ext VI.vi" Type="VI" URL="../TC/1. Sources/OnTempStabilized Ext VI.vi"/>
-			<Item Name="TC.ico" Type="Document" URL="../TC/1. Sources/TC.ico"/>
-			<Item Name="TC.vi" Type="VI" URL="../TC/1. Sources/TC.vi"/>
+		<Item Name="1. Sources" Type="Folder"/>
+		<Item Name="backup" Type="Folder">
+			<Item Name="TC-4.59.22-backup.vi" Type="VI" URL="../TC/backup/TC-4.59.22-backup.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -1883,6 +1664,176 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="CS mode.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS mode.ctl"/>
+			<Item Name="R.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/R.ctl"/>
+			<Item Name="T.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/T.ctl"/>
+			<Item Name="Calibrations.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Calibrations.ctl"/>
+			<Item Name="CS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS.lvclass"/>
+			<Item Name="CS Data.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data.ctl"/>
+			<Item Name="CS Type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Type.ctl"/>
+			<Item Name="PID Settings.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID Settings.ctl"/>
+			<Item Name="AVS_exc_n_ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_exc_n_ranges.ctl"/>
+			<Item Name="AVS_excitation.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_excitation.ctl"/>
+			<Item Name="AVS47_range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47_range.ctl"/>
+			<Item Name="Ch descriptions.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Ch descriptions.ctl"/>
+			<Item Name="Cursor Controls.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Cursor Controls.ctl"/>
+			<Item Name="DataArray.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataArray.ctl"/>
+			<Item Name="Unit.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Unit.ctl"/>
+			<Item Name="Control 6.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 6.ctl"/>
+			<Item Name="Control 4.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 4.ctl"/>
+			<Item Name="Control 8.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Control 8.ctl"/>
+			<Item Name="MView.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/MView.lvlib"/>
+			<Item Name="Class ID ENUM.ctl" Type="VI" URL="../TC/1. Sources/Lib/support/Class ID ENUM.ctl"/>
+			<Item Name="Find FPO by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/support0/Find FPO by Name.vi"/>
+			<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../TC/1. Sources/Lib/support1/Create Custom Error Handler.vi"/>
+			<Item Name="Action.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Action.ctl"/>
+			<Item Name="TCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/TCS.lvclass"/>
+			<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
+			<Item Name="TCS2CS Data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS2CS Data.vi"/>
+			<Item Name="RS232 Port N to VISA.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RS232 Port N to VISA.vi"/>
+			<Item Name="QCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/QCS.lvclass"/>
+			<Item Name="QCS DCFGPORT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGPORT.VI"/>
+			<Item Name="QCS GetBoard.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS GetBoard.VI"/>
+			<Item Name="QCS DCFGBIT.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DCFGBIT.VI"/>
+			<Item Name="QCS DBitIn.VI" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS DBitIn.VI"/>
+			<Item Name="CS Emulation.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/CS Emulation.lvclass"/>
+			<Item Name="PCS.lvclass" Type="LVClass" URL="../TC/1. Sources/Lib/Lib.llb/PCS.lvclass"/>
+			<Item Name="Byte Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Byte Params.ctl"/>
+			<Item Name="QCS - Check Registry.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Check Registry.vi"/>
+			<Item Name="Open Registry Key.lvlib" Type="Library" URL="../TC/1. Sources/Lib/Lib.llb/Open Registry Key.lvlib"/>
+			<Item Name="Parse USB Hardware ID .vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Parse USB Hardware ID .vi"/>
+			<Item Name="QCS - Locate Registry Patcher.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/QCS - Locate Registry Patcher.vi"/>
+			<Item Name="CS Data Converter.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Data Converter.vi"/>
+			<Item Name="TCS indicator.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS indicator.ctl"/>
+			<Item Name="CS OnOff &amp; Gated and Current &amp; Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS OnOff &amp; Gated and Current &amp; Range.vi"/>
+			<Item Name="TCS manual control.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TCS manual control.ctl"/>
+			<Item Name="CS_set_channels.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS_set_channels.vi"/>
+			<Item Name="CS Select I Source.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CS Select I Source.vi"/>
+			<Item Name="Split Exc&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Split Exc&amp;Range.vi"/>
+			<Item Name="Exc_n_Ranges.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Exc_n_Ranges.ctl"/>
+			<Item Name="If First Iteration.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/If First Iteration.vi"/>
+			<Item Name="AVS47IB_do_single_scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB_do_single_scan.vi"/>
+			<Item Name="AVS_configure_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_configure_all.vi"/>
+			<Item Name="AVS47IB Configure Scan Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Scan Parameters.vi"/>
+			<Item Name="AVS47IB Poll STB Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Poll STB Status.vi"/>
+			<Item Name="AVS47IB Configure Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure Channel Parameters.vi"/>
+			<Item Name="AVS47IB Start Single Scan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Start Single Scan.vi"/>
+			<Item Name="AVS_read_all.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS_read_all.vi"/>
+			<Item Name="AVS47IB Read Scan Results with Wait.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Scan Results with Wait.vi"/>
+			<Item Name="AVS47IB Wait for OPC-MAV-TMO.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Wait for OPC-MAV-TMO.vi"/>
+			<Item Name="AVS47IB Read Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Read Channel Parameters.vi"/>
+			<Item Name="Scanner.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scanner.vi"/>
+			<Item Name="InitPort_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/InitPort_b.vi"/>
+			<Item Name="stabil.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/stabil.vi"/>
+			<Item Name="SendPbAddr_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SendPbAddr_b.vi"/>
+			<Item Name="SetCP_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetCP_b.vi"/>
+			<Item Name="SetDC_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDC_b.vi"/>
+			<Item Name="PbDelay_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbDelay_b.vi"/>
+			<Item Name="PbStrobe_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PbStrobe_b.vi"/>
+			<Item Name="Avs47Cfg_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Avs47Cfg_b.vi"/>
+			<Item Name="RWpbData_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/RWpbData_b.vi"/>
+			<Item Name="GetDI_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetDI_b.vi"/>
+			<Item Name="Average.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Average.vi"/>
+			<Item Name="AVS47B.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47B.vi"/>
+			<Item Name="GetAL_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetAL_b.vi"/>
+			<Item Name="decodeconfig_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodeconfig_b.vi"/>
+			<Item Name="decodereading_b.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decodereading_b.vi"/>
+			<Item Name="AVS Emulate.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS Emulate.vi"/>
+			<Item Name="Read Data from Single Channel.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Read Data from Single Channel.vi"/>
+			<Item Name="LCR Channel parameters.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LCR Channel parameters.ctl"/>
+			<Item Name="DataReady.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/DataReady.vi"/>
+			<Item Name="TransferParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferParameters.vi"/>
+			<Item Name="Print Channel Parameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Print Channel Parameters.vi"/>
+			<Item Name="TransferData.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/TransferData.vi"/>
+			<Item Name="U16 Array to LV Unicode  String.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/U16 Array to LV Unicode  String.vi"/>
+			<Item Name="tool_Unicode_Convert Unicode to ASCII (Scalar).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/tool_Unicode_Convert Unicode to ASCII (Scalar).vi"/>
+			<Item Name="ScanParameters FGV.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanParameters FGV.vi"/>
+			<Item Name="ScanStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ScanStatus.vi"/>
+			<Item Name="LV Unicode to ASCII.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LV Unicode to ASCII.vi"/>
+			<Item Name="zBridge Format Status.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridge Format Status.vi"/>
+			<Item Name="First Call Resetable.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/First Call Resetable.vi"/>
+			<Item Name="GetExtVIStatus.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetExtVIStatus.vi"/>
+			<Item Name="Current Time(double).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Current Time(double).vi"/>
+			<Item Name="Select Data Array.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Select Data Array.vi"/>
+			<Item Name="Manage Data Arrays - uPlots.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - uPlots.vi"/>
+			<Item Name="Improved Threshold Detector.71.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Improved Threshold Detector.71.vi"/>
+			<Item Name="StopScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StopScan.vi"/>
+			<Item Name="SetParFilePath.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetParFilePath.vi"/>
+			<Item Name="StartScan.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/StartScan.vi"/>
+			<Item Name="IsDisabled.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/IsDisabled.vi"/>
+			<Item Name="Generate config file path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate config file path.vi"/>
+			<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
+			<Item Name="Write Section Cluster__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Section Cluster__ogtk (class as special case).vi"/>
+			<Item Name="Write Key (Variant)__ogtk (class as special case).vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write Key (Variant)__ogtk (class as special case).vi"/>
+			<Item Name="ReloadCalibrations.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ReloadCalibrations.vi"/>
+			<Item Name="Get Calibration Files List No Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Calibration Files List No Ext.vi"/>
+			<Item Name="Currents-Temp list - check ranges.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - check ranges.vi"/>
+			<Item Name="Run Reference DLG.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Run Reference DLG.vi"/>
+			<Item Name="OnTempStabilizedRef.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/OnTempStabilizedRef.vi"/>
+			<Item Name="AVS47IB Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Initialize.vi"/>
+			<Item Name="AVS47IB Utility Default Instrument Setup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Utility Default Instrument Setup.vi"/>
+			<Item Name="AVS47IB Reset.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Reset.vi"/>
+			<Item Name="AVS47-IB Utility Clean Up Initialize.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47-IB Utility Clean Up Initialize.vi"/>
+			<Item Name="AVS47IB Stop.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Stop.vi"/>
+			<Item Name="AVS47IB Go Remote.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Go Remote.vi"/>
+			<Item Name="AVS47IB Configure 47IB.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS47IB Configure 47IB.vi"/>
+			<Item Name="Configure Hardware.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Hardware.vi"/>
+			<Item Name="AVS48 Template.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS48 Template.vi"/>
+			<Item Name="Template.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Template.ctl"/>
+			<Item Name="Configure Sensor Wiring of CHs.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Configure Sensor Wiring of CHs.vi"/>
+			<Item Name="GeneratePaths.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GeneratePaths.vi"/>
+			<Item Name="Resistance to Temp no Ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Resistance to Temp no Ext.vi"/>
+			<Item Name="SelectSensor-txt no ext.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SelectSensor-txt no ext.vi"/>
+			<Item Name="Find Calibration Files by Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Find Calibration Files by Name.vi"/>
+			<Item Name="Load Calibration Coefficients from file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Load Calibration Coefficients from file.vi"/>
+			<Item Name="Convert R-T - Resistance.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - Resistance.vi"/>
+			<Item Name="Convert R-T - CMN.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Convert R-T - CMN.vi"/>
+			<Item Name="Manage Data Arrays - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - AVS.vi"/>
+			<Item Name="Append Points to Data Array - AVS.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - AVS.vi"/>
+			<Item Name="Format log file header Z.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Format log file header Z.vi"/>
+			<Item Name="Time Elapsed time.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed time.vi"/>
+			<Item Name="Time Units.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Units.ctl"/>
+			<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
+			<Item Name="Manage Data Arrays - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Manage Data Arrays - zBridge.vi"/>
+			<Item Name="Append Points to Data Array - zBridge.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Append Points to Data Array - zBridge.vi"/>
+			<Item Name="Time Elapsed dbl.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Time Elapsed dbl.vi"/>
+			<Item Name="Derivatives Pt by Pt.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Derivatives Pt by Pt.vi"/>
+			<Item Name="PID control incremental.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/PID control incremental.vi"/>
+			<Item Name="Currents-Temp list  - T in range-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - T in range-.vi"/>
+			<Item Name="CallExtVI.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/CallExtVI.vi"/>
+			<Item Name="Write to cal log file.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Write to cal log file.vi"/>
+			<Item Name="GetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetByteParam.vi"/>
+			<Item Name="Text Popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Text Popup.vi"/>
+			<Item Name="Build ranges list.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Build ranges list.vi"/>
+			<Item Name="Combine Excitation&amp;Range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Combine Excitation&amp;Range.vi"/>
+			<Item Name="AVS range.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/AVS range.ctl"/>
+			<Item Name="ParamMenu.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/ParamMenu.vi"/>
+			<Item Name="Edit Calibration Coefficients.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Edit Calibration Coefficients.vi"/>
+			<Item Name="Scan Parameters Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Scan Parameters Window.vi"/>
+			<Item Name="SetByteParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetByteParam.vi"/>
+			<Item Name="Currents-Temp list  - add new range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - add new range.vi"/>
+			<Item Name="Currents-Temp list  - range valid-.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list  - range valid-.vi"/>
+			<Item Name="intersection type.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/intersection type.ctl"/>
+			<Item Name="Currents-Temp list - insert range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - insert range.vi"/>
+			<Item Name="Get Clicked Array Index.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Get Clicked Array Index.vi"/>
+			<Item Name="Currents-Temp list - delete range.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Currents-Temp list - delete range.vi"/>
+			<Item Name="Graph popup.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup.vi"/>
+			<Item Name="Plot Channel.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Channel.ctl"/>
+			<Item Name="Plot Legend.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Plot Legend.ctl"/>
+			<Item Name="Maximize-restore.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Maximize-restore.ctl"/>
+			<Item Name="decimate data.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/decimate data.vi"/>
+			<Item Name="MGI Decimate Array with Offset (DBL[]) with MinMax.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/MGI Decimate Array with Offset (DBL[]) with MinMax.vi"/>
+			<Item Name="Graph popup - align legend.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Graph popup - align legend.vi"/>
+			<Item Name="zBridgeSettings_1page.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/zBridgeSettings_1page.vi"/>
+			<Item Name="GetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/GetRealParam.vi"/>
+			<Item Name="Real Params.ctl" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Real Params.ctl"/>
+			<Item Name="SetRealParam.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetRealParam.vi"/>
+			<Item Name="SetDevice.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/SetDevice.vi"/>
+			<Item Name="LoadParameters.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/LoadParameters.vi"/>
+			<Item Name="Reset First Call.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Reset First Call.vi"/>
+			<Item Name="Show Info Window.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Show Info Window.vi"/>
+			<Item Name="Generate New Name.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Generate New Name.vi"/>
+			<Item Name="Enum Variables.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Enum Variables.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TC Application" Type="EXE">
@@ -1918,7 +1869,7 @@
 				<Property Name="Destination[4].destName" Type="Str">VI</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/Application/VI</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/TC.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
@@ -1931,28 +1882,28 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/1. Sources/TC.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/1. Sources/Data</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/1. Sources/Calibrations</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/1. Sources/OnTempStabilized Ext VI.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/1. Sources/Lib</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
@@ -2050,91 +2001,91 @@
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[1].name" Type="Str">CMN-187.cal2</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/1. Sources/Calibrations/CMN-187.cal2</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[10].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[10].name" Type="Str">RuO2 2k.vi</Property>
-				<Property Name="Source[10].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 2k.vi</Property>
+				<Property Name="Source[10].tag" Type="Ref"></Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
 				<Property Name="Source[11].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[11].name" Type="Str">RuO2-10K-NEW.cal</Property>
-				<Property Name="Source[11].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-10K-NEW.cal</Property>
+				<Property Name="Source[11].tag" Type="Ref"></Property>
 				<Property Name="Source[11].type" Type="Str">File</Property>
 				<Property Name="Source[12].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[12].name" Type="Str">RuO2-10K.cal</Property>
-				<Property Name="Source[12].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-10K.cal</Property>
+				<Property Name="Source[12].tag" Type="Ref"></Property>
 				<Property Name="Source[12].type" Type="Str">File</Property>
 				<Property Name="Source[13].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[13].name" Type="Str">RuO2-1k5.cal</Property>
-				<Property Name="Source[13].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-1k5.cal</Property>
+				<Property Name="Source[13].tag" Type="Ref"></Property>
 				<Property Name="Source[13].type" Type="Str">File</Property>
 				<Property Name="Source[14].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[14].name" Type="Str">switch.vi</Property>
-				<Property Name="Source[14].tag" Type="Ref">/My Computer/1. Sources/Calibrations/switch.vi</Property>
+				<Property Name="Source[14].tag" Type="Ref"></Property>
 				<Property Name="Source[14].type" Type="Str">File</Property>
 				<Property Name="Source[15].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[15].name" Type="Str">testCMN.cal2</Property>
-				<Property Name="Source[15].tag" Type="Ref">/My Computer/1. Sources/Calibrations/testCMN.cal2</Property>
+				<Property Name="Source[15].tag" Type="Ref"></Property>
 				<Property Name="Source[15].type" Type="Str">File</Property>
 				<Property Name="Source[16].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[16].name" Type="Str">TT-1338.cal</Property>
-				<Property Name="Source[16].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1338.cal</Property>
+				<Property Name="Source[16].tag" Type="Ref"></Property>
 				<Property Name="Source[16].type" Type="Str">File</Property>
 				<Property Name="Source[17].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[17].name" Type="Str">TT-1340.cal</Property>
-				<Property Name="Source[17].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1340.cal</Property>
+				<Property Name="Source[17].tag" Type="Ref"></Property>
 				<Property Name="Source[17].type" Type="Str">File</Property>
 				<Property Name="Source[18].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[18].name" Type="Str">TT-1342.cal</Property>
-				<Property Name="Source[18].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1342.cal</Property>
+				<Property Name="Source[18].tag" Type="Ref"></Property>
 				<Property Name="Source[18].type" Type="Str">File</Property>
 				<Property Name="Source[19].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[19].name" Type="Str">TT-1346.cal</Property>
-				<Property Name="Source[19].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1346.cal</Property>
+				<Property Name="Source[19].tag" Type="Ref"></Property>
 				<Property Name="Source[19].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[2].name" Type="Str">Emulation R.cal</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/1. Sources/Calibrations/Emulation R.cal</Property>
+				<Property Name="Source[2].tag" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[20].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[20].name" Type="Str">TT-1349.cal</Property>
-				<Property Name="Source[20].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1349.cal</Property>
+				<Property Name="Source[20].tag" Type="Ref"></Property>
 				<Property Name="Source[20].type" Type="Str">File</Property>
 				<Property Name="Source[21].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[21].name" Type="Str">TT-1392.cal</Property>
-				<Property Name="Source[21].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1392.cal</Property>
+				<Property Name="Source[21].tag" Type="Ref"></Property>
 				<Property Name="Source[21].type" Type="Str">File</Property>
 				<Property Name="Source[22].dest" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="Source[22].name" Type="Str">OnTempStabilized Ext VI.vi</Property>
-				<Property Name="Source[22].tag" Type="Ref">/My Computer/1. Sources/OnTempStabilized Ext VI.vi</Property>
+				<Property Name="Source[22].tag" Type="Ref"></Property>
 				<Property Name="Source[22].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[3].name" Type="Str">magnet.vi</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/1. Sources/Calibrations/magnet.vi</Property>
+				<Property Name="Source[3].tag" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[4].name" Type="Str">No Calibration.vi</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/1. Sources/Calibrations/No Calibration.vi</Property>
+				<Property Name="Source[4].tag" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="Source[5].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[5].name" Type="Str">PT 1000.cal</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT 1000.cal</Property>
+				<Property Name="Source[5].tag" Type="Ref"></Property>
 				<Property Name="Source[5].type" Type="Str">File</Property>
 				<Property Name="Source[6].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[6].name" Type="Str">PT100.vi</Property>
-				<Property Name="Source[6].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT100.vi</Property>
+				<Property Name="Source[6].tag" Type="Ref"></Property>
 				<Property Name="Source[6].type" Type="Str">File</Property>
 				<Property Name="Source[7].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[7].name" Type="Str">PT1000.vi</Property>
-				<Property Name="Source[7].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT1000.vi</Property>
+				<Property Name="Source[7].tag" Type="Ref"></Property>
 				<Property Name="Source[7].type" Type="Str">File</Property>
 				<Property Name="Source[8].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[8].name" Type="Str">RuO2 10k.vi</Property>
-				<Property Name="Source[8].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 10k.vi</Property>
+				<Property Name="Source[8].tag" Type="Ref"></Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
 				<Property Name="Source[9].name" Type="Str">RuO2 1k5.vi</Property>
-				<Property Name="Source[9].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 1k5.vi</Property>
+				<Property Name="Source[9].tag" Type="Ref"></Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">23</Property>
 			</Item>
