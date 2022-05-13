@@ -1930,7 +1930,7 @@
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F6C89411-843B-439B-83CD-AA896263AC84}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{59633B98-C153-4037-9865-3072B704867D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -1955,11 +1955,9 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/1. Sources/Calibrations</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
@@ -2073,7 +2071,83 @@
 				<Property Name="Source[0].name" Type="Str">TC Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/TC Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[1].name" Type="Str">CMN-187.cal2</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/1. Sources/Calibrations/CMN-187.cal2</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[10].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[10].name" Type="Str">RuO2-10K-NEW.cal</Property>
+				<Property Name="Source[10].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-10K-NEW.cal</Property>
+				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[11].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[11].name" Type="Str">RuO2-10K.cal</Property>
+				<Property Name="Source[11].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-10K.cal</Property>
+				<Property Name="Source[11].type" Type="Str">File</Property>
+				<Property Name="Source[12].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[12].name" Type="Str">RuO2-1k5.cal</Property>
+				<Property Name="Source[12].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2-1k5.cal</Property>
+				<Property Name="Source[12].type" Type="Str">File</Property>
+				<Property Name="Source[13].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[13].name" Type="Str">testCMN.cal2</Property>
+				<Property Name="Source[13].tag" Type="Ref">/My Computer/1. Sources/Calibrations/testCMN.cal2</Property>
+				<Property Name="Source[13].type" Type="Str">File</Property>
+				<Property Name="Source[14].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[14].name" Type="Str">TT-1338.cal</Property>
+				<Property Name="Source[14].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1338.cal</Property>
+				<Property Name="Source[14].type" Type="Str">File</Property>
+				<Property Name="Source[15].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[15].name" Type="Str">TT-1340.cal</Property>
+				<Property Name="Source[15].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1340.cal</Property>
+				<Property Name="Source[15].type" Type="Str">File</Property>
+				<Property Name="Source[16].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[16].name" Type="Str">TT-1342.cal</Property>
+				<Property Name="Source[16].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1342.cal</Property>
+				<Property Name="Source[16].type" Type="Str">File</Property>
+				<Property Name="Source[17].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[17].name" Type="Str">TT-1346.cal</Property>
+				<Property Name="Source[17].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1346.cal</Property>
+				<Property Name="Source[17].type" Type="Str">File</Property>
+				<Property Name="Source[18].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[18].name" Type="Str">TT-1349.cal</Property>
+				<Property Name="Source[18].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1349.cal</Property>
+				<Property Name="Source[18].type" Type="Str">File</Property>
+				<Property Name="Source[19].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[19].name" Type="Str">TT-1392.cal</Property>
+				<Property Name="Source[19].tag" Type="Ref">/My Computer/1. Sources/Calibrations/TT-1392.cal</Property>
+				<Property Name="Source[19].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[2].name" Type="Str">Emulation R.cal</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/1. Sources/Calibrations/Emulation R.cal</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[3].name" Type="Str">No Calibration.vi</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/1. Sources/Calibrations/No Calibration.vi</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[4].name" Type="Str">PT 1000.cal</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT 1000.cal</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[5].name" Type="Str">PT100.vi</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT100.vi</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[6].name" Type="Str">PT1000.vi</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/1. Sources/Calibrations/PT1000.vi</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="Source[7].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[7].name" Type="Str">RuO2 10k.vi</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 10k.vi</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="Source[8].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[8].name" Type="Str">RuO2 1k5.vi</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 1k5.vi</Property>
+				<Property Name="Source[8].type" Type="Str">File</Property>
+				<Property Name="Source[9].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
+				<Property Name="Source[9].name" Type="Str">RuO2 2k.vi</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/1. Sources/Calibrations/RuO2 2k.vi</Property>
+				<Property Name="Source[9].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">20</Property>
 			</Item>
 		</Item>
 	</Item>
