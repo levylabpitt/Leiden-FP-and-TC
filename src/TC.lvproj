@@ -1930,7 +1930,7 @@
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B70F70CC-A8EC-4E02-843D-D6C034B70E62}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F6C89411-843B-439B-83CD-AA896263AC84}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -1954,7 +1954,14 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/1. Sources/Data</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/1. Sources/Calibrations</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TC Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">TC Application</Property>
@@ -1978,44 +1985,63 @@
 				<Property Name="Destination[2].type" Type="Str">absFolder</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{84A14A37-121A-4BAF-B2D5-4A807910A22F}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2016</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{AE3BDC39-5362-47B3-866A-80CC36690478}</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{E60B4861-89AB-4E60-96C2-93AB25CC9AE4}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2019</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{CEF5E531-69E2-461E-8628-0998E4DD0317}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[1].productID" Type="Str">{FA0DB08E-BC18-4194-9ADC-026B7C8D5CEA}</Property>
 				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2019</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{272BF3A9-7DBB-47EE-B2B8-CB893AA8166B}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 16.0</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
-				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
-				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
-				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
-				<Property Name="DistPartCount" Type="Int">4</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{727FC9D0-D89C-4872-9428-F98F0862F735}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-488.2 Runtime 19.5</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{D9084972-85DA-4F19-B6B3-527E3948D5A1}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI-VISA Runtime 19.5</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
+				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
+				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{446D49A5-F830-4ADF-8C78-F03284D6882D}</Property>
+				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2019</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPartCount" Type="Int">5</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -2047,95 +2073,7 @@
 				<Property Name="Source[0].name" Type="Str">TC Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/TC Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[1].name" Type="Str">CMN-187.cal2</Property>
-				<Property Name="Source[1].tag" Type="Ref"></Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[10].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[10].name" Type="Str">RuO2 2k.vi</Property>
-				<Property Name="Source[10].tag" Type="Ref"></Property>
-				<Property Name="Source[10].type" Type="Str">File</Property>
-				<Property Name="Source[11].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[11].name" Type="Str">RuO2-10K-NEW.cal</Property>
-				<Property Name="Source[11].tag" Type="Ref"></Property>
-				<Property Name="Source[11].type" Type="Str">File</Property>
-				<Property Name="Source[12].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[12].name" Type="Str">RuO2-10K.cal</Property>
-				<Property Name="Source[12].tag" Type="Ref"></Property>
-				<Property Name="Source[12].type" Type="Str">File</Property>
-				<Property Name="Source[13].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[13].name" Type="Str">RuO2-1k5.cal</Property>
-				<Property Name="Source[13].tag" Type="Ref"></Property>
-				<Property Name="Source[13].type" Type="Str">File</Property>
-				<Property Name="Source[14].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[14].name" Type="Str">switch.vi</Property>
-				<Property Name="Source[14].tag" Type="Ref"></Property>
-				<Property Name="Source[14].type" Type="Str">File</Property>
-				<Property Name="Source[15].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[15].name" Type="Str">testCMN.cal2</Property>
-				<Property Name="Source[15].tag" Type="Ref"></Property>
-				<Property Name="Source[15].type" Type="Str">File</Property>
-				<Property Name="Source[16].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[16].name" Type="Str">TT-1338.cal</Property>
-				<Property Name="Source[16].tag" Type="Ref"></Property>
-				<Property Name="Source[16].type" Type="Str">File</Property>
-				<Property Name="Source[17].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[17].name" Type="Str">TT-1340.cal</Property>
-				<Property Name="Source[17].tag" Type="Ref"></Property>
-				<Property Name="Source[17].type" Type="Str">File</Property>
-				<Property Name="Source[18].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[18].name" Type="Str">TT-1342.cal</Property>
-				<Property Name="Source[18].tag" Type="Ref"></Property>
-				<Property Name="Source[18].type" Type="Str">File</Property>
-				<Property Name="Source[19].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[19].name" Type="Str">TT-1346.cal</Property>
-				<Property Name="Source[19].tag" Type="Ref"></Property>
-				<Property Name="Source[19].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[2].name" Type="Str">Emulation R.cal</Property>
-				<Property Name="Source[2].tag" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[20].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[20].name" Type="Str">TT-1349.cal</Property>
-				<Property Name="Source[20].tag" Type="Ref"></Property>
-				<Property Name="Source[20].type" Type="Str">File</Property>
-				<Property Name="Source[21].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[21].name" Type="Str">TT-1392.cal</Property>
-				<Property Name="Source[21].tag" Type="Ref"></Property>
-				<Property Name="Source[21].type" Type="Str">File</Property>
-				<Property Name="Source[22].dest" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
-				<Property Name="Source[22].name" Type="Str">OnTempStabilized Ext VI.vi</Property>
-				<Property Name="Source[22].tag" Type="Ref"></Property>
-				<Property Name="Source[22].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[3].name" Type="Str">magnet.vi</Property>
-				<Property Name="Source[3].tag" Type="Ref"></Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[4].name" Type="Str">No Calibration.vi</Property>
-				<Property Name="Source[4].tag" Type="Ref"></Property>
-				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[5].name" Type="Str">PT 1000.cal</Property>
-				<Property Name="Source[5].tag" Type="Ref"></Property>
-				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="Source[6].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[6].name" Type="Str">PT100.vi</Property>
-				<Property Name="Source[6].tag" Type="Ref"></Property>
-				<Property Name="Source[6].type" Type="Str">File</Property>
-				<Property Name="Source[7].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[7].name" Type="Str">PT1000.vi</Property>
-				<Property Name="Source[7].tag" Type="Ref"></Property>
-				<Property Name="Source[7].type" Type="Str">File</Property>
-				<Property Name="Source[8].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[8].name" Type="Str">RuO2 10k.vi</Property>
-				<Property Name="Source[8].tag" Type="Ref"></Property>
-				<Property Name="Source[8].type" Type="Str">File</Property>
-				<Property Name="Source[9].dest" Type="Str">{1D55C656-99B2-42D8-AED9-A9A8B169D2F3}</Property>
-				<Property Name="Source[9].name" Type="Str">RuO2 1k5.vi</Property>
-				<Property Name="Source[9].tag" Type="Ref"></Property>
-				<Property Name="Source[9].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">23</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
