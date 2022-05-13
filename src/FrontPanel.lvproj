@@ -2,8 +2,6 @@
 <Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{99D79098-C8FA-413A-9624-FE505F0FAB35}" Type="Ref">/My Computer/1. Sources/DR FrontPanel.lvlib/Pressures-FP</Property>
-	<Property Name="varPersistentID:{B59DD6AA-F247-43D0-A4F5-AD2E43DCAFE4}" Type="Ref">/My Computer/1. Sources/DR FrontPanel.lvlib/Pressures-MG</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -22,92 +20,8 @@
 			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
 			<Item Name="FP-TC-Shared.lvclass" Type="LVClass" URL="../shared/FP-TC-Shared/FP-TC-Shared.lvclass"/>
 		</Item>
-		<Item Name="1. Sources" Type="Folder">
-			<Item Name="Lib" Type="Folder">
-				<Item Name="Lib" Type="Folder">
-					<Item Name="AppendData.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/AppendData.vi"/>
-					<Item Name="AppendData1.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/AppendData1.vi"/>
-					<Item Name="BP Get ID.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Get ID.vi"/>
-					<Item Name="BP Initialize.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Initialize.vi"/>
-					<Item Name="BP Query Adc.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query Adc.vi"/>
-					<Item Name="BP Query KeyStatus.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query KeyStatus.vi"/>
-					<Item Name="BP query NCP5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query NCP5.vi"/>
-					<Item Name="BP query NCP5B.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query NCP5B.vi"/>
-					<Item Name="BP query P5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query P5.vi"/>
-					<Item Name="BP Query REC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query REC.vi"/>
-					<Item Name="BP query settings.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query settings.vi"/>
-					<Item Name="BP Query Status.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query Status.vi"/>
-					<Item Name="BP Query Turbo.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query Turbo.vi"/>
-					<Item Name="BP Scale Adc-NEW PANEL.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Scale Adc-NEW PANEL.vi"/>
-					<Item Name="BP Send Command.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Send Command.vi"/>
-					<Item Name="BP Send Data.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Send Data.vi"/>
-					<Item Name="BP Send Values.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Send Values.vi"/>
-					<Item Name="BP Serial Port Receive Message.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Serial Port Receive Message.vi"/>
-					<Item Name="BP Serial Port Send Message.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Serial Port Send Message.vi"/>
-					<Item Name="BP Set Config.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set Config.vi"/>
-					<Item Name="BP Set NCP5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set NCP5.vi"/>
-					<Item Name="BP Set NCP5B.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set NCP5B.vi"/>
-					<Item Name="BP Set P5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set P5.vi"/>
-					<Item Name="BP Set REC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set REC.vi"/>
-					<Item Name="BP Set Turbo.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set Turbo.vi"/>
-					<Item Name="BP settings.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP settings.vi"/>
-					<Item Name="BP togglekey.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP togglekey.vi"/>
-					<Item Name="BP Write &amp; Read Ack.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Write &amp; Read Ack.vi"/>
-					<Item Name="Busy PopUp.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/Busy PopUp.lvlib"/>
-					<Item Name="Clear error (conditional).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Clear error (conditional).vi"/>
-					<Item Name="Combine Data 4 logging.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Combine Data 4 logging.vi"/>
-					<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Create Custom Error Handler.vi"/>
-					<Item Name="Disable on error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Disable on error.vi"/>
-					<Item Name="Enum Serial Ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Enum Serial Ports.vi"/>
-					<Item Name="ErrCodeStatusLkup.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/ErrCodeStatusLkup.vi"/>
-					<Item Name="Pfeiffer Vacuum.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/Pfeiffer Vacuum.lvlib"/>
-					<Item Name="File Date.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/File Date.vi"/>
-					<Item Name="Find FPO by Name.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Find FPO by Name.vi"/>
-					<Item Name="Format header.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Format header.vi"/>
-					<Item Name="formIEC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/formIEC.vi"/>
-					<Item Name="FP check parameters error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP check parameters error.vi"/>
-					<Item Name="FP decode mode &amp; alarm.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP decode mode &amp; alarm.vi"/>
-					<Item Name="FP encode still pressure.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP encode still pressure.vi"/>
-					<Item Name="FP Set Binking Controls.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP Set Binking Controls.vi"/>
-					<Item Name="FP status from bits to numeric.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP status from bits to numeric.vi"/>
-					<Item Name="FP-Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP-Scan ports.vi"/>
-					<Item Name="GeneratePaths.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/GeneratePaths.vi"/>
-					<Item Name="Get GHS version and type.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get GHS version and type.vi"/>
-					<Item Name="MView.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/MView.lvlib"/>
-					<Item Name="IECSingle.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/IECSingle.vi"/>
-					<Item Name="Maxi Gauge.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/Maxi Gauge.lvlib"/>
-					<Item Name="MG collect pressureinfo.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG collect pressureinfo.vi"/>
-					<Item Name="MG Get Channels Labels.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG Get Channels Labels.vi"/>
-					<Item Name="MG get errorstatus.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG get errorstatus.vi"/>
-					<Item Name="MG get pressurestring.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG get pressurestring.vi"/>
-					<Item Name="MG initialize.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG initialize.vi"/>
-					<Item Name="MG query error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG query error.vi"/>
-					<Item Name="MG- Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG- Scan ports.vi"/>
-					<Item Name="MultiRPlot_Select1.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MultiRPlot_Select1.vi"/>
-					<Item Name="PT Parse Response.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Parse Response.vi"/>
-					<Item Name="PT Read Status.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Read Status.vi"/>
-					<Item Name="PT Send Command.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Send Command.vi"/>
-					<Item Name="PT start.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT start.vi"/>
-					<Item Name="PT-Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT-Scan ports.vi"/>
-					<Item Name="Running average.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Running average.vi"/>
-					<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
-					<Item Name="SMDP.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/SMDP.lvlib"/>
-					<Item Name="SMDP_SVR_REENTRANT.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/SMDP_SVR_REENTRANT.vi"/>
-					<Item Name="SMDP_SVR_WRAP.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/SMDP_SVR_WRAP.vi"/>
-					<Item Name="Time Elapsed time.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Time Elapsed time.vi"/>
-					<Item Name="Time Elapsed.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Time Elapsed.vi"/>
-					<Item Name="UnpackIEC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/UnpackIEC.vi"/>
-					<Item Name="VISA Check port.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/VISA Check port.vi"/>
-					<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
-					<Item Name="Write Key (Variant)__ogtk (class as special case).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write Key (Variant)__ogtk (class as special case).vi"/>
-					<Item Name="Write Section Cluster__ogtk (class as special case).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write Section Cluster__ogtk (class as special case).vi"/>
-					<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
-				</Item>
-			</Item>
-			<Item Name="config.ini" Type="Document" URL="../FP/1. Sources/config.ini"/>
-			<Item Name="DR FrontPanel.lvlib" Type="Library" URL="../FP/1. Sources/DR FrontPanel.lvlib"/>
-			<Item Name="FP.ico" Type="Document" URL="../FP/1. Sources/FP.ico"/>
-			<Item Name="FrontPanel.vi" Type="VI" URL="../FP/1. Sources/FrontPanel.vi"/>
+		<Item Name="backups" Type="Folder">
+			<Item Name="FrontPanel-20220513-backup.vi" Type="VI" URL="../FP/backup/FrontPanel-20220513-backup.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -1724,6 +1638,83 @@
 			<Item Name="GetTemplatePathFromLib.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelScriptingSupport/GetTemplatePathFromLib.vi"/>
 			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
+			<Item Name="FP encode still pressure.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP encode still pressure.vi"/>
+			<Item Name="BP Query KeyStatus.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query KeyStatus.vi"/>
+			<Item Name="BP Write &amp; Read Ack.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Write &amp; Read Ack.vi"/>
+			<Item Name="BP Serial Port Send Message.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Serial Port Send Message.vi"/>
+			<Item Name="BP Serial Port Receive Message.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Serial Port Receive Message.vi"/>
+			<Item Name="FP Set Binking Controls.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP Set Binking Controls.vi"/>
+			<Item Name="FP status from bits to numeric.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP status from bits to numeric.vi"/>
+			<Item Name="BP Query Status.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query Status.vi"/>
+			<Item Name="FP decode mode &amp; alarm.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP decode mode &amp; alarm.vi"/>
+			<Item Name="BP Send Values.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Send Values.vi"/>
+			<Item Name="BP Query Adc.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query Adc.vi"/>
+			<Item Name="BP Scale Adc-NEW PANEL.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Scale Adc-NEW PANEL.vi"/>
+			<Item Name="Running average.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Running average.vi"/>
+			<Item Name="VISA Check port.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/VISA Check port.vi"/>
+			<Item Name="BP Initialize.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Initialize.vi"/>
+			<Item Name="BP Get ID.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Get ID.vi"/>
+			<Item Name="Get GHS version and type.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Get GHS version and type.vi"/>
+			<Item Name="MG collect pressureinfo.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG collect pressureinfo.vi"/>
+			<Item Name="MG get pressurestring.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG get pressurestring.vi"/>
+			<Item Name="Maxi Gauge.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/Maxi Gauge.lvlib"/>
+			<Item Name="MG get errorstatus.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG get errorstatus.vi"/>
+			<Item Name="MG initialize.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG initialize.vi"/>
+			<Item Name="MG query error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG query error.vi"/>
+			<Item Name="PT Read Status.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Read Status.vi"/>
+			<Item Name="IECSingle.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/IECSingle.vi"/>
+			<Item Name="formIEC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/formIEC.vi"/>
+			<Item Name="SMDP.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/SMDP.lvlib"/>
+			<Item Name="UnpackIEC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/UnpackIEC.vi"/>
+			<Item Name="PT Parse Response.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Parse Response.vi"/>
+			<Item Name="Time Elapsed.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Time Elapsed.vi"/>
+			<Item Name="File Date.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/File Date.vi"/>
+			<Item Name="Time Elapsed time.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Time Elapsed time.vi"/>
+			<Item Name="Format header.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Format header.vi"/>
+			<Item Name="GeneratePaths.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/GeneratePaths.vi"/>
+			<Item Name="Combine Data 4 logging.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Combine Data 4 logging.vi"/>
+			<Item Name="Write To Spreadsheet File (string) w Error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write To Spreadsheet File (string) w Error.vi"/>
+			<Item Name="AppendData1.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/AppendData1.vi"/>
+			<Item Name="AppendData.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/AppendData.vi"/>
+			<Item Name="MultiRPlot_Select1.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MultiRPlot_Select1.vi"/>
+			<Item Name="MView.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/MView.lvlib"/>
+			<Item Name="Find FPO by Name.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Find FPO by Name.vi"/>
+			<Item Name="Create Custom Error Handler.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Create Custom Error Handler.vi"/>
+			<Item Name="BP togglekey.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP togglekey.vi"/>
+			<Item Name="Save Load Settings to File by Ref with path.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Save Load Settings to File by Ref with path.vi"/>
+			<Item Name="Write Section Cluster__ogtk (class as special case).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write Section Cluster__ogtk (class as special case).vi"/>
+			<Item Name="Write Key (Variant)__ogtk (class as special case).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Write Key (Variant)__ogtk (class as special case).vi"/>
+			<Item Name="Busy PopUp.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/Busy PopUp.lvlib"/>
+			<Item Name="FP-Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP-Scan ports.vi"/>
+			<Item Name="Enum Serial Ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Enum Serial Ports.vi"/>
+			<Item Name="Clear error (conditional).vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Clear error (conditional).vi"/>
+			<Item Name="BP query settings.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query settings.vi"/>
+			<Item Name="BP query P5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query P5.vi"/>
+			<Item Name="BP query NCP5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query NCP5.vi"/>
+			<Item Name="BP query NCP5B.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP query NCP5B.vi"/>
+			<Item Name="BP Query REC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query REC.vi"/>
+			<Item Name="BP Query Turbo.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Query Turbo.vi"/>
+			<Item Name="Disable on error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/Disable on error.vi"/>
+			<Item Name="MG- Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG- Scan ports.vi"/>
+			<Item Name="MG Get Channels Labels.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/MG Get Channels Labels.vi"/>
+			<Item Name="PT-Scan ports.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT-Scan ports.vi"/>
+			<Item Name="VISA to RS232 Port Nr.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/VISA to RS232 Port Nr.vi"/>
+			<Item Name="SMDP_SVR_WRAP.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/SMDP_SVR_WRAP.vi"/>
+			<Item Name="SMDP_SVR_REENTRANT.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/SMDP_SVR_REENTRANT.vi"/>
+			<Item Name="PT Send Command.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT Send Command.vi"/>
+			<Item Name="ErrCodeStatusLkup.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/ErrCodeStatusLkup.vi"/>
+			<Item Name="PT start.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT start.vi"/>
+			<Item Name="FP check parameters error.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/FP check parameters error.vi"/>
+			<Item Name="BP Set Config.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set Config.vi"/>
+			<Item Name="BP settings.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP settings.vi"/>
+			<Item Name="BP Set P5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set P5.vi"/>
+			<Item Name="BP Send Data.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Send Data.vi"/>
+			<Item Name="BP Set NCP5.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set NCP5.vi"/>
+			<Item Name="BP Set NCP5B.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set NCP5B.vi"/>
+			<Item Name="BP Set REC.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set REC.vi"/>
+			<Item Name="BP Set Turbo.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Set Turbo.vi"/>
+			<Item Name="Pfeiffer Vacuum.lvlib" Type="Library" URL="../FP/1. Sources/Lib/Lib.llb/Pfeiffer Vacuum.lvlib"/>
+			<Item Name="BP Send Command.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/BP Send Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FrontPanel Application" Type="EXE">
@@ -1751,7 +1742,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/FP.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{8C78520B-D5D7-4313-8E9B-6016FA459E7B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -1761,17 +1752,17 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/1. Sources/FrontPanel.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/1. Sources/Lib</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/1. Sources/DR FrontPanel.lvlib</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
