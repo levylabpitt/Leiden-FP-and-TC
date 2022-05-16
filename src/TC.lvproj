@@ -1908,7 +1908,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6A2C695-7CBA-4576-99B6-D9E6B8888B88}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">61</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
@@ -1927,10 +1927,11 @@
 				<Property Name="Destination[4].destName" Type="Str">VI</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/Application/VI</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/TC.ico</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{59633B98-C153-4037-9865-3072B704867D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{348DFB05-C947-4CBF-9E55-CD63E9D6DEBA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
