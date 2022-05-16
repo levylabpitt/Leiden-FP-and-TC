@@ -1726,9 +1726,6 @@
 			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 			<Item Name="PT start.vi" Type="VI" URL="../FP/1. Sources/Lib/Lib.llb/PT start.vi"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FrontPanel Application" Type="EXE">
@@ -1745,10 +1742,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17B63870-595A-47C5-99D0-CDE5513E2F9A}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
-				<Property Name="Bld_version.minor" Type="Int">50</Property>
-				<Property Name="Bld_version.patch" Type="Int">14</Property>
+				<Property Name="Bld_version.minor" Type="Int">57</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FrontPanel.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/FrontPanel Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1756,8 +1753,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{8C78520B-D5D7-4313-8E9B-6016FA459E7B}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/1. Sources/FP.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{26023E79-5482-445F-B29C-92FB26EC5785}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -1766,21 +1763,16 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/1. Sources/FrontPanel.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/1. Sources/Lib</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Leiden Cryogenics</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FrontPanel Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">FrontPanel Application</Property>
@@ -1799,37 +1791,64 @@
 				<Property Name="Destination[1].tag" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{272BF3A9-7DBB-47EE-B2B8-CB893AA8166B}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI-VISA Runtime 16.0</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{E60B4861-89AB-4E60-96C2-93AB25CC9AE4}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2019</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{CEF5E531-69E2-461E-8628-0998E4DD0317}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
-				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[1].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
-				<Property Name="DistPart[1].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
-				<Property Name="DistPart[1].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[1].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">NI Logos 19.0</Property>
-				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[1].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[1].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
-				<Property Name="DistPartCount" Type="Int">2</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{FA0DB08E-BC18-4194-9ADC-026B7C8D5CEA}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Variable Engine 2019</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{EB7A3C81-1C0F-4495-8CE5-0A427E4E6285}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{727FC9D0-D89C-4872-9428-F98F0862F735}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-488.2 Runtime 19.5</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{D9084972-85DA-4F19-B6B3-527E3948D5A1}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI-VISA Runtime 19.5</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{2BB15880-EA12-40AA-B577-27419E77E2F9}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 f5</Property>
+				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[4].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[4].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[4].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[4].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[4].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[4].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[2].productName" Type="Str">NI Error Reporting 2019</Property>
+				<Property Name="DistPart[4].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[4].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
+				<Property Name="DistPart[4].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
+				<Property Name="DistPart[4].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2019 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[4].SoftDep[4].upgradeCode" Type="Str">{446D49A5-F830-4ADF-8C78-F03284D6882D}</Property>
+				<Property Name="DistPart[4].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[5].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[4].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2019</Property>
+				<Property Name="DistPart[4].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[4].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[4].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[4].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[4].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[4].SoftDep[9].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPartCount" Type="Int">5</Property>
 				<Property Name="INST_author" Type="Str">University of Pittsburgh</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -1837,7 +1856,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{66F9A383-992E-4114-B593-F754089D4721}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">FrontPanel</Property>
-				<Property Name="INST_productVersion" Type="Str">4.50.14</Property>
+				<Property Name="INST_productVersion" Type="Str">4.57.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
