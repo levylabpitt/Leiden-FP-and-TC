@@ -27,10 +27,10 @@
 		<Item Name="1. Sources" Type="Folder">
 			<Item Name="Calibrations" Type="Folder">
 				<Item Name="Emulation R.cal" Type="Document" URL="../TC/1. Sources/Calibrations/Emulation R.cal"/>
-				<Item Name="No Calibration.vi" Type="VI" URL="../TC/1. Sources/Calibrations/No Calibration.vi"/>
+				<Item Name="No Calibration.vi" Type="VI" URL="../../../../../../../LC Data/Calibrations/No Calibration.vi"/>
 				<Item Name="PT 1000.cal" Type="Document" URL="../TC/1. Sources/Calibrations/PT 1000.cal"/>
 				<Item Name="PT100.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT100.vi"/>
-				<Item Name="PT1000.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT1000.vi"/>
+				<Item Name="PT1000.vi" Type="VI" URL="../../../../../../../LC Data/Calibrations/PT1000.vi"/>
 				<Item Name="RuO2 10k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 10k.vi"/>
 				<Item Name="RuO2 1k5.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 1k5.vi"/>
 				<Item Name="RuO2 2k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 2k.vi"/>
@@ -1164,7 +1164,6 @@
 				<Item Name="Dest_User_NIPath.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Dest_User_NIPath/Dest_User_NIPath.lvclass"/>
 				<Item Name="userLabel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Destination/userLabel/userLabel.lvclass"/>
 				<Item Name="Dest_User_MSIPath.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/AppBuilder/IB_Classes/Dest_User_MSIPath/Dest_User_MSIPath.lvclass"/>
-				<Item Name="LMH-Toolbox.lvlib" Type="Library" URL="/&lt;vilib&gt;/MakerHub/Toolbox/LMH-Toolbox.lvlib"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
 				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_sersup.llb/Open Serial Driver.vi"/>
@@ -1626,6 +1625,7 @@
 				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
+				<Item Name="Save State As Default.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Public/VI Tools/Save State As Default.vi"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvSetIntProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetIntProperty.vi"/>
@@ -1894,8 +1894,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Build ranges list.vi" Type="VI" URL="../TC/1. Sources/Lib/Lib.llb/Build ranges list.vi"/>
-			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
-			<Item Name="lp-client.vi" Type="VI" URL="/../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
+			<Item Name="lp-server-timeouts.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-server-timeouts.vi"/>
+			<Item Name="lp-client.vi" Type="VI" URL="/../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/zeromq/examples/lazy-pirate/lp-client.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TC Application" Type="EXE">
