@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-10-20 14:30:57" Modified_Date="2023-10-23 09:58:45" Creator="Patrick Irvin" Comments="" ID="d5419e4529fbf87e207cd314c3258bfa">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-10-20 14:30:57" Modified_Date="2023-10-23 16:08:22" Creator="Patrick Irvin" Comments="" ID="11cbe2420246a09a0ec39c1a4c2d376b">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_FP</Package_File_Name>
     <Library_Version>4.57.2.3</Library_Version>
@@ -117,30 +117,6 @@ Get Mode</Description>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>FP</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>TC</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>shared/FP-TC-Shared</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>shared/Inst.TC</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>shared/Remove OpenG Tools from llb.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>FP and TC shared.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>FrontPanel.lvproj</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>TC.lvproj</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -297,7 +273,7 @@ Get Mode</Description>
         <Path>..\src\shared\Inst.FP\API\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E97033BF32C30470B6706180024852E</GUID>
+      <GUID>898DC1D0F8FBC783DA732F2ACCE5CBFF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
