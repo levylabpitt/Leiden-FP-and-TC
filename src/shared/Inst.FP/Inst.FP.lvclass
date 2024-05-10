@@ -439,7 +439,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
-		<Item Name="Inst.FP.MessageFromProcess.vi" Type="VI" URL="../API/Inst.FP.MessageFromProcess.vi">
+		<Item Name="Inst.FP.MessageFromProcess.vi" Type="VI" URL="../Private/Inst.FP.MessageFromProcess.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$UFO=X1O2F!O&lt;(:D&lt;'&amp;T=Q!,37ZT&gt;#Z'5#"P&gt;81!$%!Q`````Q**2!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!+1&amp;-%2'&amp;U91!!%%!Q`````Q&gt;$&lt;WVN97ZE!#:!=!!?!!!2$UFO=X1O2F!O&lt;(:D&lt;'&amp;T=Q!+37ZT&gt;#Z'5#"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"A!%!!=!#!!*!!I#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!))!!!!!!!!!!I!!!!)!!!##!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
