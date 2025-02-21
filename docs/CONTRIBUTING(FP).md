@@ -62,6 +62,9 @@ Leiden-FP
 
 ![image](https://github.com/user-attachments/assets/a5685028-14e6-4e7a-bcb2-8bfaeaf30afc)
 
+#### 5. Stop and Destroy your custom SMO:
+
+![image](https://github.com/user-attachments/assets/c58ec310-a929-45cc-ac40-7bd5f5dd8603)
 
 ### Building a new version
 
