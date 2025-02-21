@@ -26,11 +26,11 @@ Leiden-FP
 |   |   |
 |   |   +---FrontPanel.vi
 |   |   
-│   +---\Write to DSC\          #This folder contains utilities for writing data to DSC database
+│   +---\shared\                #Folder containing custom FrontPanel (and TC) code
 |       |
-│       +---\FP to DSC\     
+│       +---\Inst.FP\           #Folder containing Inst.FP.lvclass
 |           |
-|           +---FP_to_DSC.vi\   #This is file you will insert into FrontPanel.vi
+|           +---...             #See below how to modify FrontPanel.vi
 | 
 +---\backups\                   #Put backups of FrontPanel.vi here
 |   |
@@ -44,27 +44,45 @@ Leiden-FP
 
 ```
 
+### Modify FrontPanel.vi
+
+#### 1. Instantiate class and register for (placeholder) User Event
+
+![image](https://github.com/user-attachments/assets/6beab99d-d264-4a4d-8c99-a2b8ec71d05f)
+
+#### 2. Add frame in `"Start": Value Change` Event Case
+
+![image](https://github.com/user-attachments/assets/40be9f56-6581-424d-8d78-95d11375a190)
+
+#### 3. Modify `Timeout` Event Case to log data
+
+![image](https://github.com/user-attachments/assets/c70bda65-a659-4015-bb78-693ae3d1ad7d)
+
+#### 4. Add Event Case to handle `<Inst.FP Public Events.MessageFromProcess>: User Event`
+
+![image](https://github.com/user-attachments/assets/a5685028-14e6-4e7a-bcb2-8bfaeaf30afc)
+
+
 ### Building a new version
 
-0. *Make sure you are using LabVIEW 2013*
 1. Get new source files from Leiden Cryogenics
 2. Unzip source file and find the "1. Sources" folder
 3. *Replace* the "1. Sources" folder in "\Project\src\"
 
-![](images/FP-Copy-1-Sources.gif)
+![](images/FP/FP-Copy-1-Sources.gif)
 
 4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi
 
-![](images/FP-Project-Explorer-1.png)
-![](images/FP-Block-Diagram.png)
+![](images/FP/FP-Project-Explorer-1.png)
+![](images/FP/FP-Block-Diagram.png)
 
 5. Save all
 6. Increment version number and build the Application under "Build Specifications" in the Project Explorer
 7. Increment version number and build the Installer under "Build Specifications" in the Project Explorer
 
-![](images/FP-Project-Explorer-2.png)
+![](images/FP/FP-Project-Explorer-2.png)
 
 8. Run "FP Post Build.vi" with version numbers matching the builds above
 
-![](images/FP-Post-Build.gif)
+![](images/FP/FP-Post-Build.gif)
 
