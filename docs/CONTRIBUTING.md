@@ -57,9 +57,14 @@ Leiden-TC
 
 ![](images/TC/TC-Project-Explorer-1.png)
 
-![](images/TC/TC-Block-Diagram-AVS.png)
+![image](https://github.com/user-attachments/assets/5a9b42cc-a7d6-4bd3-be39-461343f0f81d)
 
-![](images/TC/TC-Block-Diagram-Z.png)
+![image](https://github.com/user-attachments/assets/5ab2cf69-0c5d-40eb-b2d6-04e5dba7231e)
+
+![image](https://github.com/user-attachments/assets/37e934e8-2464-410f-ba33-52a30b7a5516)
+
+![image](https://github.com/user-attachments/assets/2309fb73-ccc2-4311-97d7-36990e214b59)
+
 
 5. Save all
 
