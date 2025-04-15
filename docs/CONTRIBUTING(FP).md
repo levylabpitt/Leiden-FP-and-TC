@@ -51,20 +51,20 @@ Leiden-FP
 2. Unzip source file and find the "1. Sources" folder
 3. *Replace* the "1. Sources" folder in "\Project\src\"
 
-![](images/FP-Copy-1-Sources.gif)
+![](images/FP/FP-Copy-1-Sources.gif)
 
 4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi
 
-![](images/FP-Project-Explorer-1.png)
-![](images/FP-Block-Diagram.png)
+![](images/FP/FP-Project-Explorer-1.png)
+![](images/FP/FP-Block-Diagram.png)
 
 5. Save all
 6. Increment version number and build the Application under "Build Specifications" in the Project Explorer
 7. Increment version number and build the Installer under "Build Specifications" in the Project Explorer
 
-![](images/FP-Project-Explorer-2.png)
+![](images/FP/FP-Project-Explorer-2.png)
 
 8. Run "FP Post Build.vi" with version numbers matching the builds above
 
-![](images/FP-Post-Build.gif)
+![](images/FP/FP-Post-Build.gif)
 
