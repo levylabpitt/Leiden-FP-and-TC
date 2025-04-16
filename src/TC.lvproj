@@ -22,10 +22,10 @@
 		</Item>
 		<Item Name="shared" Type="Folder">
 			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
-			<Item Name="FP-TC-Shared.lvclass" Type="LVClass" URL="../shared/FP-TC-Shared/FP-TC-Shared.lvclass"/>
 			<Item Name="Inst.TC.lvclass" Type="LVClass" URL="../shared/Inst.TC/Inst.TC.lvclass"/>
 			<Item Name="Inst.TC.CF.lvclass" Type="LVClass" URL="../shared/Inst.TC.CF/Inst.TC.CF.lvclass"/>
 			<Item Name="Inst.TC.MNK.lvclass" Type="LVClass" URL="../shared/Inst.TC.MNK/Inst.TC.MNK.lvclass"/>
+			<Item Name="FP-TC-Shared.lvclass" Type="LVClass" URL="../shared/FP-TC-Shared/FP-TC-Shared.lvclass"/>
 		</Item>
 		<Item Name="1. Sources" Type="Folder">
 			<Item Name="Calibrations" Type="Folder">
@@ -620,7 +620,6 @@
 				<Item Name="Logger.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Logger/Logger.lvlib"/>
 				<Item Name="Logger.Error.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/Logger.Error/Logger.Error.lvlib"/>
 				<Item Name="RemoteControl.ZMQ.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/RemoteControl.ZMQ/RemoteControl.ZMQ.lvlib"/>
-				<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/VSource/Instrument.VSource.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
