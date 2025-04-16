@@ -56,7 +56,14 @@ Leiden-FP
 4. Open a backup copy of FrontPanel-X-backup.vi to see how to modify the new FrontPanel.vi
 
 ![](images/FP/FP-Project-Explorer-1.png)
-![](images/FP/FP-Block-Diagram.png)
+
+![image](https://github.com/user-attachments/assets/b9ef4cdf-077f-4d53-8832-df313573c4c5)
+
+![image](https://github.com/user-attachments/assets/4c49300b-0f64-4103-8420-c1ae11dac936)
+
+![image](https://github.com/user-attachments/assets/333a053e-9461-4d4d-ac67-7ad7b0fad06f)
+
+![image](https://github.com/user-attachments/assets/660077d5-1ef0-4efb-b58c-430d78f453e5)
 
 5. Save all
 6. Increment version number and build the Application under "Build Specifications" in the Project Explorer
