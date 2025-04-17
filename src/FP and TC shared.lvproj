@@ -14,9 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
 			<Item Name="LEIDEN API.vipb" Type="Document" URL="../../build support/LEIDEN API.vipb"/>
-			<Item Name="LEIDEN FP.vipb" Type="Document" URL="../../build support/LEIDEN FP.vipb"/>
-			<Item Name="LEIDEN TC.vipb" Type="Document" URL="../../build support/LEIDEN TC.vipb"/>
-			<Item Name="LEIDEN TC.vipc" Type="Document" URL="../../build support/LEIDEN TC.vipc"/>
 		</Item>
 		<Item Name="shared" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
