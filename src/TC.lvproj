@@ -34,8 +34,8 @@
 				<Item Name="No Calibration.vi" Type="VI" URL="../TC/1. Sources/Calibrations/No Calibration.vi"/>
 				<Item Name="PT100.vi" Type="VI" URL="../TC/1. Sources/Calibrations/PT100.vi"/>
 				<Item Name="PT1000.vi" Type="VI" URL="../../../../../../../LC Data/Calibrations/PT1000.vi"/>
-				<Item Name="RuO2 10k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 10k.vi"/>
-				<Item Name="RuO2 1k5.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 1k5.vi"/>
+				<Item Name="RuO2 10k.vi" Type="VI" URL="../../../../../../../LC Data/Calibrations/RuO2 10k.vi"/>
+				<Item Name="RuO2 1k5.vi" Type="VI" URL="../../../../../../../LC Data/Calibrations/RuO2 1k5.vi"/>
 				<Item Name="RuO2 2k.vi" Type="VI" URL="../TC/1. Sources/Calibrations/RuO2 2k.vi"/>
 				<Item Name="RuO2-10K-NEW.cal" Type="Document" URL="../TC/1. Sources/Calibrations/RuO2-10K-NEW.cal"/>
 				<Item Name="testCMN.cal2" Type="Document" URL="../TC/1. Sources/Calibrations/testCMN.cal2"/>
