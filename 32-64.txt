@@ -1,0 +1,5 @@
+FrontPanel:
+- 64 bit maybe
+
+TC:
+- need 32 b/c CQS CIN

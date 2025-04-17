@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+/builds
+*.aliases
+*.lvlps
+=======
 # Libraries
 
 # Shared objects (inc. Windows DLLs)
@@ -16,4 +21,4 @@
 
 #Builds
 builds/
-src/Antidoc-Output/
+>>>>>>> 136e05b82175d1938d2f74e4851c5fb013688ead
