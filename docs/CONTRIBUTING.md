@@ -59,12 +59,13 @@ Leiden-TC
 
 ![image](https://github.com/user-attachments/assets/5a9b42cc-a7d6-4bd3-be39-461343f0f81d)
 
-![image](https://github.com/user-attachments/assets/5ab2cf69-0c5d-40eb-b2d6-04e5dba7231e)
+![image](https://github.com/user-attachments/assets/94a273dc-f8cf-4656-a05f-664b078ace0b)
 
 ![image](https://github.com/user-attachments/assets/37e934e8-2464-410f-ba33-52a30b7a5516)
 
-![image](https://github.com/user-attachments/assets/2309fb73-ccc2-4311-97d7-36990e214b59)
+![image](https://github.com/user-attachments/assets/3b2a4780-8915-474c-a31b-74b281ce7342)
 
+![image](https://github.com/user-attachments/assets/6eb5154f-8744-4f2a-88a8-c388ced94bb4)
 
 5. Save all
 
