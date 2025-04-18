@@ -51,31 +51,37 @@ Leiden-TC
 2. Unzip source file and find the "1. Sources" folder
 3. *Replace* the "1. Sources" folder in "\Project\src\"
 
-![](images/TC-Copy-1-Sources.gif)
+![](images/TC/TC-Copy-1-Sources.gif)
 
 4. Open a backup copy of TC-X-backup.vi to see how to modify the new FrontPanel.vi (See screenshots below)
 
-![](images/TC-Project-Explorer-1.png)
+![](images/TC/TC-Project-Explorer-1.png)
 
-![](images/TC-Block-Diagram-AVS.png)
+![image](https://github.com/user-attachments/assets/5a9b42cc-a7d6-4bd3-be39-461343f0f81d)
 
-![](images/TC-Block-Diagram-Z.png)
+![image](https://github.com/user-attachments/assets/94a273dc-f8cf-4656-a05f-664b078ace0b)
+
+![image](https://github.com/user-attachments/assets/37e934e8-2464-410f-ba33-52a30b7a5516)
+
+![image](https://github.com/user-attachments/assets/3b2a4780-8915-474c-a31b-74b281ce7342)
+
+![image](https://github.com/user-attachments/assets/6eb5154f-8744-4f2a-88a8-c388ced94bb4)
 
 5. Save all
 
 6. Increment version number and build the Application under "Build Specifications" in the Project Explorer
 
-![](images/TC-Build-Application-Version.gif)
+![](images/TC/TC-Build-Application-Version.gif)
 
-![](images/TC-Build-Application-Build.gif)
+![](images/TC/TC-Build-Application-Build.gif)
 
 7. Increment version number and build the Installer under "Build Specifications" in the Project Explorer
 
-![](images/TC-Build-Installer-Version.gif)
+![](images/TC/TC-Build-Installer-Version.gif)
 
-![](images/TC-Build-Installer-Build.gif)
+![](images/TC/TC-Build-Installer-Build.gif)
 
 8. Run "FP Post Build.vi" with version numbers matching the builds above
 
-![](images/TC-Post-Build.gif)
+![](images/TC/TC-Post-Build.gif)
 
