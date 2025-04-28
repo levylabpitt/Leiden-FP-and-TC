@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2025-04-17 18:08:40" Creator="Patrick Irvin" Comments="" ID="86e7da5f2014e604d601d6d03de2c414">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2025-04-28 08:40:23" Creator="Patrick Irvin" Comments="" ID="0c9e06c7bc40c8927305b6bd0b6127e3">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_API</Package_File_Name>
-    <Library_Version>2.0.0.3</Library_Version>
+    <Library_Version>0.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\shared</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=2.1.4.31</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.0.33</Additional_External_Dependencies>
       <Package_Conflicts>levylab_lib_leiden_fp &gt;=0.0.0.0</Package_Conflicts>
       <Package_Conflicts>levylab_lib_leiden_mnk &gt;=0.0.0.0</Package_Conflicts>
       <Package_Conflicts>levylab_lib_leiden_tc &gt;=0.0.0.0</Package_Conflicts>
@@ -49,7 +49,8 @@ Temperature Control (TC) API:
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Initial build of new "Leiden API" package that combines Leiden FP and TC API into one package</Release_Notes>
+      <Release_Notes>[0.0.0]
+- Leiden API combining Leiden FP and TC API into one package</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -245,7 +246,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\TC</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3A7D7090AFB022539DBB75E0503A59F</GUID>
+      <GUID>9F98C55B0A4653ADA4926C7EBEAF8999</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -336,7 +337,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.FP\API\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>527033B51F120901FCA5A86A16223A86</GUID>
+      <GUID>56EB4102E495F1053CA7E8C984F9B39F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -441,7 +442,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.TC\API\getHeater.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>814DABAC3332B4BD1EC59C86D1195695</GUID>
+      <GUID>B12CA99AD49C778EE5EC1867080F9470</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
