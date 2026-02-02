@@ -1410,10 +1410,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6A2C695-7CBA-4576-99B6-D9E6B8888B88}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">61</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1433,7 +1433,7 @@
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8DEB5FAF-4861-4535-9C67-F36443119148}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AE77834D-D64F-41BB-86D4-B06322F0AB65}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/1. Sources/TC.vi</Property>
@@ -1557,7 +1557,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.61.3</Property>
+				<Property Name="INST_productVersion" Type="Str">4.61.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
