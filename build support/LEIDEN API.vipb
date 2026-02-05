@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-02-02 17:23:10" Creator="Patrick Irvin" Comments="" ID="7d0dcb2d2ef749c0959ce628fd9abcc8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-02-05 13:45:25" Creator="Patrick Irvin" Comments="" ID="9727110b75aa506f03fe75213dd868fd">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_API</Package_File_Name>
-    <Library_Version>0.0.1.5</Library_Version>
+    <Library_Version>0.0.2.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\shared</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -25,7 +25,7 @@
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
-      <Post-Build_VI/>
+      <Post-Build_VI>Post-Build Custom Action.vi</Post-Build_VI>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -49,8 +49,8 @@ Temperature Control (TC) API:
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[0.0.1]
-#14 change configuration file location</Release_Notes>
+      <Release_Notes>[0.0.2]
+- build with pgsql/3.12.0.14 (with improved database connection management)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -246,7 +246,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\TC</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D1392406425222358A29E883CA4C6A8</GUID>
+      <GUID>FB33A72639F2A8FBE92D182490C64789</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -337,7 +337,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.FP\API\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43CA68C02BF92615565AB2585C100875</GUID>
+      <GUID>82B6847953A60D7862A43935BCB7EF31</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -442,7 +442,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.TC\API\getHeater.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92B3AD8DC36365E78CC264BDEBD5E70F</GUID>
+      <GUID>B930589E51D8818543A539A2DA30AA66</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
