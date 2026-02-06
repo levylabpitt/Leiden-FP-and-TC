@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-02-05 13:45:25" Creator="Patrick Irvin" Comments="" ID="9727110b75aa506f03fe75213dd868fd">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-02-05 14:56:11" Creator="Patrick Irvin" Comments="" ID="8278bd41096245a8434febaff207cfbb">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_API</Package_File_Name>
-    <Library_Version>0.0.2.5</Library_Version>
+    <Library_Version>0.0.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\shared</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -50,7 +50,7 @@ Temperature Control (TC) API:
       <Packager/>
       <URL/>
       <Release_Notes>[0.0.2]
-- build with pgsql/3.12.0.14 (with improved database connection management)</Release_Notes>
+- build with pgsql/3.12.0.14 ( improve database connection management)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -246,7 +246,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\TC</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB33A72639F2A8FBE92D182490C64789</GUID>
+      <GUID>D620C50522B6D1E3B92208B53E639983</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -337,7 +337,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.FP\API\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82B6847953A60D7862A43935BCB7EF31</GUID>
+      <GUID>CB62FCD4EF06D1EDDF2AA51ACE92DF22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -442,7 +442,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.TC\API\getHeater.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B930589E51D8818543A539A2DA30AA66</GUID>
+      <GUID>745BF659B85159CF79F38EF5B875AB06</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
