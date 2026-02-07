@@ -111,9 +111,6 @@
 			<Item Name="FP.ico" Type="Document" URL="../FP/1. Sources/FP.ico"/>
 			<Item Name="FrontPanel.vi" Type="VI" URL="../FP/1. Sources/FrontPanel.vi"/>
 		</Item>
-		<Item Name="backups" Type="Folder">
-			<Item Name="FrontPanel-20220513-backup.vi" Type="VI" URL="../FP/backup/FrontPanel-20220513-backup.vi"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
@@ -1498,7 +1495,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17B63870-595A-47C5-99D0-CDE5513E2F9A}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">57</Property>
 				<Property Name="Bld_version.patch" Type="Int">6</Property>
