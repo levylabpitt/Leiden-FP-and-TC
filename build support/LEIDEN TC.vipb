@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2026-03-05 21:49:09" Creator="Patrick Irvin" Comments="" ID="46896b110e745d55d51da2f7f7e54cd7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2026-03-05 22:30:56" Creator="Patrick Irvin" Comments="" ID="8431605a437c220081b7a26ba8c2b3db">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_TC</Package_File_Name>
-    <Library_Version>4.61.7.13</Library_Version>
+    <Library_Version>4.61.7.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\version\TC</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -214,7 +214,7 @@
         <Path>..\src\version\TC\TC-Version.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13F293AA6B7B238229A88639003CEC0E</GUID>
+      <GUID>F1AE9D3BF53203083C5B480353B3B146</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
