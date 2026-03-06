@@ -368,6 +368,8 @@
 				<Item Name="MGI Running Maximum (DBL).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Maximum/MGI Running Maximum (DBL).vi"/>
 				<Item Name="MGI Round Up to Power of Two.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Numeric/Rounding/MGI Round Up to Power of Two.vi"/>
 				<Item Name="MGI Running Maximum (SGL).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Running Maximum/MGI Running Maximum (SGL).vi"/>
+				<Item Name="Message--Cluster.ctl" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/SMOs/RemoteControl/Typedefs/Message--Cluster.ctl"/>
+				<Item Name="Instrument.VSource.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Instrument Framework/Instrument Types/VSource/Instrument.VSource.lvclass"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -1771,10 +1773,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6A2C695-7CBA-4576-99B6-D9E6B8888B88}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Bld_version.minor" Type="Int">61</Property>
-				<Property Name="Bld_version.patch" Type="Int">6</Property>
+				<Property Name="Bld_version.patch" Type="Int">7</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1918,7 +1920,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.61.6</Property>
+				<Property Name="INST_productVersion" Type="Str">4.61.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>

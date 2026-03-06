@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-10-20 14:30:57" Modified_Date="2026-03-05 16:49:47" Creator="Patrick Irvin" Comments="" ID="54b87fc4fe5feac8984e29a4d7e3cdd5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-10-20 14:30:57" Modified_Date="2026-03-05 17:08:37" Creator="Patrick Irvin" Comments="" ID="50b7ee9c6f09aacc5919c242f0de5d66">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_FP</Package_File_Name>
-    <Library_Version>4.57.7.11</Library_Version>
+    <Library_Version>4.57.8.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\version\FP</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -213,7 +213,7 @@
         <Path>..\src\version\FP\FP-Version.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EF33063C6D98D1EE1749A1402F89D49</GUID>
+      <GUID>F4136EA5CD10F6D626DD305AAE954563</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
