@@ -258,6 +258,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 			</Item>
+			<Item Name="Get SMO HELP.vi" Type="VI" URL="../Overrides/Get SMO HELP.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````](9W^N&lt;7&amp;O:!!=1$$`````%W.P&lt;7VB&lt;G1A:'6T9X*J=(2J&lt;WY!&amp;%"4$X*F=86F=X1A9WRV=X2F=A!71&amp;-1=G6T='^O=W5A9WRV=X2F=A!!7!$R!!!!!!!!!!-137ZT&gt;(*V&lt;76O&gt;#ZM&gt;GRJ9AR):7RQ,GRW9WRB=X-23'6M=#UN9WRV=X2F=CZD&gt;'Q!)%"1!!1!"1!'!!=!#!RI:7RQ)'.M&gt;8.U:8)!!#:!=!!?!!!2$UFO=X1O6%-O&lt;(:D&lt;'&amp;T=Q!,37ZT&gt;#Z51S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"U.P&lt;7VB&lt;G1!*E"Q!"Y!!"%037ZT&gt;#Z51SZM&gt;G.M98.T!!J*&lt;H.U,F2$)'FO!!"5!0!!$!!$!!1!#1!+!!1!"!!%!!1!#Q!%!!Q!$1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!%+!!!!EA!!!!!"!!Y!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+			</Item>
 		</Item>
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="Read Configuration File.vi" Type="VI" URL="../Overrides/Read Configuration File.vi">
