@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-03-05 19:48:11" Creator="Patrick Irvin" Comments="" ID="4cc7b971eb81867e3fd87417a737c68c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-09-28 23:06:13" Creator="Patrick Irvin" Comments="" ID="a86bd93a0af1a6fb50123f4bb50f573a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_API</Package_File_Name>
-    <Library_Version>0.0.5.11</Library_Version>
+    <Library_Version>0.0.6.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\shared</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.9.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.13.55</Additional_External_Dependencies>
       <Package_Conflicts>levylab_lib_leiden_mnk &gt;=0.0.0.0</Package_Conflicts>
       <Package_Conflicts>levylab_lib_leiden_tools &gt;=0.0.0.0</Package_Conflicts>
     </Package_Dependencies>
@@ -46,8 +46,7 @@ Temperature Control (TC) API:
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- build with Remote-Control-ZMQ/1.3.6.27
-- fix API handling getTemperature and getHeater</Release_Notes>
+      <Release_Notes>- Instrument Framework 1.15.13</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -243,7 +242,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\TC</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A80BB56C8B3E5EAECBD716E16D8C1C81</GUID>
+      <GUID>7AEDF4D7CA28A92D2DD0630197FF6350</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -334,7 +333,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.FP\API\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>849FCD5D60B0C1D567E8E3568985B0D4</GUID>
+      <GUID>AA0CCDC489E5D10A89AA06D85E850F65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -439,7 +438,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.TC\API\getHeater.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52284DBAB5E103C7BA71AE2CC481E274</GUID>
+      <GUID>99EA085B40C1583C42DE5443175613AB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

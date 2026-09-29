@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2026-03-05 22:30:56" Creator="Patrick Irvin" Comments="" ID="8431605a437c220081b7a26ba8c2b3db">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2026-09-21 13:27:21" Creator="Patrick Irvin" Comments="" ID="60599b0660a9d261ff00b7b17970d64a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_TC</Package_File_Name>
-    <Library_Version>4.61.7.14</Library_Version>
+    <Library_Version>4.61.8.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\version\TC</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,11 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.9.45</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.13.55</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>Pre-Build Custom Action TC.vi</Pre-Build_VI>
-      <Post-Build_VI>Post-Build Custom Action TC.vi</Post-Build_VI>
+      <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -34,8 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- build with Remote-Control-ZMQ/1.3.7.28
-- fix API handling getTemperature and getHeater</Release_Notes>
+      <Release_Notes>- fix linking to Instrument Framework v1.15.13</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -214,7 +213,7 @@
         <Path>..\src\version\TC\TC-Version.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1AE9D3BF53203083C5B480353B3B146</GUID>
+      <GUID>0B303E7D6A54D6CCD98F9CB24CD7BBB9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

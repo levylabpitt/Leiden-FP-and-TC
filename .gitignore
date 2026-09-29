@@ -1,25 +1,16 @@
-<<<<<<< HEAD
-/builds
-*.aliases
-*.lvlps
-=======
-# Libraries
+# Build output (installers, packages, release notes)
+builds/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-
-# Metadata
+# LabVIEW per-user project metadata
 *.aliases
 *.lvlps
 .cache/
 
-#Builds
-builds/
->>>>>>> 136e05b82175d1938d2f74e4851c5fb013688ead
+# Binaries
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+
 fromsasha/
