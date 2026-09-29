@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-09-21 13:50:50" Creator="Patrick Irvin" Comments="" ID="5b841b1b1ba281936b43e44a003d7bf1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2025-04-17 14:13:01" Modified_Date="2026-09-28 23:06:13" Creator="Patrick Irvin" Comments="" ID="a86bd93a0af1a6fb50123f4bb50f573a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_API</Package_File_Name>
-    <Library_Version>0.0.6.11</Library_Version>
+    <Library_Version>0.0.6.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\shared</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -242,7 +242,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\TC</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D845E02A38CE0885DBD220F1FE0C971E</GUID>
+      <GUID>7AEDF4D7CA28A92D2DD0630197FF6350</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +333,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.FP\API\Open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5883A81C8B3D564DE8B91B11DF9698EB</GUID>
+      <GUID>AA0CCDC489E5D10A89AA06D85E850F65</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -438,7 +438,7 @@ Temperature Control (TC) API:
         <Path>..\src\shared\Inst.TC\API\getHeater.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>86DEF29297B25D64F56C01D00BB8D22B</GUID>
+      <GUID>99EA085B40C1583C42DE5443175613AB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

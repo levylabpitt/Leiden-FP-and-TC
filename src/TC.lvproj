@@ -187,11 +187,6 @@
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
 				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
-				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
-				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
-				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
-				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
-				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
 				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
 				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
 				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
@@ -1143,12 +1138,8 @@
 				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
 				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
 				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
-				<Item Name="G CLI VIP.lvlib" Type="Library" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI VI Package Manager Tools/G CLI VIP.lvlib"/>
-				<Item Name="Option Parser.lvlib" Type="Library" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Argument Parser/Option Parser.lvlib"/>
-				<Item Name="CLI.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/CLI Class/CLI.lvclass"/>
-				<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Windows.vi"/>
-				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-				<Item Name="TCP_NoDelay_Linux.vi" Type="VI" URL="/&lt;vilib&gt;/Wiresmith Technology/G CLI/Dependencies/TCP_NoDelay_Linux.vi"/>
+				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
+				<Item Name="URI.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/JKI SMO/URI Parsing/URI.lvlib"/>
 			</Item>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="mxLvSetIntProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetIntProperty.vi"/>
@@ -1749,12 +1740,6 @@
 				<Item Name="WriteDataToLabVIEWINI.vi" Type="VI" URL="/&lt;resource&gt;/plugins/lv_icon.lvlibp/1abvi3w/resource/plugins/NIIconEditor/Miscellaneous/Load Unload/WriteDataToLabVIEWINI.vi"/>
 				<Item Name="WriteText.vi" Type="VI" URL="/&lt;resource&gt;/plugins/lv_icon.lvlibp/1abvi3w/resource/plugins/NIIconEditor/Miscellaneous/Tools/WriteText.vi"/>
 			</Item>
-			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="NI_MDF.lvlib" Type="Library" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NI_MDF.lvlib"/>
 			<Item Name="NIMdf.dll" Type="Document" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/applibs/distkit/MDF/NIMdf.dll"/>
 		</Item>
@@ -1773,9 +1758,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6A2C695-7CBA-4576-99B6-D9E6B8888B88}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
-				<Property Name="Bld_version.minor" Type="Int">57</Property>
+				<Property Name="Bld_version.minor" Type="Int">61</Property>
 				<Property Name="Bld_version.patch" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">TC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/TC Application.exe</Property>
@@ -1920,7 +1905,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{4F9652CA-15FC-4720-AF9D-CF67C2FF709C}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">TC</Property>
-				<Property Name="INST_productVersion" Type="Str">4.57.8</Property>
+				<Property Name="INST_productVersion" Type="Str">4.61.8</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Leiden Cryogenics</Property>
