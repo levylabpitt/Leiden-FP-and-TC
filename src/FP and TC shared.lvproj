@@ -14,10 +14,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="build support" Type="Folder">
 			<Item Name="LEIDEN API.vipb" Type="Document" URL="../../build support/LEIDEN API.vipb"/>
+			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../../build support/Remove OpenG Tools from llb.vi"/>
 		</Item>
 		<Item Name="shared" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Remove OpenG Tools from llb.vi" Type="VI" URL="../shared/Remove OpenG Tools from llb.vi"/>
 			<Item Name="FP-TC-Shared.lvclass" Type="LVClass" URL="../shared/FP-TC-Shared/FP-TC-Shared.lvclass"/>
 			<Item Name="Inst.FP.lvclass" Type="LVClass" URL="../shared/Inst.FP/Inst.FP.lvclass"/>
 			<Item Name="Inst.TC.lvclass" Type="LVClass" URL="../shared/Inst.TC/Inst.TC.lvclass"/>
