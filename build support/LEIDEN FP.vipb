@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2023-10-20 14:30:57" Modified_Date="2026-09-21 13:27:53" Creator="Patrick Irvin" Comments="" ID="73ab991c69ce3c8de558e667ef3a4aa9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2023-10-20 14:30:57" Modified_Date="2026-10-01 15:38:41" Creator="Patrick Irvin" Comments="" ID="0efd06295ac15d619678a6fabbfdd07e">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_FP</Package_File_Name>
-    <Library_Version>4.57.9.13</Library_Version>
+    <Library_Version>4.57.10.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src\version\FP</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- fix linking to Instrument Framework v1.15.13</Release_Notes>
+      <Release_Notes>- Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger's CPU use grew with uptime).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -213,7 +213,7 @@
         <Path>..\src\version\FP\FP-Version.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>972BEBF2BDB6A8A09B9B8FCAC1C3354C</GUID>
+      <GUID>32F321FA6918E5C8A065AA033CF0E145</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
